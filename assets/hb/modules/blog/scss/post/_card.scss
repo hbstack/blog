@@ -1,0 +1,18 @@
+.hb-blog-post-card-img {
+    height: 160px;
+    object-fit: cover;
+    width: 100%;
+    transition: 0.3s;
+    border: 1px solid var(--#{$prefix}tertiary-bg);
+
+    &:hover {
+        transform: scale(1.2);
+    }
+}
+
+.hb-blog-post-card-default-img {
+    height: 160px;
+    width: 100%;
+    filter: blur(1px);
+    background: rgba(var(--#{$prefix}body-color-rgb), 0.1);
+}

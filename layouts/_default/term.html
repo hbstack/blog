@@ -1,0 +1,21 @@
+{{- define "title" }}
+  {{- $paginator := .Paginate .Data.Pages .Site.Params.hb.terms.paginate }}
+  {{ partial "base/title" . }}
+{{- end -}}
+
+{{- define "main" }}
+  {{ partial "hugopress/functions/render-hooks" (dict "Name" "hb-blog-main-begin" "Page" .) }}
+  <h1 class="mb-3">
+    {{- .Title -}}
+    <span class="ms-1 text-secondary">({{- len .Data.Pages -}})</span>
+  </h1>
+  <div class="hb-terms-posts row">
+    {{- range .Paginator.Pages }}
+      <div class="col-12 col-md-6 col-lg-4 mb-3 mb-lg-4">
+        {{ partial "hb/modules/blog/post/card" (dict "Page" .) }}
+      </div>
+    {{- end }}
+  </div>
+  {{ partial "hb/modules/blog/post/pagination" .Paginator }}
+  {{ partial "hugopress/functions/render-hooks" (dict "Name" "hb-blog-main-end" "Page" .) }}
+{{- end -}}

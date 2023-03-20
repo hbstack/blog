@@ -1,0 +1,11 @@
+[on_this_page]
+other = "本页内容"
+
+[pagination_next]
+other = "下一页"
+
+[pagination_prev]
+other = "前一页"
+
+[reading_time]
+other = "{{ .Count }} 分钟阅读"

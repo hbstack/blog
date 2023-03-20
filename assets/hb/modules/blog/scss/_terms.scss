@@ -1,0 +1,44 @@
+$hb-terms-colors: ($warning, $success, $danger);
+
+.hb-terms-cloud {
+    a {
+        --size: 0;
+        --color: var(--#{$prefix}primary);
+
+        color: var(--color);
+        font-size: calc(var(--size) * 0.125rem + 0.75rem);
+        padding: 0.125rem 0.25rem;
+        position: relative;
+        text-decoration: none;
+
+        &::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 50%;
+            width: 0;
+            height: 100%;
+            background: var(--color);
+            transform: translate(-50%, 0);
+            opacity: 0.125;
+            transition: width 0.25s;
+        }
+
+        &:hover,
+        &:focus {
+            &::before {
+                width: 100%;
+            }
+        }
+    }
+
+    li {
+        @each $color in $hb-terms-colors {
+            &:nth-child(#{index($hb-terms-colors, $color) + 1}n + 1) {
+                a {
+                    --color: #{$color};
+                }
+            }
+        }
+    }
+}

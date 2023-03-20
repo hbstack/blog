@@ -1,0 +1,27 @@
+{{- $pages := site.RegularPages }}
+{{- with site.Params.hb.blog.home.main_sections }}
+  {{- $pages = where $pages "Section" "in" . }}
+{{- end }}
+<div class="row">
+  <div class="col-12 col-lg-6">
+    {{- $featuredCount := default 10 site.Params.hb.blog.home.featured_posts }}
+    {{- $featuredPages := first $featuredCount (where $pages ".Params.featured" true) }}
+    {{- partial "hb/modules/carousel/carousel" (dict "Pages" $featuredPages) -}}
+  </div>
+  <div class="col-12 col-lg-6">
+    {{- $pinnedPages := first 1 (where $pages ".Params.pinned" true) }}
+    {{ partial "hb/modules/blog/posts" (dict "Pages" $pinnedPages "Cols" "row-cols-1") }}
+  </div>
+</div>
+<div class="row">
+  <div class="col-12 col-lg-4 order-lg-5">
+    <div class="hb-blog-home-sidebar position-sticky">
+      {{ partial "hb/modules/blog/taxonomies" (dict "limit" 20) }}
+    </div>
+  </div>
+  <div class="col-12 col-lg-8">
+    {{- $recentCount := default 20 site.Params.hb.blog.home.recent_posts }}
+    {{- $recentPages := first $recentCount $pages }}
+    {{ partial "hb/modules/blog/posts" (dict "Pages" $recentPages "Cols" "row-cols-1 row-cols-md-2") }}
+  </div>
+</div>

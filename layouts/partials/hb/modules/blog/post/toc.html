@@ -1,0 +1,19 @@
+{{- if partial "base/functions/has-toc" . }}
+  <div class="h6 d-none d-md-block">{{ i18n "on_this_page" }}</div>
+  <hr class="d-none d-md-block" />
+  <div class="d-grid d-block d-md-none mb-2">
+    <button
+      class="btn btn-light d-flex align-items-center justify-content-between collapsed"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target=".hb-blog-post-toc-collapse"
+      aria-expanded="false"
+      aria-controls="toc">
+      <span>{{ i18n "on_this_page" }}</span>
+      {{ partial "icons/icon" (dict "vendor" "bootstrap" "name" "chevron-expand" "className" "ms-2" "width" "1.25rem" "height" "1.25rem") }}
+    </button>
+  </div>
+  <div class="px-2 px-md-0">
+    <div class="collapse hb-blog-post-toc-collapse">{{ .TableOfContents }}</div>
+  </div>
+{{- end }}

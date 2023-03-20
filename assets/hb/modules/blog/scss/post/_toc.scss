@@ -1,0 +1,26 @@
+.hb-blog-post-toc {
+    grid-area: toc;
+
+    @include media-breakpoint-down(lg) {
+        color: var(--#{$prefix}body-color) !important;
+        margin: 0.5rem 0 1rem;
+
+        /* stylelint-disable selector-id-pattern */
+        #TableOfContents {
+            border-bottom: 1px solid var(--#{$prefix}border-color);
+            font-size: 1rem !important;
+        }
+        /* stylelint-enable selector-id-pattern */
+    }
+
+    @include media-breakpoint-up(lg) {
+        height: calc(100vh - #{$hb-blog-toc-top});
+        top: $hb-blog-toc-top;
+    }
+}
+
+@include media-breakpoint-up(md) {
+    .hb-blog-post-toc-collapse {
+        display: block !important;
+    }
+}

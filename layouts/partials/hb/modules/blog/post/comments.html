@@ -1,0 +1,5 @@
+{{- partial "hugopress/functions/render-hooks" (dict "Name" "hb-blog-post-comments-begin" "Page" .) }}
+<div class="hb-blog-post-comments mb-5">
+  {{- partial "hugopress/functions/render-hooks" (dict "Name" "hb-blog-post-comments" "Page" .) }}
+</div>
+{{- partial "hugopress/functions/render-hooks" (dict "Name" "hb-blog-comments-end" "Page" .) }}

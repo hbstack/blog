@@ -1,0 +1,30 @@
+{{- $page := .Page }}
+{{- $summary := default true .Summary }}
+{{- $readingTime := default true .ReadingTime }}
+<div class="hb-blog-post-card card border-0 overflow-hidden">
+  <div class="hb-blog-post-meta d-flex align-items-center mb-2">
+    {{ partialCached "hb/modules/blog/post/meta/authors" $page $page }}
+    {{ partialCached "hb/modules/blog/post/meta/date" $page $page }}
+    {{- if $readingTime }}
+      {{ partialCached "hb/modules/blog/post/meta/reading-time" $page $page }}
+    {{- end }}
+    {{ partialCached "hb/modules/blog/post/meta/first-section" $page $page }}
+  </div>
+  {{ partial "hb/modules/blog/post/card-img" $page }}
+  <div class="card-body px-0 pt-2">
+    <div
+      class="hb-blog-post-meta d-block text-nowrap text-truncate mb-2">
+      {{ partial "hb/modules/blog/post/meta/taxonomies" (dict "Page" $page) }}
+    </div>
+    <h2 class="hb-blog-post-title card-title h4">
+      <a class="hb-blog-post-title-link" href="{{ $page.RelPermalink }}">
+        {{- $page.Title -}}
+      </a>
+    </h2>
+    {{- if $summary }}
+      <div class="hb-blog-post-summary card-text text-secondary">
+        {{- $page.Summary -}}
+      </div>
+    {{- end }}
+  </div>
+</div>

@@ -1,0 +1,18 @@
+{{- if or .HasPrev .HasNext }}
+  <div class="hb-blog-pagination hb-module row">
+    <div class="col-6">
+      {{- if .Prev }}
+        <a class="btn btn-sm btn-outline-secondary" href="{{ .Prev.URL }}">
+          {{- i18n "pagination_prev" -}}
+        </a>
+      {{- end }}
+    </div>
+    <div class="col-6 d-flex justify-content-end">
+      {{- if .HasNext }}
+        <a class="btn btn-sm btn-outline-secondary" href="{{ .Next.URL }}">
+          {{- i18n "pagination_next" -}}
+        </a>
+      {{- end }}
+    </div>
+  </div>
+{{- end -}}

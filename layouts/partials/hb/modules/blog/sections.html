@@ -1,0 +1,19 @@
+<div class="row mb-4">
+  <div class="col-12">
+    <ul class="nav nav-tabs">
+      <li class="nav-item">
+        <a
+          class="nav-link active"
+          aria-current="page"
+          href="{{ .RelPermalink }}">
+          {{ printf "%v" .CurrentSection.Title }}
+        </a>
+      </li>
+      {{- range .Sections }}
+        <li class="nav-item">
+          <a class="nav-link" href="{{ .RelPermalink }}">{{ .Title }}</a>
+        </li>
+      {{- end }}
+    </ul>
+  </div>
+</div>

@@ -1,0 +1,23 @@
+.hb-blog-post {
+    display: grid;
+    grid-template-areas:
+        "intro"
+        "toc"
+        "main";
+    grid-template-rows: auto auto 1fr;
+
+    @include media-breakpoint-up(lg) {
+        grid-template-areas:
+            "intro toc"
+            "main toc";
+        /* stylelint-disable declaration-block-no-redundant-longhand-properties */
+        grid-template-rows: auto 1fr;
+        grid-template-columns: 4fr 1fr;
+        /* stylelint-enable declaration-block-no-redundant-longhand-properties */
+    }
+}
+
+.hb-blog-post-main {
+    grid-area: main;
+    min-width: 1px;
+}

@@ -1,0 +1,14 @@
+{{- $limit := 10 }}
+{{- $count := true }}
+{{- $style := "pills" }}
+{{- if .IsNamedParams }}
+  {{- with .Get "limit" }}{{ $limit = . }}{{ end }}
+  {{- if isset .Params "count" }}{{ $count = .Get "count" }}{{ end }}
+  {{- with .Get "style" }}{{ $style = . }}{{ end }}
+{{- else }}
+{{- end }}
+{{- partial "hb/modules/blog/taxonomies" (dict
+  "style" $style
+  "limit" $limit
+  "count" $count)
+-}}

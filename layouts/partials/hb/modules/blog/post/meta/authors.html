@@ -1,0 +1,15 @@
+{{- with .GetTerms "authors" }}
+  {{- range . }}
+    {{- $img := partial "hb/modules/blog/author/image" . }}
+    <a
+      class="me-1"
+      href="{{ .RelPermalink }}"
+      title="{{ .Title }}">
+      <img
+        class="img-fluid rounded-circle"
+        width="20"
+        height="20"
+        src="{{ $img }}" />
+    </a>
+  {{- end }}
+{{- end }}

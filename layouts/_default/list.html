@@ -1,0 +1,9 @@
+{{- define "title" }}
+  {{- $pages := .RegularPagesRecursive }}
+  {{- $paginator := .Paginate $pages .Site.Params.hb.blog.paginate }}
+  {{ partial "base/title" . }}
+{{- end -}}
+
+{{- define "main" }}
+  {{ partial "hb/modules/blog/list" . }}
+{{- end -}}

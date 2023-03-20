@@ -1,0 +1,57 @@
+{{- $style := default "pills" .style }}
+{{- $limit := default 10 .limit }}
+{{- $count := default true .count }}
+<ul class="nav nav-{{ $style }} nav-justified mb-2" role="tablist">
+  {{- $first := true }}
+  {{- range $name, $taxonomy := site.Taxonomies }}
+    {{- if not $taxonomy }}
+      {{- continue }}
+    {{- end }}
+    {{- $page := site.GetPage $name }}
+    <li class="nav-item" role="presentation">
+      <button
+        class="nav-link{{ cond $first ` active` `` }}"
+        id="taxonomy-{{ $name }}-tab"
+        data-bs-toggle="tab"
+        data-bs-target="#taxonomy-{{ $name }}-tab-pane"
+        type="button"
+        role="tab"
+        aria-controls="taxonomy-{{ $name }}-tab-pane"
+        aria-selected="{{ cond $first `true` `false` }}">
+        {{- $page.Title -}}
+      </button>
+    </li>
+    {{- $first = false }}
+  {{- end }}
+</ul>
+<div class="tab-content mb-4">
+  {{- $first := true }}
+  {{- range $name, $taxonomy := site.Taxonomies }}
+    {{- if not $taxonomy }}
+      {{- continue }}
+    {{- end }}
+    <div
+      class="tab-pane fade{{ cond $first ` show active` `` }}"
+      id="taxonomy-{{ $name }}-tab-pane"
+      role="tabpanel"
+      aria-labelledby="taxonomy-{{ $name }}-tab"
+      tabindex="0">
+      {{- $idx := 0 }}
+      {{- range $termName, $term := $taxonomy.ByCount }}
+        {{- if eq $idx $limit }}
+          {{- break }}
+        {{- end }}
+        <a
+          class="btn btn-sm btn-outline-secondary my-2 me-2"
+          href="{{ $term.Page.RelPermalink }}">
+          {{- $term.Page.Title -}}
+          {{- if $count }}
+            {{- printf " (%d)" $term.Count -}}
+          {{- end }}
+        </a>
+        {{- $idx = add $idx 1 }}
+      {{- end }}
+    </div>
+    {{- $first = false }}
+  {{- end }}
+</div>

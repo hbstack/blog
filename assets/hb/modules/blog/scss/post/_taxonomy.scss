@@ -1,0 +1,5 @@
+.hb-blog-post-taxonomy-tag {
+    &::before {
+        content: "#";
+    }
+}

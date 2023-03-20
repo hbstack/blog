@@ -1,0 +1,11 @@
+{{- $img := "" }}
+{{- if .Params.images }}
+  {{- $img = index .Params.images 0 | absURL }}
+{{- else if .Params.email_hash }}
+  {{- $img = partial "gravatar/avatar-url" (dict
+    "Id"  .Params.email_hash
+    "Default" "retro"
+    "Size" "20")
+  }}
+{{- end }}
+{{- return $img -}}
