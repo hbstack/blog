@@ -1,0 +1,7 @@
+[[module.imports]]
+path = "github.com/hbstack/blog"
+
+[[module.imports]]
+path = "github.com/hbstack/heading-sign"
+
+[params.hb.heading_sign.containers.".hb-blog-post-content"]

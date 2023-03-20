@@ -1,0 +1,10 @@
+{{- $img := partialCached "hb/functions/page-featured-image" . . }}
+{{- if or $img .Params.images }}
+  <div class="mb-3 text-center p-1 bg-body-secondary border">
+    {{- with index .Params.images 0 }}
+      <img class="hb-blog-post-featured-img img-fluid w-100" src="{{ . | absURL }}" />
+    {{- else }}
+      <img class="hb-blog-post-featured-img img-fluid w-100" src="{{ $img.RelPermalink }}" />
+    {{- end }}
+  </div>
+{{- end -}}

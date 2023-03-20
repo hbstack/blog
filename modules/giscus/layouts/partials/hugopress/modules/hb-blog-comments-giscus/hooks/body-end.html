@@ -1,0 +1,3 @@
+{{- if and .Page.IsPage (eq .Page.Type "blog") }}
+  {{ partial "giscus/script-with-options" .Page.Site.Params.hb.blog.giscus }}
+{{- end }}

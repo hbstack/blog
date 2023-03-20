@@ -1,0 +1,3 @@
+{{- if and .Page.IsPage (eq .Page.Type "blog") }}
+  {{- partialCached "utterances/script-with-options" .Page.Site.Params.hb.blog.utterances .Page.Type }}
+{{- end }}

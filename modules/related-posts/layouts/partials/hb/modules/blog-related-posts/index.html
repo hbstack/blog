@@ -1,0 +1,19 @@
+{{- with .Site.RegularPages.Related . | first .Site.Params.hb.blog.related_posts.number }}
+  <div class="hb-blog-related-posts hb-module slide">
+    <div class="slide-inner row gx-0">
+      {{- range . }}
+        <div class="col-12 col-md-6 col-lg-4 me-2">
+          {{ partial "hb/modules/blog/post/card" (dict "Page" .) }}
+        </div>
+      {{- end -}}
+    </div>
+    <button class="slide-control-left">
+      {{ partial "icons/icon" (dict "vendor" "bootstrap" "name" "arrow-left-circle" "className" "slide-control-left-icon" "width" "2rem" "height" "2rem") }}
+      <span class="visually-hidden">Left</span>
+    </button>
+    <button class="slide-control-right">
+      {{ partial "icons/icon" (dict "vendor" "bootstrap" "name" "arrow-right-circle" "className" "slide-control-left-icon" "width" "2rem" "height" "2rem") }}
+      <span class="visually-hidden">Right</span>
+    </button>
+  </div>
+{{- end }}

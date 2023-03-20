@@ -1,0 +1,3 @@
+{{- if and .Page.IsPage (eq .Page.Type "blog") }}
+  {{- template "_internal/disqus.html" .Page }}
+{{- end }}
