@@ -6,6 +6,7 @@ github.com/hbstack/carousel v0.1.0 h1:s/uOB8TLwTLxID8WzADy1FJ0YSjFSGW+Nzey+3axS1
 github.com/hbstack/carousel v0.1.0/go.mod h1:S9GTKstFWX/1um5FZIxBiqlbD4td3cgNIRmInJW+qa0=
 github.com/hbstack/hb v0.1.0 h1:GbnJbJi9c9gdXkfESqjt5eCZZ5NQmuhbsLCnMOnPyu4=
 github.com/hbstack/hb v0.1.0/go.mod h1:0AZsAVtgylZcPEAF4bwX1Zyy/hRBGSXoj+usD/wMr4A=
+github.com/hbstack/hb v0.1.2/go.mod h1:j1CyW+HWmbqdAgagn8FPEtdTGZEdTHVZdml+vqfsKiU=
 github.com/hugomods/gravatar v0.1.0 h1:wggcqWDeLVXbvechNuehMpTf1NL8yDZUhWEmQxH8NzA=
 github.com/hugomods/gravatar v0.1.0/go.mod h1:oATWuh5u2XUK/ZKzOD0VEP5I/TZfVZwplTyhT61Q4Fc=
 github.com/hugomods/icons v0.6.0 h1:G6RU93okhPPRDh/jqcew9gwkcYpSpg0rCBv4S6yUAFw=
