@@ -7,6 +7,7 @@ github.com/hbstack/disqus v0.1.0 h1:z7yE0G9QmSoWGSh/GFkG24Pz9o9uKowoPa3dREWNPMk=
 github.com/hbstack/disqus v0.1.0/go.mod h1:DJBv8RCHlcZk7mZCD8KTpFBNUKqlPjh2x/k8jAyWthQ=
 github.com/hbstack/footer v0.1.0 h1:OviXu4KXHnXzIfvVcwcGw66njekIZEWVHK5XmR9vlz8=
 github.com/hbstack/footer v0.1.0/go.mod h1:oPHs4YfwaFhyjZNx7jJ0Yr27cdUtqMu++/5LcJ/CIbY=
+github.com/hbstack/footer v0.1.1/go.mod h1:/kaJFRj7RbX5jaDae21p2CGzjqluDhbpIU9dxTjNVik=
 github.com/hbstack/header v0.1.0 h1:P4EaaHb5VA5b3mlYnwF3Rb1pxOY3b+jP0cQiQYZ9kLY=
 github.com/hbstack/header v0.1.0/go.mod h1:M7D54YKZcQIv322QZBPxV4029Qpfy//KOq4r9n6mc0c=
 github.com/hugomods/base v0.1.0 h1:3o9Y85BvXHjkYzZfswM/EtthQ8GOYKN8aXHkIWqu3/8=
