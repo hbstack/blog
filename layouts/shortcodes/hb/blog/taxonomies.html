@@ -7,7 +7,7 @@
   {{- with .Get "style" }}{{ $style = . }}{{ end }}
 {{- else }}
 {{- end }}
-{{- partial "hb/modules/blog/taxonomies" (dict
+{{- partial "hb/modules/blog/taxonomies/toggle" (dict
   "style" $style
   "limit" $limit
   "count" $count)
