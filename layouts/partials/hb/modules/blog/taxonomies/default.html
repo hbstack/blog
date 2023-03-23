@@ -1,0 +1,26 @@
+{{- range $name, $taxonomy := site.Taxonomies }}
+  {{- $limit := 10 }}
+  {{- $count := true }}
+  {{- $idx := 0 }}
+  <div class="taxonomy-terms hb-module">
+    {{- with site.GetPage $name }}
+      <div class="taxonomy-terms-title h5">
+        <a class="text-decoration-none" href="{{ .RelPermalink }}">{{- .Title -}}</a>
+      </div>
+    {{- end }}
+    {{- range $termName, $term := $taxonomy.ByCount }}
+      {{- if eq $idx $limit }}
+        {{- break }}
+      {{- end }}
+      <a
+        class="btn btn-sm btn-outline-secondary my-1 me-1"
+        href="{{ $term.Page.RelPermalink }}">
+        {{- $term.Page.Title -}}
+        {{- if $count }}
+          {{- printf " (%d)" $term.Count -}}
+        {{- end }}
+      </a>
+      {{- $idx = add $idx 1 }}
+    {{- end }}
+  </div>
+{{- end }}
