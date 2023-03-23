@@ -3,7 +3,6 @@
     object-fit: cover;
     width: 100%;
     transition: 0.3s;
-    border: 1px solid var(--#{$prefix}tertiary-bg);
 
     &:hover {
         transform: scale(1.2);
