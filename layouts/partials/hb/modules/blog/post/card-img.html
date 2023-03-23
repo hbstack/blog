@@ -7,10 +7,20 @@
   {{- else }}
     {{- $thumbnail := partialCached "hb/functions/page-thumbnail" . . -}}
     {{- with $thumbnail -}}
-      <img
-        src="{{ .Permalink }}"
-        class="hb-blog-post-card-img"
-        alt="{{ $.Title }}" />
+      <picture>
+        {{- $thumbnail := $thumbnail.Resize `x360` }}
+        {{- $modern := false }}
+        {{- if ne $thumbnail.MediaType.SubType "webp" }}
+          {{- $modern = $thumbnail.Resize (printf "%dx%d webp" $thumbnail.Width $thumbnail.Height) }}
+        {{- end }}
+        {{- with $modern }}
+          <source srcset="{{ .RelPermalink }}" type="{{ .MediaType }}" />
+        {{- end }}
+        <img
+          src="{{ $thumbnail.RelPermalink }}"
+          class="hb-blog-post-card-img"
+          alt="{{ $.Title }}" />
+      </picture>
     {{- else }}
       <div
         class="hb-blog-post-card-default-img d-flex align-items-center justify-content-center">
