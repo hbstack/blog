@@ -1,4 +1,5 @@
 [params.hugopress.modules.hb-blog-breadcrumb.hooks.hb-blog-main-begin]
+weight = 1
 
 [[module.imports]]
 path = "github.com/hbstack/breadcrumb"
