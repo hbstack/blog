@@ -1,6 +1,6 @@
 {{- with .GetTerms "authors" }}
   {{- range . }}
-    {{- $img := partial "hb/modules/blog/author/image" . }}
+    {{- $img := partialCached "hb/modules/blog/author/image" . . }}
     <a
       class="me-1"
       href="{{ .RelPermalink }}"

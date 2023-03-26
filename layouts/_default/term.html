@@ -5,10 +5,7 @@
 
 {{- define "main" }}
   {{ partial "hugopress/functions/render-hooks" (dict "Name" "hb-blog-main-begin" "Page" .) }}
-  <h1 class="mb-3">
-    {{- .Title -}}
-    <span class="ms-1 text-secondary">({{- len .Data.Pages -}})</span>
-  </h1>
+  {{ partial "hb/modules/blog/term/profile" . }}
   <div class="hb-terms-posts row">
     {{- range .Paginator.Pages }}
       <div class="col-12 col-md-6 col-lg-4 mb-3 mb-lg-4">
