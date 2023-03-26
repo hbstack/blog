@@ -1,0 +1,31 @@
+<div
+  class="hb-blog-term-profile hb-module d-flex flex-column align-items-center">
+  {{- with partialCached "hb/modules/blog/author/image" . . }}
+    <img class="hb-blog-term-img img-fluid mb-3" src="{{ . }}" />
+  {{- end }}
+  <h1 class="text-center mb-3">{{ .Title }}</h1>
+  {{- with .Description }}
+    <p class="text-body-secondary text-center mb-3">{{ . }}</p>
+  {{ end }}
+  {{- $matrixes := slice (dict "title" "Pages" "count" (len .Data.Pages)) }}
+  {{- $matrixes = $matrixes | append (dict
+    "title" "Sections"
+    "count" (len (.Data.Pages.GroupBy "Section")))
+  }}
+  {{- $matrixes = $matrixes | append (dict
+    "title" "Types"
+    "count" (len (.Data.Pages.GroupBy "Type")))
+  }}
+  {{ with .Params.socials }}
+    {{ partial "hb/modules/blog/term/socials" . }}
+  {{ end }}
+  <ul class="nav justify-content-center mb-3">
+    {{ range $matrixes }}
+      <li
+        class="nav-item d-flex flex-column justify-content-center align-items-center my-2 mx-3">
+        <span class="mb-1 fw-bold">{{ .count }}</span>
+        <span class="text-body-secondary">{{ .title }}</span>
+      </li>
+    {{ end }}
+  </ul>
+</div>

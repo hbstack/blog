@@ -42,3 +42,17 @@ $hb-terms-colors: ($warning, $success, $danger);
         }
     }
 }
+
+.hb-blog-term-profile {
+    .hb-social {
+        color: var(--#{$prefix}body-color);
+
+        &:hover {
+            color: var(--#{$prefix}primary);
+        }
+    }
+}
+
+.hb-blog-term-img {
+    height: 160px;
+}

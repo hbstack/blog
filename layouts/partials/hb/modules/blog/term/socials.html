@@ -1,0 +1,14 @@
+<ul class="nav justify-content-center mb-3">
+  {{ range $name, $id := . }}
+    {{- $ctx := dict
+      "name" $name
+      "id" $id
+      "class" "d-flex justify-content-center align-items-center"
+      "height" "1.75em"
+      "width" "1.75em"
+    }}
+    <li class="nav-item d-flex align-items-center mx-3">
+      {{- partial "hb/modules/socials/link" $ctx }}
+    </li>
+  {{ end }}
+</ul>
