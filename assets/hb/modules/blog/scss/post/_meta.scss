@@ -16,10 +16,12 @@
             margin-right: 0;
         }
 
-        &:not(:last-child):not(.hb-blog-post-taxonomy-meta) {
-            &::after {
-                content: "·";
-                padding-left: 0.25rem;
+        &:not(:last-child) {
+            &:not(.hb-blog-post-taxonomy-meta) {
+                &::after {
+                    content: "·";
+                    padding-left: 0.25rem;
+                }
             }
         }
     }
