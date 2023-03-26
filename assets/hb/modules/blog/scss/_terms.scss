@@ -43,7 +43,8 @@ $hb-terms-colors: ($warning, $success, $danger);
     }
 }
 
-.hb-blog-term-profile {
+.hb-blog-term-profile,
+.hb-blog-term-author {
     .hb-social {
         color: var(--#{$prefix}body-color);
 
@@ -54,5 +55,5 @@ $hb-terms-colors: ($warning, $success, $danger);
 }
 
 .hb-blog-term-img {
-    height: 160px;
+    height: 100px;
 }

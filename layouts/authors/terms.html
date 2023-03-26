@@ -1,0 +1,13 @@
+{{- define "main" }}
+  <h1 class="mb-5 text-center">
+    {{- .Title -}}
+    <small class="ms-1 text-secondary">({{- len .Data.Pages -}})</small>
+  </h1>
+  <div class="row row-cols-1 row-cols-md-2">
+    {{- range $i, $page := .Data.Pages }}
+      <div class="hb-blog-term-author col">
+        {{ partialCached "hb/modules/blog/term/profile" . . }}
+      </div>
+    {{- end -}}
+  </div>
+{{- end -}}
