@@ -12,15 +12,14 @@
   </div>
   {{ partial "hb/modules/blog/post/card-img" $page }}
   <div class="card-body px-0 pt-2">
-    <div
-      class="hb-blog-post-meta d-block text-nowrap text-truncate mb-2">
-      {{ partial "hb/modules/blog/post/meta/taxonomies" (dict "Page" $page) }}
-    </div>
-    <h2 class="hb-blog-post-title card-title h4">
-      <a class="hb-blog-post-title-link" href="{{ $page.RelPermalink }}">
+    <div class="hb-blog-post-title card-title h5 py-1">
+      <a class="hb-blog-post-title-link d-block" href="{{ $page.RelPermalink }}">
         {{- $page.Title -}}
       </a>
-    </h2>
+    </div>
+    <div class="hb-blog-post-meta d-block text-nowrap text-truncate mb-2">
+      {{ partial "hb/modules/blog/post/meta/taxonomies" (dict "Page" $page) }}
+    </div>
     {{- if $summary }}
       <div class="hb-blog-post-summary card-text text-secondary">
         {{- $page.Summary -}}

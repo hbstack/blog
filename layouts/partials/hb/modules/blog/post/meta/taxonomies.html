@@ -5,11 +5,13 @@
   {{- end }}
   {{- with $page.GetTerms $kind }}
     {{- range . }}
-      <a
-        class="hb-blog-post-taxonomy hb-blog-post-taxonomy-{{ $kind | singularize }} badge bg-secondary text-decoration-none fw-normal ms-1 my-1"
-        href="{{ .RelPermalink }}">
-        {{- .Title -}}
-      </a>
+      <span class="hb-blog-post-taxonomy-meta">
+        <a
+          class="hb-blog-post-taxonomy hb-blog-post-taxonomy-{{ $kind | singularize }} badge bg-secondary text-decoration-none fw-normal me-1"
+          href="{{ .RelPermalink }}">
+          {{- .Title -}}
+        </a>
+      </span>
     {{- end }}
   {{- end }}
 {{- end -}}
