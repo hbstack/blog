@@ -5,7 +5,7 @@
   {{- $img = partial "gravatar/avatar-url" (dict
     "Id"  .Params.email_hash
     "Default" "retro"
-    "Size" "48")
+    "Size" "128")
   }}
 {{- end }}
 {{- return $img -}}
