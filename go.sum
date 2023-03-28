@@ -4,6 +4,7 @@ github.com/hbstack/base v0.1.3 h1:h868EZ54SzQHdGO+3aeoninXkUhUSqWC4ZPkivC5THo=
 github.com/hbstack/base v0.1.3/go.mod h1:tein3kLAihnlcXe+xAprntZNjCvA/hRDkrxmZHOyelI=
 github.com/hbstack/carousel v0.1.9 h1:wbCglm0p7aqU+j1DvzEbbS6Yl3RWfRGykTDS9wsyYjo=
 github.com/hbstack/carousel v0.1.9/go.mod h1:SsXyquOSqLM+GzwLkXaKz3JNHN7j2Ne3yNQ7l+z8SCI=
+github.com/hbstack/carousel v0.1.12/go.mod h1:SsXyquOSqLM+GzwLkXaKz3JNHN7j2Ne3yNQ7l+z8SCI=
 github.com/hbstack/hb v0.1.3 h1:78TEtXAuvCS4YtbQJN2lwtcOwlV/YkQ0j0F7sIA6tkA=
 github.com/hbstack/hb v0.1.3/go.mod h1:p+O1/GkVyi+dksOPttoPWB1g7Tjtf7Mhxu+YfYwFn4M=
 github.com/hbstack/socials v0.1.1 h1:nuUaI5wnBdh6naPYouM2PPnZwI5lgM1OPctrLRyJfWY=
