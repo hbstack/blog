@@ -1,14 +1,14 @@
-{{- $matrixes := slice (dict "title" "Pages" "count" (len .Data.Pages)) }}
-{{- $matrixes = $matrixes | append (dict
+{{- $metrics := slice (dict "title" "Pages" "count" (len .Data.Pages)) }}
+{{- $metrics = $metrics | append (dict
   "title" "Sections"
   "count" (len (.Data.Pages.GroupBy "Section")))
 }}
-{{- $matrixes = $matrixes | append (dict
+{{- $metrics = $metrics | append (dict
   "title" "Types"
   "count" (len (.Data.Pages.GroupBy "Type")))
 }}
 <ul class="nav justify-content-center mb-3">
-  {{ range $matrixes }}
+  {{ range $metrics }}
     <li
       class="nav-item d-flex flex-column justify-content-center align-items-center my-2 mx-3">
       <span class="mb-1 fw-bold">{{ .count }}</span>
