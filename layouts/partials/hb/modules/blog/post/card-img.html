@@ -3,6 +3,7 @@
     <img
       src="{{ index . 0 | absURL }}"
       class="hb-blog-post-card-img"
+      loading="lazy"
       alt="{{ $.Title }}" />
   {{- else }}
     {{- $thumbnail := partialCached "hb/functions/page-thumbnail" . . -}}
@@ -19,6 +20,7 @@
         <img
           src="{{ $thumbnail.RelPermalink }}"
           class="hb-blog-post-card-img"
+          loading="lazy"
           alt="{{ $.Title }}" />
       </picture>
     {{- else }}
