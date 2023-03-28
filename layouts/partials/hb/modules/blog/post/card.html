@@ -18,7 +18,7 @@
       </a>
     </div>
     <div class="hb-blog-post-meta d-block text-nowrap text-truncate mb-2">
-      {{ partial "hb/modules/blog/post/meta/taxonomies" (dict "Page" $page) }}
+      {{ partialCached "hb/modules/blog/post/meta/taxonomies" $page $page }}
     </div>
     {{- if $summary }}
       <div class="hb-blog-post-summary card-text text-secondary">

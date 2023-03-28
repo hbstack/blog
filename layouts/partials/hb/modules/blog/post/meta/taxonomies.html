@@ -1,4 +1,4 @@
-{{- $page := .Page }}
+{{- $page := . }}
 {{- range $kind, $taxonomy := site.Taxonomies }}
   {{- if eq $kind "authors" }}
     {{ continue }}
