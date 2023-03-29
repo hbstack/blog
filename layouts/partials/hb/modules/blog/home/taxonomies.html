@@ -1,0 +1,35 @@
+{{- $icons := dict
+  "authors" (dict "icon" "pencil-square" "className" "text-info")
+  "categories" (dict "icon" "folder" "className" "text-warning")
+  "tags" (dict "icon" "tags" "className" "text-success")
+  "series" (dict "icon" "layout-text-window-reverse" "className" "text-danger")
+}}
+{{- $size := "2.25em" }}
+<nav class="nav nav-fill mb-5">
+  <a
+    class="nav-link d-flex flex-column"
+    href="{{ site.Home.RelPermalink }}"
+    title="Pages">
+    <span class="mb-3 text-body fw-bold">{{ len site.RegularPages }}</span>
+    <span class="text-body">
+      {{- partial "icons/icon" (dict "vendor" "bs" "name" "file-richtext" "width" $size "height" $size "className" "text-primary") -}}
+    </span>
+  </a>
+  {{- range $kind, $taxonomy := site.Taxonomies }}
+    {{- with site.GetPage $kind }}
+      <a
+        class="nav-link d-flex flex-column"
+        href="{{ .RelPermalink }}"
+        title="{{ .Title }}">
+        <span class="mb-3 text-body fw-bold">{{ len $taxonomy }}</span>
+        <span class="text-body">
+          {{- with index $icons $kind }}
+            {{- partial "icons/icon" (dict "vendor" "bs" "name" .icon "width" $size "height" $size "className" .className) -}}
+          {{- else }}
+            {{- .Title -}}
+          {{- end }}
+        </span>
+      </a>
+    {{- end }}
+  {{- end }}
+</nav>

@@ -13,19 +13,7 @@
     {{ partial "hb/modules/blog/posts" (dict "Pages" $pinnedPages "Cols" "row-cols-1") }}
   </div>
 </div>
-<div class="row">
-  <div class="col-12 col-xl-8">
-    {{- $recentCount := default 20 site.Params.hb.blog.home.recent_posts }}
-    {{- $recentPages := first $recentCount $pages }}
-    {{ partial "hb/modules/blog/posts" (dict "Pages" $recentPages "Cols" "row-cols-1 row-cols-md-2") }}
-  </div>
-  <div class="col-12 col-xl-4">
-    <div class="hb-blog-home-sidebar position-sticky overflow-auto">
-      {{- if eq "toggle" site.Params.hb.blog.home.taxonomies_style }}
-        {{ partialCached "hb/modules/blog/taxonomies/toggle" (dict "limit" 20) }}
-      {{- else }}
-        {{ partialCached "hb/modules/blog/taxonomies/default" . }}
-      {{- end }}
-    </div>
-  </div>
-</div>
+{{ partialCached "hb/modules/blog/home/taxonomies" . }}
+{{- $recentCount := default 24 site.Params.hb.blog.home.recent_posts }}
+{{- $recentPages := first $recentCount $pages }}
+{{ partial "hb/modules/blog/posts" (dict "Pages" $recentPages "Cols" "row-cols-1 row-cols-md-2 row-cols-lg-3") }}
