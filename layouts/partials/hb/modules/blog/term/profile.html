@@ -12,5 +12,5 @@
   {{- with .Params.socials }}
     {{ partial "hb/modules/blog/term/socials" . }}
   {{- end }}
-  {{ partial "hb/modules/blog/term/metrics" . }}
+  {{ partialCached "hb/modules/blog/term/metrics" . . }}
 </div>
