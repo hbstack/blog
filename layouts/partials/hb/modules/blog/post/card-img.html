@@ -1,33 +1,25 @@
+{{- $page := . }}
 <div class="card-img-top overflow-hidden border border-secondary-subtle">
+  {{- $img := "" }}
   {{- with .Params.images }}
-    <img
-      src="{{ index . 0 | absURL }}"
-      class="hb-blog-post-card-img"
-      loading="lazy"
-      alt="{{ $.Title }}" />
+    {{- $img = index . 0 }}
   {{- else }}
-    {{- $thumbnail := partialCached "hb/functions/page-thumbnail" . . -}}
-    {{- with $thumbnail -}}
-      <picture>
-        {{- $thumbnail := $thumbnail.Resize `x360` }}
-        {{- $modern := false }}
-        {{- if ne $thumbnail.MediaType.SubType "webp" }}
-          {{- $modern = $thumbnail.Resize (printf "%dx%d webp" $thumbnail.Width $thumbnail.Height) }}
-        {{- end }}
-        {{- with $modern }}
-          <source srcset="{{ .RelPermalink }}" type="{{ .MediaType }}" />
-        {{- end }}
-        <img
-          src="{{ $thumbnail.RelPermalink }}"
-          class="hb-blog-post-card-img"
-          loading="lazy"
-          alt="{{ $.Title }}" />
-      </picture>
-    {{- else }}
-      <div
-        class="hb-blog-post-card-default-img d-flex align-items-center justify-content-center">
-        NO IMAGE
-      </div>
+    {{- with partialCached "hb/functions/page-thumbnail" . . }}
+      {{- $img = replace .RelPermalink $page.RelPermalink "" | printf "%s?height=360px" }}
     {{- end }}
   {{- end -}}
+  {{- with $img }}
+    {{ partial "images/image" (dict
+      "Page" $page
+      "Alt" $page.Title
+      "Filename" $img
+      "ClassName" "hb-blog-post-card-img"
+      "Original" true)
+    }}
+  {{- else }}
+    <div
+      class="hb-blog-post-card-default-img d-flex align-items-center justify-content-center">
+      NO IMAGE
+    </div>
+  {{- end }}
 </div>
