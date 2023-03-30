@@ -1,0 +1,31 @@
+.archives {
+    margin-left: 10px;
+}
+
+.archive,
+.archive-subheading {
+    &::before {
+        background: var(--#{$prefix}primary);
+        border-radius: 50%;
+        content: "";
+        left: -12.5px;
+        margin-top: 0.25rem;
+        position: absolute;
+    }
+}
+
+.archive {
+    &::before {
+        height: 20px;
+        width: 20px;
+    }
+}
+
+.archive-subheading {
+    &::before {
+        background: var(--#{$prefix}secondary);
+        height: 15px;
+        left: -10px;
+        width: 15px;
+    }
+}
