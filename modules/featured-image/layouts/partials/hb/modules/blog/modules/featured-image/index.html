@@ -1,10 +1,19 @@
-{{- $img := partialCached "hb/functions/page-featured-image" . . }}
-{{- if or $img .Params.images }}
+{{- $res := partialCached "hb/functions/page-featured-image" . . }}
+{{- if or $res .Params.images }}
+  {{- $page := . }}
   <div class="mb-3 text-center p-1 bg-body-secondary border">
+    {{- $img := "" }}
     {{- with index .Params.images 0 }}
-      <img class="hb-blog-post-featured-img img-fluid w-100" src="{{ . | absURL }}" />
+      {{- $img = . }}
     {{- else }}
-      <img class="hb-blog-post-featured-img img-fluid w-100" src="{{ $img.RelPermalink }}" />
+      {{- $img = replace $res.RelPermalink $page.RelPermalink "" | printf "%s?height=480px" }}
     {{- end }}
+    {{ partial "images/image" (dict
+      "Page" $page
+      "Alt" $page.Title
+      "Filename" $img
+      "ClassName" "hb-blog-post-featured-img img-fluid w-100"
+      "Original" true)
+    }}
   </div>
 {{- end -}}
