@@ -1,0 +1,22 @@
+{{- define "title" }}
+  {{- $pages := sort site.RegularPages "Date" "desc" }}
+  {{- $path := replace .RelPermalink site.Home.RelPermalink "" }}
+  {{- $paths := split $path "/" }}
+  {{- $year := default "" (index $paths 1) }}
+  {{- $month := default "" (index $paths 2) }}
+  {{- if $month }}
+    {{- $date := printf "%s-%s" $year $month }}
+    {{- $group := where ($pages.GroupByDate "2006-01") "Key" $date }}
+    {{- $pages = index $group 0 }}
+  {{- else if $year }}
+    {{- $group := where ($pages.GroupByDate "2006") "Key" $year }}
+    {{- $pages = index $group 0 }}
+  {{- end }}
+  {{- $paginate := default 30 .Site.Params.hb.blog.archives.paginate }}
+  {{- $paginator := .Paginate $pages $paginate }}
+  {{ partial "base/title" . }}
+{{- end -}}
+
+{{- define "main" }}
+  {{ partial "hb/modules/blog/archives/list" . }}
+{{- end -}}

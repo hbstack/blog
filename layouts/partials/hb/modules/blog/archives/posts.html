@@ -1,0 +1,33 @@
+{{- $year := "" }}
+{{- range .GroupByDate "2006" }}
+  {{- $year := .Key }}
+  <div class="archive border-1">
+    <div class="archive-heading h4 mb-4 border-bottom pb-3 border-2">
+      {{- $yearSection := printf "archives/%s" $year }}
+      {{- with site.GetPage $yearSection }}
+        <a class="text-decoration-none" href="{{ .RelPermalink }}">
+          {{- .Title -}}
+        </a>
+      {{- else }}
+        {{- warnf "[archives] section %s not found" $yearSection }}
+        {{- .Key -}}
+      {{- end }}
+    </div>
+    {{- range .GroupByDate "01" }}
+      <div class="archive-subheading h5 mb-3">
+        {{- $monthSection := printf "archives/%s/%s" $year .Key }}
+        {{- with site.GetPage $monthSection }}
+          <a class="text-decoration-none" href="{{ .RelPermalink }}">
+            {{- .Title -}}
+          </a>
+        {{- else }}
+          {{- warnf "[archives] section %s not found" $monthSection }}
+          {{- .Key -}}
+        {{- end }}
+      </div>
+      <div class="archive-posts border-top pt-3">
+        {{ partial "hb/modules/blog/posts" (dict "Pages" .Pages) }}
+      </div>
+    {{- end }}
+  </div>
+{{- end }}

@@ -17,5 +17,8 @@ path = "github.com/hugomods/icons/vendors/bootstrap"
 paginate = 9
 post_date_format = ':date_long'
 
+[params.hb.blog.archives]
+paginate = 30
+
 [params.hb.blog.home]
 # taxonomies_style = 'toggle'
