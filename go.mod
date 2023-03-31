@@ -8,7 +8,7 @@ require (
 	github.com/hbstack/carousel v0.1.13 // indirect
 	github.com/hbstack/hb v0.1.4 // indirect
 	github.com/hbstack/socials v0.1.1 // indirect
-	github.com/hugomods/gravatar v0.1.0 // indirect
+	github.com/hugomods/gravatar v0.1.1 // indirect
 	github.com/hugomods/icons/vendors/bootstrap v0.4.0 // indirect
 	github.com/hugomods/images v0.4.0 // indirect
 	github.com/hugomods/simple-icons v8.8.0+incompatible // indirect
