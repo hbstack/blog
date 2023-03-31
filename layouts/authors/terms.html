@@ -4,7 +4,7 @@
     <small class="ms-1 text-secondary">({{- len .Data.Pages -}})</small>
   </h1>
   <div class="row row-cols-1">
-    {{- range $i, $page := .Data.Pages }}
+    {{- range $i, $page := sort .Data.Pages ".Data.Pages" "desc" }}
       <div class="hb-blog-term-author col d-flex mb-3 border-top pt-3">
         {{- $img := partial "hb/modules/blog/author/image" (dict
           "Page" .
