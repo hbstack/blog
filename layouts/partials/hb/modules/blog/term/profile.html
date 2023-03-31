@@ -1,8 +1,10 @@
 <div
   class="hb-blog-term-profile hb-module d-flex flex-column align-items-center">
-  {{- with partialCached "hb/modules/blog/author/image" . . }}
-    <img class="hb-blog-term-img img-fluid mb-3 rounded-circle" src="{{ . }}" />
-  {{- end }}
+  {{ partial "hb/modules/blog/author/image" (dict
+    "Page" .
+    "Placeholder" false
+    "ClassName" "hb-blog-term-img img-fluid rounded-circle mb-3")
+  }}
   <h1 class="text-center mb-3 h4">
     <a class="text-decoration-none" href="{{ .RelPermalink }}">{{ .Title }}</a>
   </h1>

@@ -1,11 +1,20 @@
-{{- $img := "" }}
-{{- if .Params.images }}
-  {{- $img = index .Params.images 0 | absURL }}
-{{- else if .Params.email_hash }}
-  {{- $img = partial "gravatar/avatar-url" (dict
-    "Id"  .Params.email_hash
-    "Default" "retro"
-    "Size" "128")
+{{- $page := .Page }}
+{{- $className := .ClassName }}
+{{- $placeholder := default true .Placeholder }}
+{{- if $page.Params.images }}
+  {{ partial "images/image" (dict
+    "Filename" (index $page.Params.images 0)
+    "Page" $page
+    "Alt" $page.Title
+    "ClassName" $className)
   }}
+{{- else if $page.Params.email_hash }}
+  {{ partial "gravatar/avatar-params" (dict
+    "Id" $page.Params.email_hash
+    "Default" "retro"
+    "ClassName" $className
+    "Size" "100")
+  }}
+{{- else if $placeholder }}
+  <span class="hb-blog-author-img-none bg-body-secondary d-block rounded-circle"></span>
 {{- end }}
-{{- return $img -}}

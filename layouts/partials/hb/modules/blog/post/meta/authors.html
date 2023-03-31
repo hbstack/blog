@@ -1,16 +1,13 @@
 {{- with .GetTerms "authors" }}
   {{- range . }}
-    {{- $img := partialCached "hb/modules/blog/author/image" . . }}
     <a
       class="hb-blog-post-author-link text-decoration-none"
       href="{{ .RelPermalink }}"
       title="{{ .Title }}">
-      <img
-        class="img-fluid rounded-circle"
-        width="20"
-        height="20"
-        alt="{{ .Title }}"
-        src="{{ $img }}" />
+      {{ partial "hb/modules/blog/author/image" (dict
+        "Page" .
+        "ClassName" "hb-blog-author-img rounded-circle")
+      }}
     </a>
   {{- end }}
 {{- end }}

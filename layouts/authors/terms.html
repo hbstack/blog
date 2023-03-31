@@ -3,25 +3,23 @@
     {{- .Title -}}
     <small class="ms-1 text-secondary">({{- len .Data.Pages -}})</small>
   </h1>
-  <hr>
+  <hr />
   <div class="row row-cols-1">
     {{- range $i, $page := .Data.Pages }}
       <div class="hb-blog-term-author col d-flex mb-3">
         <div class="flex-shrink-0 me-3 d-flex align-items-center">
-          {{- with partialCached "hb/modules/blog/author/image" . . }}
-            <img
-              class="hb-blog-term-img img-fluid rounded-circle"
-              loading="lazy"
-              src="{{ . }}"
-              style="height:60px" />
-          {{- end }}
+          {{ partial "hb/modules/blog/author/image" (dict
+            "Page" .
+            "Placeholder" false
+            "ClassName" "hb-blog-term-img img-fluid rounded-circle")
+          }}
         </div>
         <div class="flex-grow-1 d-flex flex-wrap">
           <div class="flex-grow-1 d-flex justify-content-center flex-column">
             <h2 class="h5">
-              <a class="text-decoration-none" href="{{ .RelPermalink }}"
-                >{{ .Title }}</a
-              >
+              <a class="text-decoration-none" href="{{ .RelPermalink }}">
+                {{- .Title -}}
+              </a>
             </h2>
             {{- with  .Description }}
               <p class="text-body-secondary mb-0">{{ . }}</p>
