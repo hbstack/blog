@@ -3,17 +3,17 @@
     {{- .Title -}}
     <small class="ms-1 text-secondary">({{- len .Data.Pages -}})</small>
   </h1>
-  <hr />
   <div class="row row-cols-1">
     {{- range $i, $page := .Data.Pages }}
-      <div class="hb-blog-term-author col d-flex mb-3">
-        <div class="flex-shrink-0 me-3 d-flex align-items-center">
-          {{ partial "hb/modules/blog/author/image" (dict
-            "Page" .
-            "Placeholder" false
-            "ClassName" "hb-blog-term-img img-fluid rounded-circle")
-          }}
-        </div>
+      <div class="hb-blog-term-author col d-flex mb-3 border-top pt-3">
+        {{- $img := partial "hb/modules/blog/author/image" (dict
+          "Page" .
+          "Placeholder" false
+          "ClassName" "hb-blog-term-img img-fluid rounded-circle")
+        }}
+        {{- with $img }}
+        <div class="flex-shrink-0 me-3 d-flex align-items-center">{{ $img }}</div>
+        {{- end }}
         <div class="flex-grow-1 d-flex flex-wrap">
           <div class="flex-grow-1 d-flex justify-content-center flex-column">
             <h2 class="h5">
