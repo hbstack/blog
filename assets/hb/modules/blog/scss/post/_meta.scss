@@ -25,4 +25,13 @@
             }
         }
     }
+
+    .hb-blog-post-author-link {
+        margin-right: 0.175rem;
+        padding: 0 0.275rem;
+
+        &:first-child {
+            margin-left: -0.275rem;
+        }
+    }
 }

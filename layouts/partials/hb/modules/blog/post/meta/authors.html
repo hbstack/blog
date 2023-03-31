@@ -2,7 +2,7 @@
   {{- range . }}
     {{- $img := partialCached "hb/modules/blog/author/image" . . }}
     <a
-      class="me-1"
+      class="hb-blog-post-author-link text-decoration-none"
       href="{{ .RelPermalink }}"
       title="{{ .Title }}">
       <img
