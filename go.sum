@@ -17,3 +17,4 @@ github.com/hugomods/images v0.4.0 h1:kgSFxcx6cm7ZNjYYqcLibKBS3Rp/bzAXiqeBACFYAKE
 github.com/hugomods/images v0.4.0/go.mod h1:U6Gwj16LKvk66rOMyGFrnF6f0aV8lT89lqOsckOAjYY=
 github.com/hugomods/simple-icons v8.8.0+incompatible h1:DjrOcRaTxetwDUDknGOkZsyd0rtCBaXRZjZFbuI6gdo=
 github.com/hugomods/simple-icons v8.8.0+incompatible/go.mod h1:1Lvymol7AMVY7ji/o88jMoDHHZIJ5Wc+WwNe5hjmk+U=
+github.com/hugomods/simple-icons v8.9.0+incompatible/go.mod h1:1Lvymol7AMVY7ji/o88jMoDHHZIJ5Wc+WwNe5hjmk+U=
