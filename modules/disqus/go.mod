@@ -3,7 +3,7 @@ module github.com/hbstack/blog/modules/disqus
 go 1.19
 
 require (
-	github.com/gohugoio/hugo-mod-bootstrap-scss/v5 v5.20300.20001 // indirect
+	github.com/gohugoio/hugo-mod-bootstrap-scss/v5 v5.20300.20002 // indirect
 	github.com/hbstack/blog v0.5.4 // indirect
 	github.com/hbstack/disqus v0.1.0 // indirect
 	github.com/hbstack/footer v0.1.5 // indirect
