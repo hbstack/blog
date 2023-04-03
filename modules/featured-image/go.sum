@@ -1,6 +1,7 @@
 github.com/gohugoio/hugo-mod-bootstrap-scss/v5 v5.20300.20000 h1:cQ8J2tkcrOgsF6TFTlfwOOtX2bgQzzPKhcRvHcUmUo0=
 github.com/gohugoio/hugo-mod-bootstrap-scss/v5 v5.20300.20000/go.mod h1:6Fa+6zeMwAHMsYalEmIpC0QKs9UjlNtR8BLLMQXLqWQ=
 github.com/gohugoio/hugo-mod-bootstrap-scss/v5 v5.20300.20001/go.mod h1:QKCtI6xnS1xr+zaQyVR8KF4Ec1UvErhvsazehZj/MlI=
+github.com/gohugoio/hugo-mod-bootstrap-scss/v5 v5.20300.20002/go.mod h1:Q6TrjM78wB13zkOMBSV4IZIZ54tbshmE2fem9CYx2pU=
 github.com/gohugoio/hugo-mod-jslibs-dist/popperjs/v2 v2.21100.20000/go.mod h1:mFberT6ZtcchrsDtfvJM7aAH2bDKLdOnruUHl0hlapI=
 github.com/hbstack/blog v0.5.1 h1:yXPnZNeqpqDQI0S/YW0/X2vSmtLjv3cNltggrueR8xE=
 github.com/hbstack/blog v0.5.1/go.mod h1:lqC8vgB0MnLPdpUU5Wh+7ZHs8zUCC7F5UvD8SD0YSQQ=
@@ -27,5 +28,6 @@ github.com/hugomods/seo/modules/base v0.1.0 h1:ZEkWuYeRJeQakBkBThO3N3lmGzOZoPixs
 github.com/hugomods/seo/modules/base v0.1.0/go.mod h1:qfm1Vga0eGxL+Szgz8Jopm+NtJ5PGov2a2dikTg1qSg=
 github.com/twbs/bootstrap v5.3.0-alpha1+incompatible/go.mod h1:fZTSrkpSf0/HkL0IIJzvVspTt1r9zuf7XlZau8kpcY0=
 github.com/twbs/bootstrap v5.3.0-alpha2+incompatible/go.mod h1:fZTSrkpSf0/HkL0IIJzvVspTt1r9zuf7XlZau8kpcY0=
+github.com/twbs/bootstrap v5.3.0-alpha3+incompatible/go.mod h1:fZTSrkpSf0/HkL0IIJzvVspTt1r9zuf7XlZau8kpcY0=
 github.com/twbs/icons v1.10.3 h1:8i0wcDkk04KXd2ofLtMHUERkA5OkrpAzDyBVv/PJaL0=
 github.com/twbs/icons v1.10.3/go.mod h1:GnRlymgVWp5iVJCMa0Me5b6tFyGpVc2bSxPMRGIJmyA=
