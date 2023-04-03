@@ -1,5 +1,7 @@
 {{- $page := . }}
-<div class="card-img-top overflow-hidden border border-secondary-subtle">
+<a
+  class="card-img-top overflow-hidden border border-secondary-subtle text-body text-decoration-none"
+  href="{{ .RelPermalink }}">
   {{- $img := "" }}
   {{- with .Params.images }}
     {{- $img = index . 0 }}
@@ -14,12 +16,12 @@
       "Alt" $page.Title
       "Filename" $img
       "ClassName" "hb-blog-post-card-img"
-      "Original" true)
+      "Original" false)
     }}
   {{- else }}
     <div
-      class="hb-blog-post-card-default-img d-flex align-items-center justify-content-center">
+      class="hb-blog-post-card-img-none d-flex align-items-center justify-content-center">
       NO IMAGE
     </div>
   {{- end }}
-</div>
+</a>
