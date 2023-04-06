@@ -10,6 +10,7 @@
   }}
 {{- else if $page.Params.email_hash }}
   {{ partial "gravatar/avatar-params" (dict
+    "Alt" $page.Title
     "Id" $page.Params.email_hash
     "Default" "retro"
     "ClassName" $className
