@@ -17,7 +17,7 @@ path = "github.com/hugomods/icons/vendors/bootstrap"
 path = "github.com/hugomods/images"
 
 [params.hb.blog]
-paginate = 9
+paginate = 12
 post_date_format = ':date_long'
 
 [params.hb.blog.archives]
