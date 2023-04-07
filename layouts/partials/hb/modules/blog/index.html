@@ -14,6 +14,5 @@
   </div>
 </div>
 {{ partialCached "hb/modules/blog/home/taxonomies" . }}
-{{- $recentCount := default 24 site.Params.hb.blog.home.recent_posts }}
-{{- $recentPages := first $recentCount $pages }}
-{{ partial "hb/modules/blog/posts" (dict "Pages" $recentPages "Cols" "row-cols-1 row-cols-md-2 row-cols-lg-3") }}
+{{ partial "hb/modules/blog/posts" (dict "Pages" .Paginator.Pages "Cols" "row-cols-1 row-cols-md-2 row-cols-lg-3") }}
+{{ partial "hb/modules/blog/post/pagination" .Paginator }}
