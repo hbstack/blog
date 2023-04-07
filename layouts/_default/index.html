@@ -1,10 +1,5 @@
 {{- define "title" }}
-  {{- $pages := site.RegularPages }}
-  {{- with site.Params.hb.blog.home.main_sections }}
-    {{- $pages = where $pages "Section" "in" . }}
-  {{- end }}
-  {{- $paginator := .Paginate $pages .Site.Params.hb.blog.paginate }}
-  {{ partial "base/title" . }}
+  {{ partial "hb/modules/blog/title" . }}
 {{- end -}}
 
 {{- define "main" }}
