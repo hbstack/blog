@@ -1,0 +1,6 @@
+{{- $pages := site.RegularPages }}
+{{- with site.Params.hb.blog.home.main_sections }}
+  {{- $pages = where $pages "Section" "in" . }}
+{{- end }}
+{{- $paginator := .Paginate $pages site.Params.hb.blog.paginate }}
+{{- partial "base/title" . -}}
