@@ -1,19 +1,34 @@
+{{- $size := "1.5em" }}
 {{- $justify := "justify-content-between" }}
 {{- if not .PrevInSection }}
   {{- $justify = "justify-content-end" }}
 {{- end }}
 <ul class="hb-blog-post-nav nav hb-module {{ $justify }}">
   {{ with .PrevInSection }}
-    <li class="nav-item">
-      <a class="nav-link p-0" title="{{ .Title }}" href="{{ .RelPermalink }}">
-        {{- partial "icons/icon" (dict "vendor" "bootstrap" "name" "arrow-left-circle" "width" "2rem" "height" "2rem") }}
+    <li class="nav-item my-1">
+      <a class="nav-link p-0 d-flex align-items-center" href="{{ .RelPermalink }}">
+        {{- partial "icons/icon" (dict
+          "vendor" "bootstrap"
+          "name" "arrow-left-circle"
+          "className" "me-2"
+          "width" $size
+          "height" $size)
+        -}}
+        {{- .Title -}}
       </a>
     </li>
   {{ end }}
   {{ with .NextInSection }}
-    <li class="nav-item">
-      <a class="nav-link p-0" title="{{ .Title }}" href="{{ .RelPermalink }}">
-        {{- partial "icons/icon" (dict "vendor" "bootstrap" "name" "arrow-right-circle" "width" "2rem" "height" "2rem") }}
+    <li class="nav-item my-1">
+      <a class="nav-link p-0 d-flex align-items-center" href="{{ .RelPermalink }}">
+        {{- .Title -}}
+        {{- partial "icons/icon" (dict
+          "vendor" "bootstrap"
+          "name" "arrow-right-circle"
+          "className" "ms-2"
+          "width" $size
+          "height" $size)
+        -}}
       </a>
     </li>
   {{ end }}
