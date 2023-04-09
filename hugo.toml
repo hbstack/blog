@@ -19,6 +19,7 @@ path = "github.com/hugomods/images"
 [params.hb.blog]
 paginate = 12
 post_date_format = ':date_long'
+post_thumbnail = true
 
 [params.hb.blog.archives]
 paginate = 30
