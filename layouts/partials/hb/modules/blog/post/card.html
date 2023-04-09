@@ -2,7 +2,7 @@
 {{- $summary := default true .Summary }}
 {{- $readingTime := default true .ReadingTime }}
 <div class="hb-blog-post-card card border-0 overflow-hidden">
-  <div class="hb-blog-post-meta d-flex align-items-center mb-2">
+  <div class="hb-blog-post-meta d-flex align-items-center">
     {{ partialCached "hb/modules/blog/post/meta/authors" $page $page }}
     {{ partialCached "hb/modules/blog/post/meta/date" $page $page }}
     {{- if $readingTime }}
@@ -10,7 +10,9 @@
     {{- end }}
     {{ partialCached "hb/modules/blog/post/meta/first-section" $page $page }}
   </div>
-  {{ partial "hb/modules/blog/post/card-img" $page }}
+  {{- if default true site.Params.hb.blog.post_thumbnail }}
+    {{ partial "hb/modules/blog/post/card-img" $page }}
+  {{- end }}
   <div class="card-body px-0 pt-2">
     <div class="hb-blog-post-title card-title h5 py-1">
       <a class="hb-blog-post-title-link d-block" href="{{ $page.RelPermalink }}">
