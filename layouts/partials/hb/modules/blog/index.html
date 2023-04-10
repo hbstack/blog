@@ -3,15 +3,17 @@
   {{- $pages = where $pages "Section" "in" . }}
 {{- end }}
 <div class="row">
-  <div class="col-12 col-lg-6">
+  {{- $pinnedPages := first 1 (where $pages ".Params.pinned" true) }}
+  <div class="col-12{{ if $pinnedPages }} col-lg-6{{ end }}">
     {{- $featuredCount := default 10 site.Params.hb.blog.home.featured_posts }}
     {{- $featuredPages := first $featuredCount (where $pages ".Params.featured" true) }}
     {{- partial "hb/modules/carousel/carousel" (dict "Pages" $featuredPages) -}}
   </div>
-  <div class="col-12 col-lg-6">
-    {{- $pinnedPages := first 1 (where $pages ".Params.pinned" true) }}
-    {{ partial "hb/modules/blog/posts" (dict "Pages" $pinnedPages "Cols" "row-cols-1") }}
-  </div>
+  {{- with $pinnedPages }}
+    <div class="col-12 col-lg-6">
+      {{ partial "hb/modules/blog/posts" (dict "Pages" . "Cols" "row-cols-1") }}
+    </div>
+  {{- end }}
 </div>
 {{ partialCached "hb/modules/blog/home/taxonomies" . }}
 {{- with .Paginator }}
