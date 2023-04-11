@@ -6,8 +6,7 @@
         <small class="ms-1 text-secondary">({{- len .Data.Pages -}})</small>
       </h1>
       <ul
-        class="hb-terms-cloud list-unstyled ps-0 d-flex flex-wrap align-items-center justify-content-center"
-        role="navigation">
+        class="hb-terms-cloud list-unstyled ps-0 d-flex flex-wrap align-items-center justify-content-center">
         {{- range $i, $page := .Data.Pages }}
           {{- $totalPages := len .Pages }}
           {{- $fontSize := div $totalPages 3 }}
