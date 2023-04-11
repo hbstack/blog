@@ -6,7 +6,17 @@
     {{- with index .Params.images 0 }}
       {{- $img = . }}
     {{- else }}
-      {{- $img = replace $res.RelPermalink $page.RelPermalink "" | printf "%s?height=480px" }}
+      {{- $size := default "x640" site.Params.hb.featured_image.size }}
+      {{- $sizes := split $size "x" }}
+      {{- $query := slice }}
+      {{- with index $sizes 0 }}
+        {{- $query = $query | append "width" . }}
+      {{- end }}
+      {{- with index $sizes 1 }}
+        {{- $query = $query | append "height" . }}
+      {{- end }}
+      {{- $img = replace $res.RelPermalink $page.RelPermalink "" }}
+      {{- $img = querify $query | printf "%s?%s" $img }}
     {{- end }}
     {{ partial "images/image" (dict
       "Page" $page
