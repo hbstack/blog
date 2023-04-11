@@ -2,3 +2,6 @@
 path = "github.com/hbstack/blog"
 
 [params.hugopress.modules.hb-blog-post-featured-image.hooks.hb-blog-post-content-begin]
+
+[params.hb.featured_image]
+size = "x640" # [width]x[height], x[height] or [width]x, such as `x640` resizes to 640px height and reserve the aspect ratio.
