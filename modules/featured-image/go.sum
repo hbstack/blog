@@ -4,6 +4,7 @@ github.com/gohugoio/hugo-mod-jslibs-dist/popperjs/v2 v2.21100.20000/go.mod h1:mF
 github.com/hbstack/blog v0.8.2 h1:gfaqkq62hBEOt1yvaS2t9SemWPCld8O2uXqq7GaoanY=
 github.com/hbstack/blog v0.8.2/go.mod h1:FuLsXE7JmTK2d3gUXvHN5HpiEnxyO7zB45Q2GeikFNA=
 github.com/hbstack/blog v0.8.3/go.mod h1:FuLsXE7JmTK2d3gUXvHN5HpiEnxyO7zB45Q2GeikFNA=
+github.com/hbstack/blog v0.8.4/go.mod h1:DoJm61tF0jHI/Wrex0mMAUUWV28mruSFW9oPC7T7Hl0=
 github.com/hbstack/footer v0.1.5 h1:q3XRNmX8DCxAQytf9dkyVipsxKse914wc5ZlWgb5VU4=
 github.com/hbstack/footer v0.1.5/go.mod h1:/5XwQ9xyCE0LpngSnGUiz8YGGAQKe6OIlwATPETCXgc=
 github.com/hbstack/header v0.1.10 h1:Y85up1uoe0BdJnn5rk7tkD3U98ofAs9Och3J/fWgd2w=
