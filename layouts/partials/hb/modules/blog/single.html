@@ -18,7 +18,8 @@
   <div class="hb-blog-post-main">
     {{- partial "hugopress/functions/render-hooks" (dict "Name" "hb-blog-post-begin" "Page" .) }}
     {{- partial "hugopress/functions/render-hooks" (dict "Name" "hb-blog-post-content-begin" "Page" .) }}
-    <div class="hb-blog-post-content mb-5">
+    {{- $attributes := partial "hugopress/functions/render-attributes" (dict "Page" . "Name" "hb-blog-post-content") }}
+    <div class="hb-blog-post-content mb-5"{{ with $attributes }} {{ . | safeHTMLAttr }}{{ end }}>
       {{ .Content }}
     </div>
     {{- partial "hugopress/functions/render-hooks" (dict "Name" "hb-blog-post-content-end" "Page" .) }}
