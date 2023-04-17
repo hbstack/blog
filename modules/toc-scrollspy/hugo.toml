@@ -1,0 +1,7 @@
+[params.hugopress.modules.hb-blog-toc-scrollspy.attributes.hb-blog-post-content]
+
+[[module.imports]]
+path = "github.com/hbstack/toc-scrollspy"
+
+[[module.imports]]
+path = "github.com/hbstack/blog"
