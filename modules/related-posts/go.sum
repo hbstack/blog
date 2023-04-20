@@ -12,6 +12,7 @@ github.com/hbstack/footer v0.2.1/go.mod h1:ldb4b95D/7NVWQWFTIngasypCA+QQQRj1I+1B
 github.com/hbstack/header v0.1.11 h1:ojtefTTz3VcqZEtBshJwe1/b78YJEQhj23JeVFFxaWA=
 github.com/hbstack/header v0.1.11/go.mod h1:2oiFsujD8aUmdmBfcSHYvdOg7mYLqYPqB7zaXHkH+/A=
 github.com/hbstack/header v0.1.12/go.mod h1:BRtu4Awm9tOa4b1wKzY8TZRhsm9IqVJh67CWnh09Yco=
+github.com/hbstack/header v0.1.13/go.mod h1:BRtu4Awm9tOa4b1wKzY8TZRhsm9IqVJh67CWnh09Yco=
 github.com/hbstack/slide v0.1.0 h1:6jpDCHUuUg8Z4kMqMgGI3PSuEi70hPQ/SJ7R894yjuk=
 github.com/hbstack/slide v0.1.0/go.mod h1:Kdpa5cnFTiieKFh9hGB8IkQKzicp54DpxbFtb0Y8jM8=
 github.com/hugomods/base v0.1.0 h1:3o9Y85BvXHjkYzZfswM/EtthQ8GOYKN8aXHkIWqu3/8=
