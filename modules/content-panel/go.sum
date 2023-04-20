@@ -16,6 +16,7 @@ github.com/hbstack/content-panel v0.1.1/go.mod h1:UfPWznXVmbunuXgi04XMbPZaT5Wi+4
 github.com/hbstack/footer v0.1.5 h1:q3XRNmX8DCxAQytf9dkyVipsxKse914wc5ZlWgb5VU4=
 github.com/hbstack/footer v0.1.5/go.mod h1:/5XwQ9xyCE0LpngSnGUiz8YGGAQKe6OIlwATPETCXgc=
 github.com/hbstack/footer v0.2.0/go.mod h1:5DeefxbpnZrxbvF1v2aUl5D18EtWpMyvMyVijeR/ey8=
+github.com/hbstack/footer v0.2.1/go.mod h1:ldb4b95D/7NVWQWFTIngasypCA+QQQRj1I+1BEyOi/c=
 github.com/hbstack/header v0.1.10 h1:Y85up1uoe0BdJnn5rk7tkD3U98ofAs9Och3J/fWgd2w=
 github.com/hbstack/header v0.1.10/go.mod h1:GTEtmH6u2C2gaJoadFE41yBqo1vH6r9Zu5AJYXx4U48=
 github.com/hbstack/header v0.1.11/go.mod h1:2oiFsujD8aUmdmBfcSHYvdOg7mYLqYPqB7zaXHkH+/A=
