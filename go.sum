@@ -8,6 +8,7 @@ github.com/hbstack/carousel v0.2.1/go.mod h1:ygxbeQDgxnDcu6FPdJzS/aacSyn+exgRpjp
 github.com/hbstack/hb v0.2.0 h1:fWwFoFKTAoreLqcBpquZzPrxy7tLj46SKcvSOeE7fc4=
 github.com/hbstack/hb v0.2.0/go.mod h1:37E1uTMQx1Hix+VdwlWkW74fi3ct5+KlCCBywv9l3Ac=
 github.com/hbstack/hb v0.3.0/go.mod h1:37E1uTMQx1Hix+VdwlWkW74fi3ct5+KlCCBywv9l3Ac=
+github.com/hbstack/hb v0.4.0/go.mod h1:37E1uTMQx1Hix+VdwlWkW74fi3ct5+KlCCBywv9l3Ac=
 github.com/hbstack/socials v0.1.1 h1:nuUaI5wnBdh6naPYouM2PPnZwI5lgM1OPctrLRyJfWY=
 github.com/hbstack/socials v0.1.1/go.mod h1:OfycksJfdtZtOvSW1bM6BzepwLHxe3pExV5MBrKoW7I=
 github.com/hbstack/socials v0.1.2/go.mod h1:87Y5TtS8zWxEVsGCIG0PAldUetXNNs50viVd5dJJv8Q=
