@@ -1,0 +1,3 @@
+{{- if .Page.Scratch.Get "hb_blog_comments_twikoo" }}
+  {{ partialCached "twikoo/script-with-options" .Page.Site.Params.hb.blog.twikoo }}
+{{- end }}
