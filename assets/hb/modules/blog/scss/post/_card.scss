@@ -10,8 +10,10 @@
 }
 
 .hb-blog-post-card-img-none {
-    height: 160px;
-    width: 100%;
-    filter: blur(1px);
     background: rgba(var(--#{$prefix}body-color-rgb), 0.1);
+    height: 160px;
+    filter: blur(1px);
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    width: 100%;
 }
