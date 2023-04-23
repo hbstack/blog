@@ -21,7 +21,7 @@
   {{- else }}
     <div
       class="hb-blog-post-card-img-none d-flex align-items-center justify-content-center">
-      NO IMAGE
+      {{- default site.Title site.Params.hb.blog.post_thumbnail_placeholder }}
     </div>
   {{- end }}
 </a>
