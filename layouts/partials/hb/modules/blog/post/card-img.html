@@ -6,7 +6,13 @@
   {{- with .Params.images }}
     {{- $img = index . 0 }}
   {{- else }}
-    {{- with partialCached "hb/functions/page-thumbnail" . . }}
+    {{- $res := partialCached "hb/functions/page-thumbnail" . . }}
+    {{- $default := site.Params.hb.blog.post_thumbnail_default }}
+    {{/* Get the default thumbnail if set. */}}
+    {{- if and (not $res) $default }}
+      {{- $res = resources.Get $default }}
+    {{- end }}
+    {{- with $res }}
       {{- $img = replace .RelPermalink $page.RelPermalink "" | printf "%s?height=360px" }}
     {{- end }}
   {{- end -}}
