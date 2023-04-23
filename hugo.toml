@@ -24,6 +24,7 @@ paginate = 12
 post_date_format = ':date_long'
 post_thumbnail = true
 post_thumbnail_placeholder = ""
+post_thumbnail_default = "images/thumbnail.png"
 
 [params.hb.blog.archives]
 paginate = 30
