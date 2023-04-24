@@ -58,3 +58,11 @@ $hb-terms-colors: ($warning, $success, $danger);
     height: 100px;
     width: 100px;
 }
+
+.hb-terms-posts {
+    &.filter-active {
+        .hb-terms-posts-post {
+            display: none;
+        }
+    }
+}

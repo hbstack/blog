@@ -2,7 +2,8 @@
 <div class="hb-blog-posts hb-module row {{ $cols }}">
   {{ range .Pages }}
     <div class="col mb-3">
-      {{ partialCached "hb/modules/blog/post/card" . . }}
+      {{- $ctx := dict "Page" . }}
+      {{ partialCached "hb/modules/blog/post/card" $ctx $ctx }}
     </div>
   {{ end }}
 </div>

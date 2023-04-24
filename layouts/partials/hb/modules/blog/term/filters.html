@@ -1,0 +1,74 @@
+{{- $years := slice "2001" }}
+{{- range .Paginator.Pages.GroupByDate "2006" }}
+  {{- $years = $years | append .Key }}
+{{- end }}
+{{- $terms := newScratch }}
+{{- range .Paginator.Pages }}
+  {{- $page := . }}
+  {{- range $name, $taxonomies := site.Taxonomies }}
+    {{- with index $page.Params $name }}
+      {{- $terms.Add $name . }}
+    {{- end }}
+  {{- end }}
+{{- end }}
+<button
+  class="btn btn-light d-flex align-items-center justify-content-between mb-3"
+  type="button"
+  data-bs-toggle="collapse"
+  data-bs-target="#hb-terms-filter-form"
+  aria-expanded="false"
+  aria-controls="hb-terms-filter-form">
+  Filters
+</button>
+<div
+  class="hb-module hb-terms-filter-form collapse show"
+  id="hb-terms-filter-form">
+  <div class="row mb-1">
+    <label
+      class="col-12 col-md-2 col-lg-1"
+      for="hb-terms-filter-years"
+      class="form-label">
+      years
+    </label>
+    <div class="col-12 col-md-10 col-lg-11" id="hb-terms-filter-years">
+      {{- range $i, $year := uniq $years }}
+        <input
+          type="checkbox"
+          class="btn-check"
+          id="btn-check-years-{{ $i }}"
+          data-attr="years-{{ $year }}"
+          autocomplete="off" />
+        <label
+          class="btn btn-secondary btn-sm m-1"
+          for="btn-check-years-{{ $i }}">
+          {{- $year -}}
+        </label>
+      {{- end }}
+    </div>
+  </div>
+  {{- range $name, $taxonomies := $terms.Values }}
+    <div class="row mb-1">
+      <label
+        class="col-12 col-md-2 col-lg-1"
+        for="hb-terms-filter-{{ $name }}"
+        class="form-label">
+        {{- $name | title -}}
+      </label>
+      <div class="col-12 col-md-10 col-lg-11" id="hb-terms-filter-{{ $name }}">
+        {{- range $i, $taxonomy := uniq $taxonomies }}
+          {{- $nameId := replace $name " " "-" | lower }}
+          {{- $inputId := printf "btn-check-%s-%d" $nameId $i }}
+          <input
+            type="checkbox"
+            class="btn-check"
+            id="{{ $inputId }}"
+            data-attr="{{ $nameId }}-{{ replace $taxonomy ` ` `-` | lower }}"
+            autocomplete="off" />
+          <label class="btn btn-secondary btn-sm m-1" for="{{ $inputId }}">
+            {{- $taxonomy -}}
+          </label>
+        {{- end }}
+      </div>
+    </div>
+  {{- end }}
+</div>

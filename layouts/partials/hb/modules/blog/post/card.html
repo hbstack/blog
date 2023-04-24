@@ -1,13 +1,10 @@
 {{- $page := .Page }}
-{{- $summary := default true .Summary }}
-{{- $readingTime := default true .ReadingTime }}
-<div class="hb-blog-post-card card border-0 overflow-hidden">
+<div
+  class="hb-blog-post-card card border-0 overflow-hidden">
   <div class="hb-blog-post-meta d-flex align-items-center">
     {{ partialCached "hb/modules/blog/post/meta/authors" $page $page }}
     {{ partialCached "hb/modules/blog/post/meta/date" $page $page }}
-    {{- if $readingTime }}
-      {{ partialCached "hb/modules/blog/post/meta/reading-time" $page $page }}
-    {{- end }}
+    {{ partialCached "hb/modules/blog/post/meta/reading-time" $page $page }}
     {{ partialCached "hb/modules/blog/post/meta/first-section" $page $page }}
   </div>
   {{- if default true site.Params.hb.blog.post_thumbnail }}
@@ -15,17 +12,17 @@
   {{- end }}
   <div class="card-body px-0 pt-2">
     <div class="hb-blog-post-title card-title h5 py-1">
-      <a class="hb-blog-post-title-link d-block" href="{{ $page.RelPermalink }}">
+      <a
+        class="hb-blog-post-title-link d-block"
+        href="{{ $page.RelPermalink }}">
         {{- $page.Title -}}
       </a>
     </div>
     <div class="hb-blog-post-meta d-block text-nowrap text-truncate mb-2">
       {{ partialCached "hb/modules/blog/post/meta/taxonomies" $page $page }}
     </div>
-    {{- if $summary }}
-      <div class="hb-blog-post-summary card-text text-secondary">
-        {{- $page.Summary -}}
-      </div>
-    {{- end }}
+    <div class="hb-blog-post-summary card-text text-secondary">
+      {{- $page.Summary -}}
+    </div>
   </div>
 </div>
