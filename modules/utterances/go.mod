@@ -12,5 +12,5 @@ require (
 	github.com/hugomods/icons v0.6.0 // indirect
 	github.com/hugomods/seo/modules/base v0.1.0 // indirect
 	github.com/hugomods/utterances v0.1.0 // indirect
-	github.com/twbs/icons v1.10.4 // indirect
+	github.com/twbs/icons v1.10.5 // indirect
 )
