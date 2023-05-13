@@ -13,6 +13,6 @@
       </div>
     {{- end }}
   </div>
-  {{ partial "hb/modules/blog/post/pagination" .Paginator }}
+  {{ partial "hb/modules/pagination/index" .Paginator }}
   {{ partial "hugopress/functions/render-hooks" (dict "Name" "hb-blog-main-end" "Page" .) }}
 {{- end -}}

@@ -1,4 +1,4 @@
 {{ partial "hugopress/functions/render-hooks" (dict "Name" "hb-blog-main-begin" "Page" .) }}
 {{ partial "hb/modules/blog/posts" (dict "Pages" .Paginator.Pages) }}
-{{ partial "hb/modules/blog/post/pagination" .Paginator }}
+{{ partial "hb/modules/pagination/index" .Paginator }}
 {{ partial "hugopress/functions/render-hooks" (dict "Name" "hb-blog-main-end" "Page" .) }}

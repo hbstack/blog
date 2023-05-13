@@ -5,6 +5,9 @@ path = "github.com/hbstack/base"
 path = "github.com/hbstack/carousel"
 
 [[module.imports]]
+path = "github.com/hbstack/pagination"
+
+[[module.imports]]
 path = "github.com/hbstack/socials"
 
 [[module.imports]]
