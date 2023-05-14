@@ -1,0 +1,5 @@
+[on_this_page]
+other = "목차"
+
+[reading_time]
+other = "읽는 데에 {{ .Count }}분"
