@@ -1,5 +1,6 @@
 github.com/gohugoio/hugo-mod-bootstrap-scss/v5 v5.20300.20002 h1:6F6sjCSkFIIgqLp4SEIL1Ao9ZfKyM6OmgqEdTlc58Yk=
 github.com/gohugoio/hugo-mod-bootstrap-scss/v5 v5.20300.20002/go.mod h1:Q6TrjM78wB13zkOMBSV4IZIZ54tbshmE2fem9CYx2pU=
+github.com/gohugoio/hugo-mod-bootstrap-scss/v5 v5.20300.20003/go.mod h1:mvM05r93HiefwoaxQTaYiJxtJAhTebwQtU1Xh/J+Okk=
 github.com/gohugoio/hugo-mod-jslibs-dist/popperjs/v2 v2.21100.20000/go.mod h1:mFberT6ZtcchrsDtfvJM7aAH2bDKLdOnruUHl0hlapI=
 github.com/hbstack/blog v0.11.0 h1:kiXzBilexVL0KG0IyoaL6Rae/NP0cPtBgCrA+T7p+rI=
 github.com/hbstack/blog v0.11.0/go.mod h1:8untxY8tIK3Sn012FMZ8//vNJq/qsQGssjtxvw10h+c=
@@ -24,5 +25,6 @@ github.com/hugomods/seo/modules/base v0.1.0/go.mod h1:qfm1Vga0eGxL+Szgz8Jopm+NtJ
 github.com/hugomods/snackbar v0.1.2 h1:SLpfH9jlYwf81epH7DvM2XTZHo+3fXXpk6XKtxmo964=
 github.com/hugomods/snackbar v0.1.2/go.mod h1:ykFm0IFibeQPuPAm8Gaa27xJS/bNZcSez4omVSl2gQ0=
 github.com/twbs/bootstrap v5.3.0-alpha3+incompatible/go.mod h1:fZTSrkpSf0/HkL0IIJzvVspTt1r9zuf7XlZau8kpcY0=
+github.com/twbs/bootstrap v5.3.0+incompatible/go.mod h1:fZTSrkpSf0/HkL0IIJzvVspTt1r9zuf7XlZau8kpcY0=
 github.com/twbs/icons v1.10.5 h1:F9uvW7cGfDBAautw5aeCmnB3hw4vv3aEQGbHnzcQKaE=
 github.com/twbs/icons v1.10.5/go.mod h1:GnRlymgVWp5iVJCMa0Me5b6tFyGpVc2bSxPMRGIJmyA=
