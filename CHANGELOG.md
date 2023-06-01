@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.12.0](https://github.com/hbstack/blog/compare/v0.11.0...v0.12.0) (2023-06-01)
+
+
+### Features
+
+* add the hb.blog.home.taxonomies parameter to show/hide the taxonomies navigation on homepage ([fda532d](https://github.com/hbstack/blog/commit/fda532d2e88e4ea708b3e506e12845d94935caa9))
+* add the staticman module ([b333469](https://github.com/hbstack/blog/commit/b33346962366998cf95151218f0445c89f1381e4))
+
 ## [0.11.0](https://github.com/hbstack/blog/compare/v0.10.1...v0.11.0) (2023-05-14)
 
 
