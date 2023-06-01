@@ -15,7 +15,9 @@
     </div>
   {{- end }}
 </div>
-{{ partialCached "hb/modules/blog/home/taxonomies" . }}
+{{- if default true site.Params.hb.blog.home.taxonomies }}
+  {{ partialCached "hb/modules/blog/home/taxonomies" . }}
+{{- end }}
 {{- with .Paginator }}
   {{ partial "hb/modules/blog/posts" (dict "Pages" .Pages "Cols" "row-cols-1 row-cols-md-2 row-cols-lg-3") }}
   {{ partial "hb/modules/pagination/index" . }}
