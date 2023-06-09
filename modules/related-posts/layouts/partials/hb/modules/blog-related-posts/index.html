@@ -1,20 +1,13 @@
 {{- with .Site.RegularPages.Related . | first .Site.Params.hb.blog.related_posts.number }}
   <div class="hb-blog-related-posts hb-module slide">
-    <div class="slide-inner row row-cols-1 row-cols-md-2 row-cols-4 gx-0">
+    <div class="slide-inner row row-cols-1 row-cols-xl-2 gx-1">
       {{- $total := len . }}
       {{- range $i, $page := . }}
-        <div class="slide-item col-12 col-md-6 col-lg-4{{ cond (ne $i (sub $total 1)) ` me-4` `` }}">
+        <div class="slide-item">
           {{ partial "hb/modules/blog/post/card" (dict "Page" .) }}
         </div>
       {{- end -}}
     </div>
-    <button class="slide-control-left">
-      {{ partial "icons/icon" (dict "vendor" "bootstrap" "name" "arrow-left-circle" "className" "slide-control-left-icon" "width" "2rem" "height" "2rem") }}
-      <span class="visually-hidden">Left</span>
-    </button>
-    <button class="slide-control-right">
-      {{ partial "icons/icon" (dict "vendor" "bootstrap" "name" "arrow-right-circle" "className" "slide-control-left-icon" "width" "2rem" "height" "2rem") }}
-      <span class="visually-hidden">Right</span>
-    </button>
+    {{ partialCached "hb/modules/slide/controls" . }}
   </div>
 {{- end }}
