@@ -8,8 +8,8 @@
     {
       "matchManagers": ["gomod"],
       "matchDepTypes": ["indirect"],
-      "enabled": true
+      "enabled": true,
+      "semanticCommitType": "ci"
     }
-  ],
-  "semanticCommitType": "ci"
+  ]
 }
