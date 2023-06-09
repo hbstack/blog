@@ -1,7 +1,7 @@
 {
     ".": "0.12.0",
     "modules/breadcrumb": "0.1.2",
-    "modules/content-panel": "0.1.1",
+    "modules/content-panel": "0.1.2",
     "modules/disqus": "0.1.1",
     "modules/featured-image": "0.2.1",
     "modules/giscus": "0.1.3",
