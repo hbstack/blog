@@ -1,0 +1,74 @@
+{
+    "$schema": "https://raw.githubusercontent.com/googleapis/release-please/main/schemas/config.json",
+    "bootstrap-sha": "347bc73e75e34371d8235cb2b5c4c9ee784091cc",
+    "bump-minor-pre-major": true,
+    "bump-patch-for-minor-pre-major": true,
+    "monorepo-tags": true,
+    "release-type": "go",
+    "separate-pull-requests": true,
+    "tag-separator": "/",
+    "changelog-sections": [
+        { "type": "chore", "section": "Miscellaneous Chores", "hidden": true },
+        { "type": "ci", "section": "Continuous Integration" },
+        { "type": "docs", "section": "Documentation 📝" },
+        { "type": "feat", "section": "Features ✨" },
+        { "type": "feature", "section": "Features ✨" },
+        { "type": "fix", "section": "Bug Fixes 🐞" },
+        { "type": "perf", "section": "Performance Improvements ⚡️" },
+        { "type": "style", "section": "Styles 🎨" }
+    ],
+    "packages": {
+        ".": {
+            "exclude-paths": [
+                "modules/breadcrumb",
+                "modules/content-panel",
+                "modules/disqus",
+                "modules/featured-image",
+                "modules/giscus",
+                "modules/heading-sign",
+                "modules/post-nav",
+                "modules/related-posts",
+                "modules/staticman",
+                "modules/toc-scrollspy",
+                "modules/twikoo",
+                "modules/utterances"
+            ]
+        },
+        "modules/breadcrumb": {
+            "component": "modules/breadcrumb"
+        },
+        "modules/content-panel": {
+            "component": "modules/content-panel"
+        },
+        "modules/disqus": {
+            "component": "modules/disqus"
+        },
+        "modules/featured-image": {
+            "component": "modules/featured-image"
+        },
+        "modules/giscus": {
+            "component": "modules/giscus"
+        },
+        "modules/heading-sign": {
+            "component": "modules/heading-sign"
+        },
+        "modules/post-nav": {
+            "component": "modules/post-nav"
+        },
+        "modules/related-posts": {
+            "component": "modules/related-posts"
+        },
+        "modules/staticman": {
+            "component": "modules/staticman"
+        },
+        "modules/toc-scrollspy": {
+            "component": "modules/toc-scrollspy"
+        },
+        "modules/twikoo": {
+            "component": "modules/twikoo"
+        },
+        "modules/utterances": {
+            "component": "modules/utterances"
+        }
+    }
+}
