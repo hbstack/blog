@@ -9,7 +9,7 @@
     "modules/post-nav": "0.2.0",
     "modules/related-posts": "0.1.2",
     "modules/staticman": "0.1.1",
-    "modules/toc-scrollspy": "0.1.0",
+    "modules/toc-scrollspy": "0.1.1",
     "modules/twikoo": "0.1.0",
     "modules/utterances": "0.1.1"
 }

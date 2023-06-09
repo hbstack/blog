@@ -1,0 +1,27 @@
+# Changelog
+
+## [0.1.1](https://github.com/hbstack/blog/compare/modules/toc-scrollspy/v0.1.0...modules/toc-scrollspy/v0.1.1) (2023-06-09)
+
+
+### Miscellaneous Chores
+
+* **deps:** update module github.com/hbstack/blog to v0.10.0 ([a716ffb](https://github.com/hbstack/blog/commit/a716ffb3fe31b6943d13a04a5eae3aaaed68b62f))
+* **deps:** update module github.com/hbstack/blog to v0.10.1 ([6e987e0](https://github.com/hbstack/blog/commit/6e987e0f070da29124bf06d9a0c8d8fdcc3151b6))
+* **deps:** update module github.com/hbstack/blog to v0.11.0 ([d4f632c](https://github.com/hbstack/blog/commit/d4f632c41040d411ec39f8bead0fb2912215811c))
+* **deps:** update module github.com/hbstack/blog to v0.12.0 ([b4125ef](https://github.com/hbstack/blog/commit/b4125eff50661abbe0d9f4da85f7c35248bb38a8))
+* **deps:** update module github.com/hbstack/footer to v0.2.1 ([ff8bf57](https://github.com/hbstack/blog/commit/ff8bf57dda1d7f7a238aa3211cb45edc0c9cec5d))
+* **deps:** update module github.com/hbstack/hb to v0.3.0 ([8f58e7d](https://github.com/hbstack/blog/commit/8f58e7da8780f3dea4bbe5fef7c35a6618c4fbc3))
+* **deps:** update module github.com/hbstack/hb to v0.4.0 ([bda03a4](https://github.com/hbstack/blog/commit/bda03a4004eb34686b1444fbe1c57f49300b3061))
+* **deps:** update module github.com/hbstack/hb to v0.5.0 ([a96280f](https://github.com/hbstack/blog/commit/a96280f75eb3bee310da012d84adaaf4cb98b85a))
+* **deps:** update module github.com/hbstack/hb to v0.5.1 ([766de10](https://github.com/hbstack/blog/commit/766de10166b90b777f294a833966e098d73bd255))
+* **deps:** update module github.com/hbstack/header to v0.1.12 ([3195a42](https://github.com/hbstack/blog/commit/3195a426b47a59db52fa80be8c19f62165176cb0))
+* **deps:** update module github.com/hbstack/header to v0.1.13 ([7e7b2be](https://github.com/hbstack/blog/commit/7e7b2bea920ce5d83bc59887c87ea6f42e4e835b))
+* **deps:** update module github.com/hbstack/header to v0.1.15 ([cf350f1](https://github.com/hbstack/blog/commit/cf350f1cc4cdd3908af121423679598772a83562))
+* **deps:** update module github.com/hbstack/header to v0.1.17 ([a846d62](https://github.com/hbstack/blog/commit/a846d626f17e49189ec5e5f280f7adb8b6d17a61))
+* **deps:** update module github.com/hugomods/icons/vendors/simple-icons to v0.10.0 ([2bf20f8](https://github.com/hbstack/blog/commit/2bf20f8a9660047c6983703f04cbfd5103003f49))
+* **deps:** update module github.com/hugomods/icons/vendors/simple-icons to v0.11.0 ([a22040f](https://github.com/hbstack/blog/commit/a22040f6d46acd21f1fee5bd4b3de13bcdb124f8))
+* **deps:** update module github.com/hugomods/icons/vendors/simple-icons to v0.12.0 ([5b1b004](https://github.com/hbstack/blog/commit/5b1b004c65107a4817d77f851223a1263e86f7f8))
+* **deps:** update module github.com/hugomods/icons/vendors/simple-icons to v0.13.0 ([aa516a4](https://github.com/hbstack/blog/commit/aa516a4017d5eb1c36f4a248d06ec1bfdf0b2fd0))
+* **deps:** update module github.com/hugomods/icons/vendors/simple-icons to v0.14.0 ([a8b7b34](https://github.com/hbstack/blog/commit/a8b7b34704ce134f7d04068e989a138fa688e7ae))
+* **deps:** update module github.com/hugomods/icons/vendors/simple-icons to v1 ([1b46cd1](https://github.com/hbstack/blog/commit/1b46cd1605f713b136f4796b6ee93033583ffdb3))
+* **deps:** update module github.com/twbs/icons to v1.10.5 ([5aee5c1](https://github.com/hbstack/blog/commit/5aee5c1356e0a64357033408d6417b6d1e4a0654))
