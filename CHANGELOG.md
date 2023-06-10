@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.12.1](https://github.com/hbstack/blog/compare/v0.12.0...v0.12.1) (2023-06-10)
+
+
+### Styles 🎨
+
+* fixed [#153](https://github.com/hbstack/blog/issues/153) ([597c585](https://github.com/hbstack/blog/commit/597c585239493f3b9045f88ad5ac214cfdb6ba18))
+
+
+### Continuous Integration
+
+* configure release please ([3928d53](https://github.com/hbstack/blog/commit/3928d5377086a7c5ad729128d4d08e106c275396))
+
 ## [0.12.0](https://github.com/hbstack/blog/compare/v0.11.0...v0.12.0) (2023-06-01)
 
 
