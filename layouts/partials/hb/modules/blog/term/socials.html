@@ -1,11 +1,17 @@
+{{- $color := default true ._color }}
 <ul class="nav justify-content-center">
   {{ range $name, $id := . }}
+    {{/* ignore options. */}}
+    {{- if hasPrefix $name "_" }}
+      {{- continue }}
+    {{- end }}
     {{- $ctx := dict
       "name" $name
       "id" $id
       "class" "d-flex justify-content-center align-items-center"
       "height" "1.75em"
       "width" "1.75em"
+      "color" $color
     }}
     <li class="nav-item d-flex align-items-center mx-3 mb-3">
       {{- partial "hb/modules/socials/link" $ctx }}
