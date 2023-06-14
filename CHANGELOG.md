@@ -1,5 +1,22 @@
 # Changelog
 
+## [0.13.0](https://github.com/hbstack/blog/compare/v0.12.1...v0.13.0) (2023-06-14)
+
+
+### Continuous Integration
+
+* **deps:** update module github.com/hugomods/simple-icons to v9.1.0+incompatible ([e36d4fc](https://github.com/hbstack/blog/commit/e36d4fcd2c3bc0ca6d48ef843fcfe04f4ed0ce22))
+
+
+### Bug Fixes 🐞
+
+* **deps:** update dependency stylelint-scss to v5.0.1 ([4425e76](https://github.com/hbstack/blog/commit/4425e763a39a10f6138c149b5d95ca5b5571dddf))
+
+
+### Features ✨
+
+* add the socials._color parameter for author pages to disable icon colors ([21b883f](https://github.com/hbstack/blog/commit/21b883fde99720de9ecf746f9b64434748656016))
+
 ## [0.12.1](https://github.com/hbstack/blog/compare/v0.12.0...v0.12.1) (2023-06-10)
 
 
