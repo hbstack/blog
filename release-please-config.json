@@ -27,6 +27,7 @@
                 "modules/post-nav",
                 "modules/related-posts",
                 "modules/sidebar/posts",
+                "modules/sidebar/taxonomies",
                 "modules/staticman",
                 "modules/toc-scrollspy",
                 "modules/twikoo",
@@ -59,6 +60,9 @@
         },
         "modules/sidebar/posts": {
             "component": "modules/sidebar/posts"
+        },
+        "modules/sidebar/taxonomies": {
+            "component": "modules/sidebar/taxonomies"
         },
         "modules/staticman": {
             "component": "modules/staticman"
