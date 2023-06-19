@@ -4,7 +4,7 @@
 {{- end }}
 <div class="row">
   {{- $pinnedPages := first 1 (where $pages ".Params.pinned" true) }}
-  <div class="col-12{{ if $pinnedPages }} col-lg-6{{ end }}">
+  <div class="col-12{{ cond (not $pinnedPages) `` ` col-lg-6` }}">
     {{- $featuredCount := default 10 site.Params.hb.blog.home.featured_posts }}
     {{- $featuredPages := first $featuredCount (where $pages ".Params.featured" true) }}
     {{- partial "hb/modules/carousel/carousel" (dict "Pages" $featuredPages) -}}
@@ -15,10 +15,19 @@
     </div>
   {{- end }}
 </div>
-{{- if default true site.Params.hb.blog.home.taxonomies }}
-  {{ partialCached "hb/modules/blog/home/taxonomies" . }}
-{{- end }}
-{{- with .Paginator }}
-  {{ partial "hb/modules/blog/posts" (dict "Pages" .Pages "Cols" "row-cols-1 row-cols-md-2 row-cols-lg-3") }}
-  {{ partial "hb/modules/pagination/index" . }}
-{{- end }}
+<div class="hb-blog-main-container">
+  <div class="hb-blog-main">
+    {{- if default true site.Params.hb.blog.home.taxonomies }}
+      {{ partialCached "hb/modules/blog/home/taxonomies" . }}
+    {{- end }}
+    {{- with .Paginator }}
+      {{- $cols := "row-cols-1 row-cols-md-2" }}
+      {{- if not (partialCached "hb/modules/blog/functions/has-sidebar" .) }}
+        {{- $cols = printf "%s row-cols-lg-3" $cols }}
+      {{- end }}
+      {{ partial "hb/modules/blog/posts" (dict "Pages" .Pages "Cols" $cols) }}
+      {{ partial "hb/modules/pagination/index" . }}
+    {{- end }}
+  </div>
+  {{ partial "hb/modules/blog/sidebar" . }}
+</div>

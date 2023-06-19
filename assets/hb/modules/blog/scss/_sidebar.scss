@@ -1,0 +1,30 @@
+@if $hb-blog-sidebar {
+    .hb-blog-main-container {
+        @include media-breakpoint-up(lg) {
+            display: grid;
+            grid-gap: 1rem;
+            grid-template-areas: "sidebar main";
+            grid-template-columns: 1fr 3fr;
+        }
+
+        @include media-breakpoint-up(xl) {
+            grid-template-columns: 1fr 4fr;
+        }
+    }
+
+    .hb-blog-sidebar {
+        grid-area: sidebar;
+
+        @include media-breakpoint-up(lg) {
+            height: calc(100vh - 80px);
+            overflow: auto;
+            position: sticky;
+            top: 80px;
+        }
+    }
+
+    .hb-blog-main {
+        grid-area: main;
+        overflow: hidden;
+    }
+}

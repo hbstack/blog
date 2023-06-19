@@ -1,0 +1,2 @@
+{{- $hasSidebar := partialCached "hb/modules/blog/functions/has-sidebar" . }}
+$hb-blog-sidebar: {{ $hasSidebar }};
