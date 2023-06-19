@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.15.0](https://github.com/hbstack/blog/compare/v0.14.0...v0.15.0) (2023-06-19)
+
+
+### Features ✨
+
+* add the sidebar posts module ([f659bed](https://github.com/hbstack/blog/commit/f659bed23a76fe99c3763615f91935f26d84f2ab))
+* add the sidebar taxonomies module ([a3d1876](https://github.com/hbstack/blog/commit/a3d1876d7940f5849d2c1c1e6e1ebdbecc48419a))
+
 ## [0.14.0](https://github.com/hbstack/blog/compare/v0.13.0...v0.14.0) (2023-06-19)
 
 
