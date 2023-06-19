@@ -1,0 +1,11 @@
+[[module.imports]]
+path = "github.com/hbstack/blog"
+
+[[module.imports]]
+path = "github.com/hbstack/slide"
+
+[params.hugopress.modules.hb-blog-sidebar-posts.hooks.hb-blog-sidebar]
+
+[params.hb.blog.sidebar.posts]
+recent_count = 5
+featured_count = 5
