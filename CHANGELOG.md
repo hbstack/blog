@@ -1,5 +1,18 @@
 # Changelog
 
+## [0.14.0](https://github.com/hbstack/blog/compare/v0.13.0...v0.14.0) (2023-06-19)
+
+
+### Continuous Integration
+
+* **deps:** update module github.com/hugomods/simple-icons to v9.2.0+incompatible ([2e31509](https://github.com/hbstack/blog/commit/2e31509599549ccfdefb734bcd72c383da2d9ac9))
+
+
+### Features ✨
+
+* add the full_width parameter to take full width ([1745c99](https://github.com/hbstack/blog/commit/1745c99ab8bb525f8ead4431016f9907f974ec47))
+* add the optional sidebar implementation ([8df5d79](https://github.com/hbstack/blog/commit/8df5d79f73f7b9babc4caf73137d3e80bc5ceb2c))
+
 ## [0.13.0](https://github.com/hbstack/blog/compare/v0.12.1...v0.13.0) (2023-06-14)
 
 
