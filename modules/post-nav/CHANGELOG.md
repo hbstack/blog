@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.3](https://github.com/hbstack/blog/compare/modules/post-nav/v0.2.2...modules/post-nav/v0.2.3) (2023-06-19)
+
+
+### Continuous Integration
+
+* **deps:** update module github.com/hbstack/blog to v0.15.0 ([36c2577](https://github.com/hbstack/blog/commit/36c2577fd59796009ffd0810249e5c102b68f5b6))
+
 ## [0.2.2](https://github.com/hbstack/blog/compare/modules/post-nav/v0.2.1...modules/post-nav/v0.2.2) (2023-06-19)
 
 
