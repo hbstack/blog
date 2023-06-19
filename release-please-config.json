@@ -26,6 +26,7 @@
                 "modules/heading-sign",
                 "modules/post-nav",
                 "modules/related-posts",
+                "modules/sidebar/posts",
                 "modules/staticman",
                 "modules/toc-scrollspy",
                 "modules/twikoo",
@@ -55,6 +56,9 @@
         },
         "modules/related-posts": {
             "component": "modules/related-posts"
+        },
+        "modules/sidebar/posts": {
+            "component": "modules/sidebar/posts"
         },
         "modules/staticman": {
             "component": "modules/staticman"

@@ -1,0 +1,12 @@
+.hb-blog-sidebar-posts {
+    .hb-blog-post-title-link {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+
+    .hb-blog-post-card-img,
+    .hb-blog-post-card-img-none {
+        height: 120px;
+    }
+}
