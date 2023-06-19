@@ -1,0 +1,5 @@
+{{- $class := "hb-main container" }}
+{{- if site.Params.hb.blog.full_width }}
+  {{- $class = "hb-main container-fluid" }}
+{{- end }}
+{{- return dict "class" $class }}
