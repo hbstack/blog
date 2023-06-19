@@ -1,0 +1,8 @@
+[[module.imports]]
+path = "github.com/hbstack/blog"
+
+[params.hugopress.modules.hb-blog-sidebar-taxonomies.hooks.hb-blog-sidebar]
+
+[params.hb.blog.sidebar.taxonomies]
+count = true
+limit = 10
