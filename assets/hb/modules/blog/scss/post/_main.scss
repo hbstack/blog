@@ -1,5 +1,6 @@
 .hb-blog-post {
     display: grid;
+    grid-gap: .5rem;
     grid-template-areas:
         "intro"
         "toc"

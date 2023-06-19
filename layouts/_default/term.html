@@ -4,15 +4,22 @@
 {{- end -}}
 
 {{- define "main" }}
-  {{ partial "hugopress/functions/render-hooks" (dict "Name" "hb-blog-main-begin" "Page" .) }}
-  {{ partialCached "hb/modules/blog/term/profile" . . }}
-  <div class="hb-terms-posts row">
-    {{- range .Paginator.Pages }}
-      <div class="col-12 col-md-6 col-lg-4 mb-3 mb-lg-4">
-        {{ partial "hb/modules/blog/post/card" (dict "Page" .) }}
+  <div class="hb-blog-main-container">
+    <div class="hb-blog-main">
+      {{ partial "hugopress/functions/render-hooks" (dict "Name" "hb-blog-main-begin" "Page" .) }}
+      {{ partialCached "hb/modules/blog/term/profile" . . }}
+      <div class="hb-terms-posts row">
+        {{- range .Paginator.Pages }}
+          <div class="col-12 col-md-6 mb-3 mb-lg-4">
+            {{ partial "hb/modules/blog/post/card" (dict "Page" .) }}
+          </div>
+        {{- end }}
       </div>
-    {{- end }}
+      {{ partial "hb/modules/pagination/index" .Paginator }}
+      {{ partial "hugopress/functions/render-hooks" (dict "Name" "hb-blog-main-end" "Page" .) }}
+    </div>
+    <div class="hb-blog-sidebar">
+      {{ partial "hugopress/functions/render-hooks" (dict "Name" "hb-blog-sidebar" "Page" .) }}
+    </div>
   </div>
-  {{ partial "hb/modules/pagination/index" .Paginator }}
-  {{ partial "hugopress/functions/render-hooks" (dict "Name" "hb-blog-main-end" "Page" .) }}
 {{- end -}}
