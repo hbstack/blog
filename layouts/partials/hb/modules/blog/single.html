@@ -10,6 +10,9 @@
           {{ partialCached "hb/modules/blog/post/meta/reading-time" . . }}
           {{ partialCached "hb/modules/blog/post/meta/taxonomies" . . }}
         </div>
+        {{- with .Description }}
+          <div class="hb-blog-post-desc lead mb-5">{{ . }}</div>
+        {{- end }}
       </div>
       <div
         class="hb-blog-post-toc mt-2 text-body-secondary position-sticky overflow-y-auto">
