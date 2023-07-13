@@ -32,7 +32,7 @@
     {{- end }}
     {{- if $summary }}
       <div class="hb-blog-post-summary card-text text-secondary">
-        {{- $page.Summary -}}
+        {{- default $page.Summary $page.Description -}}
       </div>
     {{- end }}
   </div>
