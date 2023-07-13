@@ -1,5 +1,26 @@
 # Changelog
 
+## [0.15.1](https://github.com/hbstack/blog/compare/v0.15.0...v0.15.1) (2023-07-13)
+
+
+### Continuous Integration
+
+* **deps:** update module github.com/hugomods/images to v0.6.0 ([7385ceb](https://github.com/hbstack/blog/commit/7385ceb3446533a72de8fdc27b36caaadaf3af73))
+* **deps:** update module github.com/hugomods/images to v0.7.0 ([e84cd88](https://github.com/hbstack/blog/commit/e84cd88533a7577899985672a62e69666a0e2362))
+* **deps:** update module github.com/hugomods/simple-icons to v9.3.0+incompatible ([d4f86a8](https://github.com/hbstack/blog/commit/d4f86a862658a1e4ee8ecff00c4295f65aea36ea))
+* **deps:** update module github.com/hugomods/simple-icons to v9.4.0+incompatible ([d501123](https://github.com/hbstack/blog/commit/d501123e3726e778c206b6d0f0d4a89834c4612d))
+* **deps:** update module github.com/hugomods/simple-icons to v9.5.0+incompatible ([e605858](https://github.com/hbstack/blog/commit/e605858c7324e211f9443370f22d8bc8d41e8a25))
+
+
+### Styles 🎨
+
+* show the description of post if set ([#238](https://github.com/hbstack/blog/issues/238)) ([a5ba66f](https://github.com/hbstack/blog/commit/a5ba66fd5f5f0a2bff4b50b3b425fcbf30f4e729))
+
+
+### Bug Fixes 🐞
+
+* use the descriptions as summaries on list if set ([#240](https://github.com/hbstack/blog/issues/240)) ([e69c42e](https://github.com/hbstack/blog/commit/e69c42e45d0560cc5afd79b5d861f03b9529810b))
+
 ## [0.15.0](https://github.com/hbstack/blog/compare/v0.14.0...v0.15.0) (2023-06-19)
 
 
