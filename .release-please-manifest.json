@@ -8,7 +8,7 @@
     "modules/heading-sign": "0.1.6",
     "modules/post-nav": "0.2.3",
     "modules/related-posts": "0.1.6",
-    "modules/sidebar/posts": "0.1.1",
+    "modules/sidebar/posts": "0.1.2",
     "modules/sidebar/taxonomies": "0.1.2",
     "modules/staticman": "0.1.4",
     "modules/toc-scrollspy": "0.1.4",
