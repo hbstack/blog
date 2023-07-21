@@ -17,6 +17,7 @@ github.com/hbstack/header v0.1.17 h1:lIZuV4+WGsLWxWxEitec3ItAryQoGELpvNHkoYw25tY
 github.com/hbstack/header v0.1.17/go.mod h1:YEYnlqmhotkQdFbSzN/ZQT55kLLfMdvVVIzEDMFgTz4=
 github.com/hbstack/header v0.2.0/go.mod h1:zw0yPq+tdR9djAdPG9tgNN3MV1IT5m0n6Z9AgG+n2WY=
 github.com/hbstack/header v0.3.0/go.mod h1:zw0yPq+tdR9djAdPG9tgNN3MV1IT5m0n6Z9AgG+n2WY=
+github.com/hbstack/header v0.4.1/go.mod h1:zw0yPq+tdR9djAdPG9tgNN3MV1IT5m0n6Z9AgG+n2WY=
 github.com/hbstack/staticman-comments v0.1.0 h1:cPUo4LzOjqKt04nQVvKgIHsr61JZhu99/NWYiWFR1IQ=
 github.com/hbstack/staticman-comments v0.1.0/go.mod h1:UViLMKnW/qiZtySn9wI8XvlOsgGZCb1RG2q7tjD5yRk=
 github.com/hbstack/staticman-comments v0.1.1/go.mod h1:UViLMKnW/qiZtySn9wI8XvlOsgGZCb1RG2q7tjD5yRk=
