@@ -3,7 +3,6 @@
     "bootstrap-sha": "347bc73e75e34371d8235cb2b5c4c9ee784091cc",
     "monorepo-tags": true,
     "release-type": "go",
-    "separate-pull-requests": true,
     "tag-separator": "/",
     "changelog-sections": [
         { "type": "chore", "section": "Miscellaneous Chores", "hidden": true },
@@ -17,6 +16,7 @@
     ],
     "packages": {
         ".": {
+            "separate-pull-requests": true,
             "exclude-paths": [
                 "modules/breadcrumb",
                 "modules/content-panel",
