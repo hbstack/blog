@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.8](https://github.com/hbstack/blog/compare/modules/heading-sign/v0.1.7...modules/heading-sign/v0.1.8) (2023-07-21)
+
+
+### Continuous Integration
+
+* **deps:** update module github.com/hugomods/icons/vendors/simple-icons to v1.0.6 ([e29b659](https://github.com/hbstack/blog/commit/e29b659a603f21c9a84ae27e72e7dce732957da1))
+
 ## [0.1.7](https://github.com/hbstack/blog/compare/modules/heading-sign/v0.1.6...modules/heading-sign/v0.1.7) (2023-07-14)
 
 
