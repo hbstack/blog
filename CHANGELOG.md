@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.15.2](https://github.com/hbstack/blog/compare/v0.15.1...v0.15.2) (2023-07-21)
+
+
+### Continuous Integration
+
+* **deps:** update module github.com/hugomods/simple-icons to v9.6.0+incompatible ([9ffaaa2](https://github.com/hbstack/blog/commit/9ffaaa2046a25ae3a47e83aa7510567faa33667f))
+
+
+### Performance Improvements ⚡️
+
+* caching partials ([#274](https://github.com/hbstack/blog/issues/274)) ([413b679](https://github.com/hbstack/blog/commit/413b679b0c6b65320c55af2c5e16800292754c51))
+
 ## [0.15.1](https://github.com/hbstack/blog/compare/v0.15.0...v0.15.1) (2023-07-13)
 
 
