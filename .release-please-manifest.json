@@ -12,6 +12,6 @@
     "modules/sidebar/taxonomies": "0.1.2",
     "modules/staticman": "0.1.5",
     "modules/toc-scrollspy": "0.1.4",
-    "modules/twikoo": "0.1.4",
+    "modules/twikoo": "0.1.5",
     "modules/utterances": "0.1.5"
 }
