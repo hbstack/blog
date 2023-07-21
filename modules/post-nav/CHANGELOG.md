@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.5](https://github.com/hbstack/blog/compare/modules/post-nav/v0.2.4...modules/post-nav/v0.2.5) (2023-07-21)
+
+
+### Continuous Integration
+
+* **deps:** update module github.com/hugomods/icons/vendors/simple-icons to v1.0.6 ([e29b659](https://github.com/hbstack/blog/commit/e29b659a603f21c9a84ae27e72e7dce732957da1))
+
 ## [0.2.4](https://github.com/hbstack/blog/compare/modules/post-nav/v0.2.3...modules/post-nav/v0.2.4) (2023-07-14)
 
 
