@@ -1,6 +1,6 @@
 <div class="hb-blog-main-container">
   <div class="hb-blog-main">
-    {{ partial "hugopress/functions/render-hooks" (dict "Name" "hb-blog-main-begin" "Page" .) }}
+    {{ partialCached "hugopress/functions/render-hooks" (dict "Name" "hb-blog-main-begin" "Page" .) . }}
     <div class="hb-blog-post hb-module position-relative">
       <div class="hb-blog-post-intro">
         <h1 class="hb-blog-post-title mb-2">{{ .Title }}</h1>
@@ -16,25 +16,25 @@
       </div>
       <div
         class="hb-blog-post-toc mt-2 text-body-secondary position-sticky overflow-y-auto">
-        {{- partial "hugopress/functions/render-hooks" (dict "Name" "hb-blog-post-toc-begin" "Page" .) }}
+        {{- partialCached "hugopress/functions/render-hooks" (dict "Name" "hb-blog-post-toc-begin" "Page" .) . }}
         {{- partialCached "hb/modules/blog/post/toc" . . }}
-        {{- partial "hugopress/functions/render-hooks" (dict "Name" "hb-blog-post-toc-end" "Page" .) }}
+        {{- partialCached "hugopress/functions/render-hooks" (dict "Name" "hb-blog-post-toc-end" "Page" .) . }}
       </div>
       <div class="hb-blog-post-main">
-        {{- partial "hugopress/functions/render-hooks" (dict "Name" "hb-blog-post-begin" "Page" .) }}
-        {{- partial "hugopress/functions/render-hooks" (dict "Name" "hb-blog-post-content-begin" "Page" .) }}
+        {{- partialCached "hugopress/functions/render-hooks" (dict "Name" "hb-blog-post-begin" "Page" .) . }}
+        {{- partialCached "hugopress/functions/render-hooks" (dict "Name" "hb-blog-post-content-begin" "Page" .) . }}
         {{- $attributes := partial "hugopress/functions/render-attributes" (dict "Page" . "Name" "hb-blog-post-content") }}
         <div
           class="hb-blog-post-content mb-5"
           {{ with $attributes }}{{ . | safeHTMLAttr }}{{ end }}>
           {{ .Content }}
         </div>
-        {{- partial "hugopress/functions/render-hooks" (dict "Name" "hb-blog-post-content-end" "Page" .) }}
+        {{- partialCached "hugopress/functions/render-hooks" (dict "Name" "hb-blog-post-content-end" "Page" .) . }}
         {{- partial "hb/modules/blog/post/comments" . }}
-        {{- partial "hugopress/functions/render-hooks" (dict "Name" "hb-blog-post-end" "Page" .) }}
+        {{- partialCached "hugopress/functions/render-hooks" (dict "Name" "hb-blog-post-end" "Page" .) . }}
       </div>
     </div>
-    {{ partial "hugopress/functions/render-hooks" (dict "Name" "hb-blog-main-end" "Page" .) }}
+    {{ partialCached "hugopress/functions/render-hooks" (dict "Name" "hb-blog-main-end" "Page" .) . }}
   </div>
   {{ partial "hb/modules/blog/sidebar" . }}
 </div>
