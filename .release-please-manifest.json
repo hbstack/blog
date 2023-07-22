@@ -1,5 +1,5 @@
 {
-    ".": "0.15.2",
+    ".": "0.15.3",
     "modules/breadcrumb": "0.1.8",
     "modules/content-panel": "0.1.7",
     "modules/disqus": "0.1.6",
