@@ -1,13 +1,13 @@
 <div class="hb-blog-main-container">
   <div class="hb-blog-main">
-    {{ partialCached "hugopress/functions/render-hooks" (dict "Name" "hb-blog-main-begin" "Page" .) . }}
+    {{ partial "hugopress/functions/render-hooks" (dict "Name" "hb-blog-main-begin" "Page" .) }}
     {{- $cols := "row-cols-1 row-cols-md-2" }}
     {{- if not (partialCached "hb/modules/blog/functions/has-sidebar" .) }}
       {{- $cols = printf "%s row-cols-lg-3" $cols }}
     {{- end }}
     {{ partial "hb/modules/blog/posts" (dict "Pages" .Paginator.Pages "Cols" $cols) }}
     {{ partial "hb/modules/pagination/index" .Paginator }}
-    {{ partialCached "hugopress/functions/render-hooks" (dict "Name" "hb-blog-main-end" "Page" .) . }}
+    {{ partial "hugopress/functions/render-hooks" (dict "Name" "hb-blog-main-end" "Page" .) }}
   </div>
   {{ partial "hb/modules/blog/sidebar" . }}
 </div>

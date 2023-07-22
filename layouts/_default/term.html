@@ -6,7 +6,7 @@
 {{- define "main" }}
   <div class="hb-blog-main-container">
     <div class="hb-blog-main">
-      {{ partialCached "hugopress/functions/render-hooks" (dict "Name" "hb-blog-main-begin" "Page" .) . }}
+      {{ partial "hugopress/functions/render-hooks" (dict "Name" "hb-blog-main-begin" "Page" .) }}
       {{ partialCached "hb/modules/blog/term/profile" . . }}
       <div class="hb-terms-posts row">
         {{- range .Paginator.Pages }}
@@ -16,10 +16,10 @@
         {{- end }}
       </div>
       {{ partial "hb/modules/pagination/index" .Paginator }}
-      {{ partialCached "hugopress/functions/render-hooks" (dict "Name" "hb-blog-main-end" "Page" .) . }}
+      {{ partial "hugopress/functions/render-hooks" (dict "Name" "hb-blog-main-end" "Page" .) }}
     </div>
     <div class="hb-blog-sidebar">
-      {{ partialCached "hugopress/functions/render-hooks" (dict "Name" "hb-blog-sidebar" "Page" .) . }}
+      {{ partial "hugopress/functions/render-hooks" (dict "Name" "hb-blog-sidebar" "Page" .) }}
     </div>
   </div>
 {{- end -}}
