@@ -1,7 +1,7 @@
 {{- if default true .Params.comments }}
-  {{- partialCached "hugopress/functions/render-hooks" (dict "Name" "hb-blog-post-comments-begin" "Page" .) . }}
+  {{- partial "hugopress/functions/render-hooks" (dict "Name" "hb-blog-post-comments-begin" "Page" .) }}
   <div id="content-comments" class="hb-blog-post-comments mb-5">
-    {{- partialCached "hugopress/functions/render-hooks" (dict "Name" "hb-blog-post-comments" "Page" .) . }}
+    {{- partial "hugopress/functions/render-hooks" (dict "Name" "hb-blog-post-comments" "Page" .) }}
   </div>
-  {{- partialCached "hugopress/functions/render-hooks" (dict "Name" "hb-blog-comments-end" "Page" .) . }}
+  {{- partial "hugopress/functions/render-hooks" (dict "Name" "hb-blog-comments-end" "Page" .) }}
 {{- end }}
