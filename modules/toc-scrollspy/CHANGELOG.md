@@ -1,5 +1,18 @@
 # Changelog
 
+## [0.1.8](https://github.com/hbstack/blog/compare/modules/toc-scrollspy/v0.1.7...modules/toc-scrollspy/v0.1.8) (2023-08-11)
+
+
+### Continuous Integration
+
+* **deps:** update module github.com/hbstack/hb to v0.5.2 ([b2253ac](https://github.com/hbstack/blog/commit/b2253ac6459f618385ca8208214c98e8c531b9bb))
+* **deps:** update module github.com/hbstack/header to v0.4.2 ([1efeb49](https://github.com/hbstack/blog/commit/1efeb49f0aecf59e2a37f458023943fcedff469a))
+* **deps:** update module github.com/hbstack/header to v0.4.3 ([009e7d6](https://github.com/hbstack/blog/commit/009e7d61d5bd6374999d22f9d39dcb38bc69deee))
+* **deps:** update module github.com/hbstack/header to v0.4.4 ([13a7eff](https://github.com/hbstack/blog/commit/13a7eff418ff5d60ce5a808b014648b9e7ccc60a))
+* **deps:** update module github.com/hugomods/icons/vendors/simple-icons to v1.0.7 ([e189577](https://github.com/hbstack/blog/commit/e1895772597abacbfdc80133cd5ec847627e7e60))
+* **deps:** update module github.com/hugomods/icons/vendors/simple-icons to v1.0.8 ([e53e113](https://github.com/hbstack/blog/commit/e53e113beabad85a87cca515e97b2e90f7950ad1))
+* **deps:** update module github.com/hugomods/icons/vendors/simple-icons to v1.0.9 ([0e03b3c](https://github.com/hbstack/blog/commit/0e03b3c61ed7338632cea28454c243274ef2df91))
+
 ## [0.1.7](https://github.com/hbstack/blog/compare/modules/toc-scrollspy-v0.1.6...modules/toc-scrollspy/v0.1.7) (2023-07-22)
 
 
