@@ -1,5 +1,14 @@
 # Changelog
 
+## [0.1.8](https://github.com/hbstack/blog/compare/modules/utterances/v0.1.7...modules/utterances/v0.1.8) (2023-08-11)
+
+
+### Continuous Integration
+
+* **deps:** update module github.com/hbstack/header to v0.4.2 ([1efeb49](https://github.com/hbstack/blog/commit/1efeb49f0aecf59e2a37f458023943fcedff469a))
+* **deps:** update module github.com/hbstack/header to v0.4.3 ([009e7d6](https://github.com/hbstack/blog/commit/009e7d61d5bd6374999d22f9d39dcb38bc69deee))
+* **deps:** update module github.com/hbstack/header to v0.4.4 ([13a7eff](https://github.com/hbstack/blog/commit/13a7eff418ff5d60ce5a808b014648b9e7ccc60a))
+
 ## [0.1.7](https://github.com/hbstack/blog/compare/modules/utterances-v0.1.6...modules/utterances/v0.1.7) (2023-07-22)
 
 
