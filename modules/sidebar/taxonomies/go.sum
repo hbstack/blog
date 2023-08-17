@@ -18,6 +18,7 @@ github.com/hbstack/header v0.4.1/go.mod h1:zw0yPq+tdR9djAdPG9tgNN3MV1IT5m0n6Z9Ag
 github.com/hbstack/header v0.4.2/go.mod h1:zw0yPq+tdR9djAdPG9tgNN3MV1IT5m0n6Z9AgG+n2WY=
 github.com/hbstack/header v0.4.3/go.mod h1:zw0yPq+tdR9djAdPG9tgNN3MV1IT5m0n6Z9AgG+n2WY=
 github.com/hbstack/header v0.4.4/go.mod h1:BMdysr68KL0Qmo0mufE2AepsO5YXSbBkjmIrwydhpng=
+github.com/hbstack/header v0.6.0/go.mod h1:BMdysr68KL0Qmo0mufE2AepsO5YXSbBkjmIrwydhpng=
 github.com/hugomods/base v0.1.0 h1:3o9Y85BvXHjkYzZfswM/EtthQ8GOYKN8aXHkIWqu3/8=
 github.com/hugomods/base v0.1.0/go.mod h1:hnWCPbVxuhXBwdFax3mmbMlWKmIo/7OP36MCLOyHtT4=
 github.com/hugomods/hugopress v0.2.0 h1:Y9emu6wDnPsr7Rk0VyxWi5KEWreaFxUxPFAeG6euFpk=
