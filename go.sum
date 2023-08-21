@@ -3,6 +3,7 @@ github.com/gohugoio/hugo-mod-jslibs-dist/popperjs/v2 v2.21100.20000/go.mod h1:mF
 github.com/hbstack/base v0.1.5 h1:koVBFGU2PBTrQEAtKmceoEGYzaGWuqlj1Zj+6uNH7BU=
 github.com/hbstack/base v0.1.5/go.mod h1:HPH5RBlYR8QvGH/Qo5Do1uRd+1u4K2OmoD9zb3fsytQ=
 github.com/hbstack/base v0.2.0/go.mod h1:f0mafnZoiQ3YYvRb82o605NEQVbQ3wzRYzhW4PZjrJ4=
+github.com/hbstack/base v0.2.1/go.mod h1:6SqazoH3UBSuwSHV1kyEDWcIJg+Cef++w8p45VSsSHQ=
 github.com/hbstack/carousel v0.2.1 h1:H9hEZ/ea+D/ztllHPQFhZljta2D9tIQHWdNKceMTatU=
 github.com/hbstack/carousel v0.2.1/go.mod h1:ygxbeQDgxnDcu6FPdJzS/aacSyn+exgRpjpsRhsMVU0=
 github.com/hbstack/carousel v0.2.2/go.mod h1:7ksA42jkP82YsGJqKOU9izqiZBLpIBDBuMY6+IAuTZI=
