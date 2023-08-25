@@ -1,5 +1,27 @@
 # Changelog
 
+## [0.15.4](https://github.com/hbstack/blog/compare/v0.15.3...v0.15.4) (2023-08-25)
+
+
+### Continuous Integration
+
+* **deps:** update module github.com/hbstack/base to v0.2.1 ([f68b02e](https://github.com/hbstack/blog/commit/f68b02e96829974624e21b16c05714e7ef13dd82))
+* **deps:** update module github.com/hbstack/carousel to v0.2.3 ([e5962d3](https://github.com/hbstack/blog/commit/e5962d358d46b31607a435be99c5df3b6fa04cde))
+* **deps:** update module github.com/hbstack/hb to v0.5.2 ([b2253ac](https://github.com/hbstack/blog/commit/b2253ac6459f618385ca8208214c98e8c531b9bb))
+* **deps:** update module github.com/hbstack/hb to v0.6.0 ([f672d04](https://github.com/hbstack/blog/commit/f672d04849fe06930b4b53385015635013518d93))
+* **deps:** update module github.com/hbstack/hb to v0.7.0 ([3730c01](https://github.com/hbstack/blog/commit/3730c01ce65071f0cfed95cba1d00e9cc224d7a2))
+* **deps:** update module github.com/hbstack/socials to v0.3.0 ([8666792](https://github.com/hbstack/blog/commit/866679211957df24434c9002702b4fba989553c5))
+* **deps:** update module github.com/hugomods/simple-icons to v9.11.0+incompatible ([affc2ae](https://github.com/hbstack/blog/commit/affc2ae1ea3e0b57f88c9c624cdebba8c0f07051))
+* **deps:** update module github.com/hugomods/simple-icons to v9.7.0+incompatible ([b13c416](https://github.com/hbstack/blog/commit/b13c416613abd7e14c5e3830d3ab1ae303f56cc0))
+* **deps:** update module github.com/hugomods/simple-icons to v9.8.0+incompatible ([b1c4d39](https://github.com/hbstack/blog/commit/b1c4d393fd87cf995d3e55e2c02c1fea6336d9c6))
+* **deps:** update module github.com/hugomods/simple-icons to v9.9.0+incompatible ([8cb0ef1](https://github.com/hbstack/blog/commit/8cb0ef1c711d3f5caf968c6f71ff585e489cefe6))
+
+
+### Bug Fixes 🐞
+
+* correct the top property of sidebar ([#318](https://github.com/hbstack/blog/issues/318)) ([9445d0c](https://github.com/hbstack/blog/commit/9445d0cfc6959990175f74af8168f30017f39ce1))
+* **deps:** update dependency stylelint-scss to v5.1.0 ([fe0310d](https://github.com/hbstack/blog/commit/fe0310dd033b36a212592a9918c851a679dabfd4))
+
 ## [0.15.1](https://github.com/hbstack/blog/compare/v0.15.0...v0.15.1) (2023-07-13)
 
 
