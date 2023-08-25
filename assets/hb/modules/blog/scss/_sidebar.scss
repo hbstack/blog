@@ -16,7 +16,7 @@
         grid-area: sidebar;
 
         @include media-breakpoint-up(lg) {
-            height: calc(100vh - 80px);
+            height: calc(100vh - var(--#{$prefix}top-offset));
             overflow: auto;
 
             @include top-offset(sticky);
