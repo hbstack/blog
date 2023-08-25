@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.15.5](https://github.com/hbstack/blog/compare/v0.15.4...v0.15.5) (2023-08-25)
+
+
+### Bug Fixes 🐞
+
+* correct the height and top of ToC ([87092fc](https://github.com/hbstack/blog/commit/87092fc383d455053e9ad7cb7016ba2e14cb6a27))
+* correct the height of sidebar ([4c0a143](https://github.com/hbstack/blog/commit/4c0a1430bd295a2e6bb61685eadd9d555219c24c))
+
 ## [0.15.4](https://github.com/hbstack/blog/compare/v0.15.3...v0.15.4) (2023-08-25)
 
 
