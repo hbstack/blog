@@ -14,8 +14,9 @@
     }
 
     @include media-breakpoint-up(lg) {
-        height: calc(100vh - #{$hb-blog-toc-top});
-        top: $hb-blog-toc-top;
+        height: calc(100vh - var(--#{$prefix}top-offset));
+
+        @include top-offset;
     }
 }
 
