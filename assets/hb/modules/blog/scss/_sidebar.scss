@@ -18,8 +18,8 @@
         @include media-breakpoint-up(lg) {
             height: calc(100vh - 80px);
             overflow: auto;
-            position: sticky;
-            top: 80px;
+
+            @include top-offset(sticky);
         }
     }
 
