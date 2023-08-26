@@ -16,22 +16,8 @@
     ],
     "packages": {
         ".": {
-            "separate-pull-requests": true,
             "exclude-paths": [
-                "modules/breadcrumb",
-                "modules/content-panel",
-                "modules/disqus",
-                "modules/featured-image",
-                "modules/giscus",
-                "modules/heading-sign",
-                "modules/post-nav",
-                "modules/related-posts",
-                "modules/sidebar/posts",
-                "modules/sidebar/taxonomies",
-                "modules/staticman",
-                "modules/toc-scrollspy",
-                "modules/twikoo",
-                "modules/utterances"
+                "modules"
             ]
         },
         "modules/breadcrumb": {
