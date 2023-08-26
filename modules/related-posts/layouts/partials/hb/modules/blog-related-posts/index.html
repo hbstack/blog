@@ -1,10 +1,10 @@
 {{- with .Site.RegularPages.Related . | first .Site.Params.hb.blog.related_posts.number }}
   <div class="hb-blog-related-posts hb-module slide">
-    <div class="slide-inner row row-cols-1 row-cols-xl-2 gx-1">
+    <div class="slide-inner row row-cols-1 row-cols-xl-2 gx-2">
       {{- $total := len . }}
       {{- range $i, $page := . }}
         <div class="slide-item">
-          {{ partial "hb/modules/blog/post/card" (dict "Page" .) }}
+          {{ partial "hb/modules/blog/post/card" (dict "Page" . "Summary" false "Meta" false) }}
         </div>
       {{- end -}}
     </div>
