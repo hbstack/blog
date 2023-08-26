@@ -4,11 +4,11 @@
             display: grid;
             grid-gap: 1rem;
             grid-template-areas: "sidebar main";
-            grid-template-columns: 1fr minmax(0, 3fr);
+            grid-template-columns: 2fr minmax(0, 5fr);
         }
 
         @include media-breakpoint-up(xl) {
-            grid-template-columns: 1fr minmax(0, 4fr);
+            grid-template-columns: 2fr minmax(0, 7fr);
         }
     }
 
