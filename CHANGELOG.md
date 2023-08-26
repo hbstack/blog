@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.15.6](https://github.com/hbstack/blog/compare/v0.15.5...v0.15.6) (2023-08-26)
+
+
+### Styles 🎨
+
+* adjust the sidebar width ([46da409](https://github.com/hbstack/blog/commit/46da40963db244ebbe7434b7145035a96973456e))
+* increase the gap between of content and ToC ([3bcfb29](https://github.com/hbstack/blog/commit/3bcfb2959c487ab223235c5031021a00164c7c12))
+
 ## [0.15.5](https://github.com/hbstack/blog/compare/v0.15.4...v0.15.5) (2023-08-25)
 
 

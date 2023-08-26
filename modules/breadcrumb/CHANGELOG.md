@@ -1,5 +1,18 @@
 # Changelog
 
+## [0.1.11](https://github.com/hbstack/blog/compare/modules/breadcrumb/v0.1.10...modules/breadcrumb/v0.1.11) (2023-08-26)
+
+
+### Continuous Integration
+
+* **deps:** update module github.com/hbstack/blog to v0.15.5 ([6e0f6d4](https://github.com/hbstack/blog/commit/6e0f6d4517f4bc647dd214a2bc7e19c1d1d011c4))
+* **deps:** update module github.com/hbstack/footer to v0.2.2 ([573f121](https://github.com/hbstack/blog/commit/573f121953a4242f072dc3e79a6da2e40e905626))
+* **deps:** update module github.com/hbstack/header to v0.6.0 ([5ec451f](https://github.com/hbstack/blog/commit/5ec451f02a81ae813f301808e95008c94cf59dbe))
+* **deps:** update module github.com/hbstack/header to v0.7.1 ([75369ac](https://github.com/hbstack/blog/commit/75369ac3ce071e6104bc4c3bfbc69ef7d70ae2a8))
+* **deps:** update module github.com/hbstack/header to v0.8.0 ([#317](https://github.com/hbstack/blog/issues/317)) ([7c55cc8](https://github.com/hbstack/blog/commit/7c55cc8536600308395c8598a23c0c87566a0562))
+* **deps:** update module github.com/hbstack/header to v0.8.1 ([8a57068](https://github.com/hbstack/blog/commit/8a57068305380cc85f56da0d387d4cae2bc5813d))
+* **deps:** update module github.com/hugomods/icons/vendors/simple-icons to v1.0.10 ([bec2b06](https://github.com/hbstack/blog/commit/bec2b06e7feacaf541594667343ac8f84df322ff))
+
 ## [0.1.10](https://github.com/hbstack/blog/compare/modules/breadcrumb/v0.1.9...modules/breadcrumb/v0.1.10) (2023-08-11)
 
 
