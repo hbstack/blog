@@ -1,5 +1,18 @@
 # Changelog
 
+## [0.15.7](https://github.com/hbstack/blog/compare/v0.15.6...v0.15.7) (2023-09-02)
+
+
+### Continuous Integration
+
+* **deps:** update module github.com/hbstack/hb to v0.7.1 ([618083e](https://github.com/hbstack/blog/commit/618083eb257fa59f587f23b878c4021a448f4a86))
+* **deps:** update module github.com/hugomods/simple-icons to v9.12.0+incompatible ([483d15b](https://github.com/hbstack/blog/commit/483d15b55c344efc13838ec73d5df0331f06d411))
+
+
+### Styles 🎨
+
+* change the margin-bottom as mb-2 of lead description ([4825570](https://github.com/hbstack/blog/commit/4825570ea627930cad68919cecbcb0a1ad27f60f))
+
 ## [0.15.6](https://github.com/hbstack/blog/compare/v0.15.5...v0.15.6) (2023-08-26)
 
 
