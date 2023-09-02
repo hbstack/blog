@@ -1,5 +1,15 @@
 # Changelog
 
+## [0.1.10](https://github.com/hbstack/blog/compare/modules/twikoo/v0.1.9...modules/twikoo/v0.1.10) (2023-09-02)
+
+
+### Continuous Integration
+
+* **deps:** update module github.com/hbstack/blog to v0.15.6 ([0affcb4](https://github.com/hbstack/blog/commit/0affcb4ae72582abb41def6b21018e2b5ba149c4))
+* **deps:** update module github.com/hbstack/footer to v0.2.3 ([9105263](https://github.com/hbstack/blog/commit/9105263491d4c93e75c5315f5d99fbecab357b1b))
+* **deps:** update module github.com/hbstack/header to v0.8.2 ([e96a30c](https://github.com/hbstack/blog/commit/e96a30c91e006700cec4531e1930f9e937341c32))
+* **deps:** update module github.com/hugomods/icons/vendors/simple-icons to v1.0.11 ([fa49ddd](https://github.com/hbstack/blog/commit/fa49dddfcdfb2dd9ff9ac1a0df96594ad2d2e4cb))
+
 ## [0.1.9](https://github.com/hbstack/blog/compare/modules/twikoo/v0.1.8...modules/twikoo/v0.1.9) (2023-08-26)
 
 
