@@ -1,5 +1,15 @@
 # Changelog
 
+## [0.1.12](https://github.com/hbstack/blog/compare/modules/content-panel/v0.1.11...modules/content-panel/v0.1.12) (2023-09-07)
+
+
+### Continuous Integration
+
+* **deps:** update module github.com/hbstack/blog to v0.15.7 ([3a44088](https://github.com/hbstack/blog/commit/3a44088bd02ae19c8d2ebe6449c8636e13ae585e))
+* **deps:** update module github.com/hbstack/content-panel to v0.2.2 ([f067bed](https://github.com/hbstack/blog/commit/f067bed495b253286ea749bcc33256b01c001d06))
+* **deps:** update module github.com/hbstack/header to v0.9.0 ([ce685eb](https://github.com/hbstack/blog/commit/ce685ebd8ddf8184c38837ea2163a2afc24fd789))
+* **deps:** update module github.com/hugomods/icons/vendors/simple-icons to v1.0.12 ([33fe2cb](https://github.com/hbstack/blog/commit/33fe2cbb887e8f8378a3cb20ef40ae6a512e83d8))
+
 ## [0.1.11](https://github.com/hbstack/blog/compare/modules/content-panel/v0.1.10...modules/content-panel/v0.1.11) (2023-09-02)
 
 
