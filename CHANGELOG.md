@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.15.8](https://github.com/hbstack/blog/compare/v0.15.7...v0.15.8) (2023-09-07)
+
+
+### Continuous Integration
+
+* **deps:** update module github.com/hbstack/socials to v0.4.0 ([0b5b884](https://github.com/hbstack/blog/commit/0b5b884d0037a98acba0c359ca924a50a7f4dfb2))
+* **deps:** update module github.com/hugomods/simple-icons to v9.13.0+incompatible ([7447a30](https://github.com/hbstack/blog/commit/7447a30fef24411112a80e7f9c4adb3b68f0abe5))
+
 ## [0.15.7](https://github.com/hbstack/blog/compare/v0.15.6...v0.15.7) (2023-09-02)
 
 

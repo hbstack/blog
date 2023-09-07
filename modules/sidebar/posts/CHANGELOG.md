@@ -1,5 +1,14 @@
 # Changelog
 
+## [0.3.4](https://github.com/hbstack/blog/compare/modules/sidebar/posts/v0.3.3...modules/sidebar/posts/v0.3.4) (2023-09-07)
+
+
+### Continuous Integration
+
+* **deps:** update module github.com/hbstack/blog to v0.15.7 ([3a44088](https://github.com/hbstack/blog/commit/3a44088bd02ae19c8d2ebe6449c8636e13ae585e))
+* **deps:** update module github.com/hbstack/header to v0.9.0 ([ce685eb](https://github.com/hbstack/blog/commit/ce685ebd8ddf8184c38837ea2163a2afc24fd789))
+* **deps:** update module github.com/hugomods/icons/vendors/simple-icons to v1.0.12 ([33fe2cb](https://github.com/hbstack/blog/commit/33fe2cbb887e8f8378a3cb20ef40ae6a512e83d8))
+
 ## [0.3.3](https://github.com/hbstack/blog/compare/modules/sidebar/posts/v0.3.2...modules/sidebar/posts/v0.3.3) (2023-09-02)
 
 
