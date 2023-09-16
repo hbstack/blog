@@ -3,7 +3,7 @@ module github.com/hbstack/blog/modules/breadcrumb
 go 1.18
 
 require (
-	github.com/gohugoio/hugo-mod-bootstrap-scss/v5 v5.20300.20003 // indirect
+	github.com/gohugoio/hugo-mod-bootstrap-scss/v5 v5.20300.20200 // indirect
 	github.com/hbstack/blog v0.15.8 // indirect
 	github.com/hbstack/breadcrumb v0.2.0 // indirect
 	github.com/hbstack/footer v0.2.4 // indirect
