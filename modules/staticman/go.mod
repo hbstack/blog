@@ -14,5 +14,5 @@ require (
 	github.com/hugomods/icons/vendors/simple-icons v1.0.14 // indirect
 	github.com/hugomods/seo/modules/base v0.1.0 // indirect
 	github.com/hugomods/snackbar v0.1.2 // indirect
-	github.com/twbs/icons v1.11.0 // indirect
+	github.com/twbs/icons v1.11.1 // indirect
 )
