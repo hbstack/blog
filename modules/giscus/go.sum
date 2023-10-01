@@ -28,6 +28,7 @@ github.com/hbstack/footer v0.2.4/go.mod h1:L0ZYdYRROlGUGLRA9QchkYeByHIff/EU4WKRd
 github.com/hbstack/footer v0.2.5/go.mod h1:L0ZYdYRROlGUGLRA9QchkYeByHIff/EU4WKRdAUW+E8=
 github.com/hbstack/giscus v0.1.0 h1:CmVaxSK60/oF3gmnfUd0UjqtgRK8jV36fQWUff/QuAA=
 github.com/hbstack/giscus v0.1.0/go.mod h1:AkBrbp5uSPcATouJ9g0psaozcM3NxgTrPxMJDJWwWUE=
+github.com/hbstack/giscus v0.1.1/go.mod h1:XElW8oNLnS0dRVFzoo9Gq8xknvz3D2PuTHC7yw9h3EE=
 github.com/hbstack/header v0.1.15 h1:gsmkxBV6+usDAsNq2ohtF3q8cytdwmRemaYnCQ/9qrw=
 github.com/hbstack/header v0.1.15/go.mod h1:TsYY9wkDKwcj1c0hzar97DXWOYqa1NW0Qg0XqcV9Zx8=
 github.com/hbstack/header v0.1.17/go.mod h1:YEYnlqmhotkQdFbSzN/ZQT55kLLfMdvVVIzEDMFgTz4=
