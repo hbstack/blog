@@ -1,5 +1,5 @@
 {{- $page := .Page }}
-{{- $summary := default true .Summary }}
+{{- $showSummary := default true .Summary }}
 {{- $readingTime := default true .ReadingTime }}
 {{- $meta := default true .Meta }}
 <div class="hb-blog-post-card card border-0 overflow-hidden">
@@ -30,9 +30,15 @@
         {{ partialCached "hb/modules/blog/post/meta/taxonomies" $page $page }}
       </div>
     {{- end }}
-    {{- if $summary }}
-      <div class="hb-blog-post-summary card-text text-secondary">
-        {{- default $page.Summary $page.Description -}}
+    {{- if $showSummary }}
+      {{- $summary := $page.Summary }}
+      {{- $truncated := $page.Truncated }}
+      {{- with $page.Description }}
+        {{- $summary = . }}
+        {{- $truncated = false }}
+      {{- end }}
+      <div class="hb-blog-post-summary card-text text-secondary{{ cond $truncated ` summary-truncated` `` }}">
+        {{- $summary -}}
       </div>
     {{- end }}
   </div>
