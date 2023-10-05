@@ -9,3 +9,8 @@
         margin-bottom: 0;
     }
 }
+.summary-truncated {
+    &::after {
+        content: "…";
+    }
+}
