@@ -1,5 +1,29 @@
 # Changelog
 
+## [0.15.9](https://github.com/hbstack/blog/compare/v0.15.8...v0.15.9) (2023-10-05)
+
+
+### Continuous Integration
+
+* **deps:** update module github.com/hbstack/socials to v0.5.1 ([695f4b2](https://github.com/hbstack/blog/commit/695f4b2179c31d212f298b52dcfbfca052013c49))
+* **deps:** update module github.com/hbstack/socials to v0.6.0 ([74be591](https://github.com/hbstack/blog/commit/74be5913e07715386b6d97698bd821f1b0ea3b39))
+* **deps:** update module github.com/hugomods/icons/vendors/bootstrap to v0.5.1 ([8233f7b](https://github.com/hbstack/blog/commit/8233f7b2740abe584dc16dcc09015212d9c535db))
+* **deps:** update module github.com/hugomods/simple-icons to v9.14.0+incompatible ([5a761c1](https://github.com/hbstack/blog/commit/5a761c16de3beb2daef3d4aa2d8b94a5a3331e21))
+* **deps:** update module github.com/hugomods/simple-icons to v9.15.0+incompatible ([097ded8](https://github.com/hbstack/blog/commit/097ded8e198dfc403cc8d737ce9f68d76a46df60))
+* **deps:** update module github.com/hugomods/simple-icons to v9.16.0+incompatible ([77f7771](https://github.com/hbstack/blog/commit/77f77710177c001a9a5e4a500cc5cf6b1d4c81c9))
+* **deps:** update module github.com/hugomods/simple-icons to v9.16.1+incompatible ([d7e9f90](https://github.com/hbstack/blog/commit/d7e9f9036dbb48686e6d5ee3a6d1a3d6c11fe626))
+
+
+### Bug Fixes 🐞
+
+* **deps:** update dependency stylelint-scss to v5.2.0 ([0213edb](https://github.com/hbstack/blog/commit/0213edbfc83877b7047ade5bf1b6c9047c09f143))
+* **deps:** update dependency stylelint-scss to v5.2.1 ([b4560d9](https://github.com/hbstack/blog/commit/b4560d992fc27d403d724a280bb2f4b5c44cbea4))
+
+
+### Styles 🎨
+
+* show the ... indicates that the summaries were truncated ([#374](https://github.com/hbstack/blog/issues/374)) ([48bf0e6](https://github.com/hbstack/blog/commit/48bf0e6c0cb8cce18e68c17cd391645f49928d6a))
+
 ## [0.15.8](https://github.com/hbstack/blog/compare/v0.15.7...v0.15.8) (2023-09-07)
 
 
