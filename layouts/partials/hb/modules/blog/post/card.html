@@ -31,9 +31,15 @@
       </div>
     {{- end }}
     {{- if $summary }}
-      <div class="hb-blog-post-summary card-text text-secondary">
-        {{- default $page.Summary $page.Description -}}
-      </div>
+      {{- if $page.Truncated }}
+        <div class="hb-blog-post-summary summary-truncated card-text text-secondary">
+          {{- default $page.Summary $page.Description -}}
+        </div>
+      {{- else -}}
+        <div class="hb-blog-post-summary card-text text-secondary">
+          {{- default $page.Summary $page.Description -}}
+        </div>
+      {{- end }}
     {{- end }}
   </div>
 </div>
