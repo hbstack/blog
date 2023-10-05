@@ -1,5 +1,24 @@
 # Changelog
 
+## [0.1.12](https://github.com/hbstack/blog/compare/modules/toc-scrollspy/v0.1.11...modules/toc-scrollspy/v0.1.12) (2023-10-05)
+
+
+### Continuous Integration
+
+* **deps:** update module github.com/hbstack/blog to v0.15.8 ([ba566b3](https://github.com/hbstack/blog/commit/ba566b3c4e24a80e6de142b0491574d77d1cd848))
+* **deps:** update module github.com/hbstack/footer to v0.2.4 ([0614815](https://github.com/hbstack/blog/commit/061481587c58769a5d1a97a9a5e9644aedc61213))
+* **deps:** update module github.com/hbstack/footer to v0.2.5 ([fee27a0](https://github.com/hbstack/blog/commit/fee27a0703555feb2dda201babcbba22367086d5))
+* **deps:** update module github.com/hbstack/header to v0.10.0 ([1ac72e7](https://github.com/hbstack/blog/commit/1ac72e781fddd280f9e9bc6c902bb8254f078a18))
+* **deps:** update module github.com/hbstack/header to v0.10.1 ([2a05e8d](https://github.com/hbstack/blog/commit/2a05e8d9c73f8cd35ead79b60ce15b7348cede92))
+* **deps:** update module github.com/hbstack/header to v0.11.0 ([8cf52a0](https://github.com/hbstack/blog/commit/8cf52a08fcb6c8e9592aa43dc591786e99db091b))
+* **deps:** update module github.com/hbstack/header to v0.11.1 ([740d847](https://github.com/hbstack/blog/commit/740d8478828359f6bfe921deeefbb93b4deb15ef))
+* **deps:** update module github.com/hugomods/icons/vendors/simple-icons to v1.0.13 ([d16701b](https://github.com/hbstack/blog/commit/d16701bba8a5be7a71356f6f37616efc31460c02))
+* **deps:** update module github.com/hugomods/icons/vendors/simple-icons to v1.0.14 ([cadbd2e](https://github.com/hbstack/blog/commit/cadbd2e3ddee207b2d0ad7f87efef3697beaed24))
+* **deps:** update module github.com/hugomods/icons/vendors/simple-icons to v1.0.15 ([448f626](https://github.com/hbstack/blog/commit/448f62643998d4acb139cdb20072a84ee8159e52))
+* **deps:** update module github.com/hugomods/icons/vendors/simple-icons to v1.0.16 ([8cdb7c8](https://github.com/hbstack/blog/commit/8cdb7c8831e52f3f0aace3d7ba2eb7f071a31b50))
+* **deps:** update module github.com/twbs/icons to v1.11.0 ([9924d87](https://github.com/hbstack/blog/commit/9924d87fca545bec745046711b723608b9bcd9c7))
+* **deps:** update module github.com/twbs/icons to v1.11.1 ([208693d](https://github.com/hbstack/blog/commit/208693de563577d3b9bcd1ebd86239c380cfbebf))
+
 ## [0.1.11](https://github.com/hbstack/blog/compare/modules/toc-scrollspy/v0.1.10...modules/toc-scrollspy/v0.1.11) (2023-09-07)
 
 
