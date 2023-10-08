@@ -5,6 +5,7 @@ path = "github.com/hbstack/blog"
 path = "github.com/hbstack/slide"
 
 [params.hugopress.modules.hb-blog-sidebar-posts.hooks.hb-blog-sidebar]
+cacheable = true
 
 [params.hb.blog.sidebar.posts]
 recent_count = 5
