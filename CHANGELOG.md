@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.16.0](https://github.com/hbstack/blog/compare/v0.15.9...v0.16.0) (2023-10-08)
+
+
+### Continuous Integration
+
+* **deps:** update module github.com/hugomods/images to v0.8.0 ([ab1d818](https://github.com/hbstack/blog/commit/ab1d818fa9b17677a1f9b3e1f33485a05c461045))
+
+
+### Features ✨
+
+* add the profile sidebar module ([#379](https://github.com/hbstack/blog/issues/379)) ([db3f67c](https://github.com/hbstack/blog/commit/db3f67c1b43ff5e70ae0b7c2cc97c13c5595492a))
+
 ## [0.15.9](https://github.com/hbstack/blog/compare/v0.15.8...v0.15.9) (2023-10-05)
 
 

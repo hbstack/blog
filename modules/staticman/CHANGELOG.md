@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.14](https://github.com/hbstack/blog/compare/modules/staticman/v0.1.13...modules/staticman/v0.1.14) (2023-10-08)
+
+
+### Continuous Integration
+
+* **deps:** update module github.com/hbstack/blog to v0.15.9 ([829edc4](https://github.com/hbstack/blog/commit/829edc44498c7412bd1d9310113739f1b5a4c62b))
+
 ## [0.1.13](https://github.com/hbstack/blog/compare/modules/staticman/v0.1.12...modules/staticman/v0.1.13) (2023-10-05)
 
 
