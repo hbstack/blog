@@ -1,12 +1,16 @@
 {{- $params := site.Params.hb.blog.sidebar.posts }}
+{{- $pages := site.RegularPages }}
+{{- with index $params "sections" }}
+  {{- $pages = where $pages "Section" "in" . }}
+{{- end }}
 {{- $recentPosts := slice }}
 {{- if $params.recent_count }}
-  {{- $recentPosts = first $params.recent_count site.RegularPages.ByDate.Reverse }}
+  {{- $recentPosts = first $params.recent_count $pages.ByDate.Reverse }}
 {{- end }}
 
 {{- $featuredPosts := slice }}
 {{- if $params.featured_count }}
-  {{- $featuredPosts = first  $params.featured_count (where site.RegularPages ".Params.featured" "eq" true) }}
+  {{- $featuredPosts = first $params.featured_count (where $pages ".Params.featured" "eq" true) }}
 {{- end }}
 
 {{- if or $featuredPosts $recentPosts }}
