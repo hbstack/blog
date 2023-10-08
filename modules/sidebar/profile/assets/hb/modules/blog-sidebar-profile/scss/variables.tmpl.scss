@@ -1,0 +1,2 @@
+{{- $params := site.Params.hb.blog.sidebar.profile }}
+$hb-blog-sidebar-profile-avatar-size: {{ default 100 $params.avatar_size }};
