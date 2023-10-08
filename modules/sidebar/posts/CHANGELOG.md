@@ -1,5 +1,24 @@
 # Changelog
 
+## [0.4.0](https://github.com/hbstack/blog/compare/modules/sidebar/posts/v0.3.5...modules/sidebar/posts/v0.4.0) (2023-10-08)
+
+
+### Continuous Integration
+
+* **deps:** update module github.com/hbstack/blog to v0.15.9 ([829edc4](https://github.com/hbstack/blog/commit/829edc44498c7412bd1d9310113739f1b5a4c62b))
+
+
+### Features ✨
+
+* **sidebar-posts:** add the fill parameter, when true (default), the tabs take full width ([6a60d51](https://github.com/hbstack/blog/commit/6a60d51922d6d8ec4c25f95d32aa89ffaf8b0182))
+* **sidebar-posts:** add the sections parameter to filter posts ([#380](https://github.com/hbstack/blog/issues/380)) ([bf9379b](https://github.com/hbstack/blog/commit/bf9379bd981448676c3ad1ec89d1f2d972a60a5c))
+* **sidebar-posts:** add the style parameter, available options: pills (default), tabs and underline ([#381](https://github.com/hbstack/blog/issues/381)) ([6a60d51](https://github.com/hbstack/blog/commit/6a60d51922d6d8ec4c25f95d32aa89ffaf8b0182))
+
+
+### Performance Improvements ⚡️
+
+* **sidebar-posts:** cache the sidebar posts module ([8fef5f2](https://github.com/hbstack/blog/commit/8fef5f2c0fb1c73d7f085c6f9c4619265af4f578))
+
 ## [0.3.5](https://github.com/hbstack/blog/compare/modules/sidebar/posts/v0.3.4...modules/sidebar/posts/v0.3.5) (2023-10-05)
 
 
