@@ -8,5 +8,7 @@ path = "github.com/hbstack/slide"
 cacheable = true
 
 [params.hb.blog.sidebar.posts]
+style = "pills"
+fill = true
 recent_count = 5
 featured_count = 5
