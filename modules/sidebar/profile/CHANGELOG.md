@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.1](https://github.com/hbstack/blog/compare/modules/sidebar/profile/v1.0.0...modules/sidebar/profile/v1.0.1) (2023-10-08)
+
+
+### Bug Fixes 🐞
+
+* **sidebar-profile:** correct the avatar image ([19f9ada](https://github.com/hbstack/blog/commit/19f9adaea9124d4f0d066edd3f6d6a6b4fc62430))
+
 ## 1.0.0 (2023-10-08)
 
 
