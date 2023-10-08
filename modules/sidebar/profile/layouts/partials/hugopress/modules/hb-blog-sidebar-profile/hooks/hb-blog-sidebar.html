@@ -8,13 +8,13 @@
         "ClassName" "hb-blog-sidebar-profile-img rounded-circle img-fluid mb-3")
       }}
     {{- end }}
-    <p class="hb-blog-sidebar-profile-title h5 mb-3">
+    <p class="hb-blog-sidebar-profile-title h5 mb-2">
       {{ default site.Title .title | markdownify }}
     </p>
     <p class="hb-blog-sidebar-profile-desc text-center mb-2">
       {{ default site.Params.description .description | markdownify }}
     </p>
-    <p class="hb-blog-sidebar-profile-meta mb-1">
+    <p class="hb-blog-sidebar-profile-meta mb-0">
       {{- with .company }}
         <span class="mx-1">
           {{- partial "icons/icon" (dict "vendor" "bootstrap" "name" "building" "className" "me-1") -}}
@@ -30,7 +30,7 @@
     </p>
     {{- with .socials }}
       {{- $color := default true ._color }}
-      <div class="hb-footer-socials d-flex mb-2 justify-content-center">
+      <div class="hb-footer-socials d-flex mb-2 mt-1 justify-content-center">
         {{- range $name, $id := . }}
           {{/* ignore options. */}}
           {{- if hasPrefix $name "_" }}
