@@ -4,7 +4,7 @@
     {{- $avatarSize := default 100 .avatar_size }}
     {{- with .avatar }}
       {{ partial "images/image" (dict
-        "Filename" (printf "%s?height=%d&width=%d" . $avatarSize)
+        "Filename" (printf "/%s?height=%d&width=%d" (strings.TrimPrefix "/" .) $avatarSize $avatarSize)
         "ClassName" "hb-blog-sidebar-profile-img rounded-circle img-fluid mb-3")
       }}
     {{- end }}
