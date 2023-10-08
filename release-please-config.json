@@ -47,6 +47,9 @@
         "modules/sidebar/posts": {
             "component": "modules/sidebar/posts"
         },
+        "modules/sidebar/profile": {
+            "component": "modules/sidebar/profile"
+        },
         "modules/sidebar/taxonomies": {
             "component": "modules/sidebar/taxonomies"
         },

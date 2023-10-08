@@ -1,0 +1,52 @@
+{{- with site.Params.hb.blog.sidebar.profile }}
+  <div
+    class="hb-blog-sidebar-profile hb-module mb-3 d-flex flex-column justify-content-center align-items-center">
+    {{- $avatarSize := default 100 .avatar_size }}
+    {{- with .avatar }}
+      {{ partial "images/image" (dict
+        "Filename" (printf "%s?height=%d&width=%d" . $avatarSize)
+        "ClassName" "hb-blog-sidebar-profile-img rounded-circle img-fluid mb-3")
+      }}
+    {{- end }}
+    <p class="hb-blog-sidebar-profile-title h5 mb-3">
+      {{ default site.Title .title | markdownify }}
+    </p>
+    <p class="hb-blog-sidebar-profile-desc text-center mb-2">
+      {{ default site.Params.description .description | markdownify }}
+    </p>
+    <p class="hb-blog-sidebar-profile-meta mb-1">
+      {{- with .company }}
+        <span class="mx-1">
+          {{- partial "icons/icon" (dict "vendor" "bootstrap" "name" "building" "className" "me-1") -}}
+          {{- . | markdownify -}}
+        </span>
+      {{- end }}
+      {{- with .location }}
+        <span class="mx-1">
+          {{- partial "icons/icon" (dict "vendor" "bootstrap" "name" "geo-alt" "className" "me-1") -}}
+          {{- . | markdownify -}}
+        </span>
+      {{- end }}
+    </p>
+    {{- with .socials }}
+      {{- $color := default true ._color }}
+      <div class="hb-footer-socials d-flex mb-2 justify-content-center">
+        {{- range $name, $id := . }}
+          {{/* ignore options. */}}
+          {{- if hasPrefix $name "_" }}
+            {{- continue }}
+          {{- end }}
+          {{- $ctx := dict
+            "id" $id
+            "name" $name
+            "class" "p-2"
+            "width" "1.75em"
+            "height" "1.75em"
+            "color" $color
+          }}
+          {{ partial "hb/modules/socials/link" $ctx }}
+        {{- end }}
+      </div>
+    {{- end }}
+  </div>
+{{- end }}
