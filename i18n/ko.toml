@@ -2,7 +2,7 @@
 other = "목차"
 
 [read_more]
-other = "Read more"
+other = "자세한 내용 보기"
 
 [reading_time]
 other = "읽는 데에 {{ .Count }}분"
