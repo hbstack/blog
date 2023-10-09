@@ -2,7 +2,7 @@
 {{- $showSummary := default true .Summary }}
 {{- $readingTime := default true .ReadingTime }}
 {{- $meta := default true .Meta }}
-<div class="hb-blog-post-card card border-0 overflow-hidden">
+<div class="hb-blog-post-card card border-0 overflow-hidden h-100">
   {{- if $meta }}
     <div class="hb-blog-post-meta d-flex align-items-center">
       {{ partialCached "hb/modules/blog/post/meta/authors" $page $page }}
