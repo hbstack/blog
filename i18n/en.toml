@@ -1,5 +1,8 @@
 [on_this_page]
 other = "On this page"
 
+[read_more]
+other = "Read more"
+
 [reading_time]
 other = "{{ .Count }} min read"

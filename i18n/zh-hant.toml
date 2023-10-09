@@ -1,5 +1,8 @@
 [on_this_page]
 other = "本頁內容"
 
+[read_more]
+other = "閱讀全文"
+
 [reading_time]
 other = "{{ .Count }} 分鐘閱讀"
