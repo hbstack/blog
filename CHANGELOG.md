@@ -1,5 +1,25 @@
 # Changelog
 
+## [0.16.1](https://github.com/hbstack/blog/compare/v0.16.0...v0.16.1) (2023-10-09)
+
+
+### Continuous Integration
+
+* **deps:** update module github.com/hugomods/simple-icons to v9.17.0+incompatible ([3ffed8d](https://github.com/hbstack/blog/commit/3ffed8d3d59a9a302e81c88e0efbad73834a674c))
+
+
+### Bug Fixes 🐞
+
+* **i18n:** translate read_more in Korean ([#389](https://github.com/hbstack/blog/issues/389)) ([3052c47](https://github.com/hbstack/blog/commit/3052c4749ccef884cddcf4ffcd1033c5ccad2a2e))
+* replace the summaries truncated indicator (dots) with the read more button ([#388](https://github.com/hbstack/blog/issues/388)) ([7cc02cc](https://github.com/hbstack/blog/commit/7cc02cc03fcfeb73a26d0fd7fb55872694cea3cc)), closes [#387](https://github.com/hbstack/blog/issues/387)
+
+
+### Styles 🎨
+
+* minor changes ([36aecd3](https://github.com/hbstack/blog/commit/36aecd3e76b78e8570eeee28c5f26e06a9856790))
+* minor changes of post card ([ec768a7](https://github.com/hbstack/blog/commit/ec768a7b9d9ad1f444683e48ca048175d9c6d57a))
+* post cards take equal height ([ef8c026](https://github.com/hbstack/blog/commit/ef8c026252d1c37f2bab0921a8385a54eb2447a5))
+
 ## [0.16.0](https://github.com/hbstack/blog/compare/v0.15.9...v0.16.0) (2023-10-08)
 
 
