@@ -16,7 +16,7 @@
   {{- if default true site.Params.hb.blog.post_thumbnail }}
     {{ partial "hb/modules/blog/post/card-img" $page }}
   {{- end }}
-  <div class="card-body px-0 pt-2 d-flex flex-column">
+  <div class="card-body px-0 py-2 d-flex flex-column">
     <div class="hb-blog-post-title card-title h5 py-1">
       <a
         class="hb-blog-post-title-link d-block"
@@ -41,9 +41,9 @@
         {{- $summary -}}
       </div>
       {{- if $truncated }}
-        <div>
+        <div class="mt-2">
           <a
-            class="btn btn-sm btn-outline-secondary mt-2" href="{{ .RelPermalink }}">
+            class="btn btn-sm btn-outline-secondary" href="{{ .RelPermalink }}">
             {{- "read_more" | i18n -}}
           </a>
         </div>

@@ -1,7 +1,7 @@
 {{- $cols := default "row-cols-1 row-cols-lg-2 row-cols-xl-3" .Cols }}
-<div class="hb-blog-posts hb-module row {{ $cols }}">
+<div class="hb-blog-posts hb-module row {{ $cols }} g-3">
   {{ range .Pages }}
-    <div class="col mb-3">
+    <div class="col">
       {{- $ctx := dict "Page" . }}
       {{ partial "hb/modules/blog/post/card" $ctx }}
     </div>
