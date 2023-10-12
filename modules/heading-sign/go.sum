@@ -60,6 +60,7 @@ github.com/hbstack/header v0.10.1/go.mod h1:MkFJjAqVs/pgOEBjdCzBTdjT6q43It0PGvZh
 github.com/hbstack/header v0.11.0/go.mod h1:MkFJjAqVs/pgOEBjdCzBTdjT6q43It0PGvZh56OkdB4=
 github.com/hbstack/header v0.11.1/go.mod h1:MkFJjAqVs/pgOEBjdCzBTdjT6q43It0PGvZh56OkdB4=
 github.com/hbstack/header v0.11.3/go.mod h1:MkFJjAqVs/pgOEBjdCzBTdjT6q43It0PGvZh56OkdB4=
+github.com/hbstack/header v0.12.0/go.mod h1:MkFJjAqVs/pgOEBjdCzBTdjT6q43It0PGvZh56OkdB4=
 github.com/hbstack/heading-sign v0.1.3 h1:bkyBAwTETrbLqPBM89EuSscgLt2MOrmEPSeooeR0Jfc=
 github.com/hbstack/heading-sign v0.1.3/go.mod h1:uR6DdjYDoLDFanc8kSglEe/08GyNyQBmyNEJ6Z1KRAg=
 github.com/hugomods/base v0.1.0 h1:3o9Y85BvXHjkYzZfswM/EtthQ8GOYKN8aXHkIWqu3/8=
