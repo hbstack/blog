@@ -45,6 +45,7 @@ github.com/hbstack/slide v0.2.0 h1:0D8Vt4bxtFCNpozRu0WDMz0kgOy60Gk1aJKAZSPUnik=
 github.com/hbstack/slide v0.2.0/go.mod h1:7fBmuBpoxrmP+dQPArVyX80LTQOWCm8z7Rf38nzDlzE=
 github.com/hugomods/base v0.1.0 h1:3o9Y85BvXHjkYzZfswM/EtthQ8GOYKN8aXHkIWqu3/8=
 github.com/hugomods/base v0.1.0/go.mod h1:hnWCPbVxuhXBwdFax3mmbMlWKmIo/7OP36MCLOyHtT4=
+github.com/hugomods/base v0.2.0/go.mod h1:hnWCPbVxuhXBwdFax3mmbMlWKmIo/7OP36MCLOyHtT4=
 github.com/hugomods/hugopress v0.2.0 h1:Y9emu6wDnPsr7Rk0VyxWi5KEWreaFxUxPFAeG6euFpk=
 github.com/hugomods/hugopress v0.2.0/go.mod h1:CRYvr60xOkZOf4Atkuj+uEj2EH5pjJ39Ws3aJAkoMkA=
 github.com/hugomods/hugopress v0.2.1/go.mod h1:CRYvr60xOkZOf4Atkuj+uEj2EH5pjJ39Ws3aJAkoMkA=
