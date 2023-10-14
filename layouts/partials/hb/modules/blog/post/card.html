@@ -1,5 +1,6 @@
 {{- $page := .Page }}
 {{- $showSummary := default true .Summary }}
+{{- $readMore := default true .ReadMore }}
 {{- $readingTime := default true .ReadingTime }}
 {{- $meta := default true .Meta }}
 <div class="hb-blog-post-card hb-module card border-0 overflow-hidden h-100 mb-0">
@@ -40,7 +41,7 @@
       <div class="hb-blog-post-summary card-text text-secondary mb-auto">
         {{- $summary -}}
       </div>
-      {{- if $truncated }}
+      {{- if and $readMore $truncated }}
         <div class="mt-2">
           <a
             class="btn btn-sm btn-outline-secondary" href="{{ .RelPermalink }}">
