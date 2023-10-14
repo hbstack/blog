@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.0.2](https://github.com/hbstack/blog/compare/modules/sidebar/profile/v1.0.1...modules/sidebar/profile/v1.0.2) (2023-10-14)
+
+
+### Styles 🎨
+
+* **sidebar-profile:** align the title to center ([#397](https://github.com/hbstack/blog/issues/397)) ([864b786](https://github.com/hbstack/blog/commit/864b7864bcc494751f5d60cfa66711c4762a2503))
+* **sidebar-profile:** change the social link color ([#396](https://github.com/hbstack/blog/issues/396)) ([4b4c39f](https://github.com/hbstack/blog/commit/4b4c39f50f505e38682f67c780e37347492b2ca2))
+
 ## [1.0.1](https://github.com/hbstack/blog/compare/modules/sidebar/profile/v1.0.0...modules/sidebar/profile/v1.0.1) (2023-10-08)
 
 

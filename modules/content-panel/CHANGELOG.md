@@ -1,5 +1,15 @@
 # Changelog
 
+## [0.1.16](https://github.com/hbstack/blog/compare/modules/content-panel/v0.1.15...modules/content-panel/v0.1.16) (2023-10-14)
+
+
+### Continuous Integration
+
+* **deps:** update module github.com/hbstack/blog to v0.16.1 ([01f8d17](https://github.com/hbstack/blog/commit/01f8d173b297fb4b5daa61d2c88a981e5a5c5641))
+* **deps:** update module github.com/hbstack/header to v0.11.3 ([fdaccc5](https://github.com/hbstack/blog/commit/fdaccc52eee75cd48826fa3879763b67b85ff1e7))
+* **deps:** update module github.com/hbstack/header to v0.12.0 ([8841929](https://github.com/hbstack/blog/commit/884192915740eaaaee637b548406fdd7619a1e70))
+* **deps:** update module github.com/hugomods/base to v0.2.0 ([5b04727](https://github.com/hbstack/blog/commit/5b047273511fa8517d337f366dac53ad584ca819))
+
 ## [0.1.15](https://github.com/hbstack/blog/compare/modules/content-panel/v0.1.14...modules/content-panel/v0.1.15) (2023-10-09)
 
 
