@@ -15,6 +15,10 @@
     .hb-blog-sidebar {
         grid-area: sidebar;
 
+        &::-webkit-scrollbar {
+            width: 2px;
+        }
+
         @include media-breakpoint-up(lg) {
             height: calc(100vh - var(--#{$prefix}top-offset));
             overflow: auto;
