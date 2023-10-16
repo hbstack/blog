@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.20](https://github.com/hbstack/blog/compare/modules/heading-sign/v0.1.19...modules/heading-sign/v0.1.20) (2023-10-16)
+
+
+### Continuous Integration
+
+* **deps:** update module github.com/hbstack/blog to v0.17.0 ([31e2269](https://github.com/hbstack/blog/commit/31e2269889826b3a102fb1ac5ac1a0c09a88d652))
+
 ## [0.1.19](https://github.com/hbstack/blog/compare/modules/heading-sign/v0.1.18...modules/heading-sign/v0.1.19) (2023-10-16)
 
 
