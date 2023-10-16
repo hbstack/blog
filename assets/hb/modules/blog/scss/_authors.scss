@@ -1,0 +1,15 @@
+.hb-blog-term-profile,
+.hb-blog-term-author {
+    .hb-social {
+        color: var(--#{$prefix}body-color);
+
+        &:hover {
+            color: var(--#{$prefix}primary);
+        }
+    }
+}
+
+.hb-blog-term-img {
+    height: 100px;
+    width: 100px;
+}

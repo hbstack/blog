@@ -3,7 +3,7 @@
 {{- if not .PrevInSection }}
   {{- $justify = "justify-content-end" }}
 {{- end }}
-<ul class="hb-blog-post-nav nav hb-module {{ $justify }}">
+<ul class="hb-blog-post-nav nav {{ $justify }} mb-3">
   {{ with .PrevInSection }}
     <li class="nav-item my-1">
       <a class="nav-link p-0 d-flex align-items-center" href="{{ .RelPermalink }}">

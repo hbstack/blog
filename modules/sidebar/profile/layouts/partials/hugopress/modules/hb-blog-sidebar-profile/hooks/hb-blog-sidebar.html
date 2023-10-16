@@ -1,6 +1,6 @@
 {{- with site.Params.hb.blog.sidebar.profile }}
   <div
-    class="hb-blog-sidebar-profile hb-module mb-3 d-flex flex-column justify-content-center align-items-center">
+    class="hb-blog-sidebar-profile hb-module d-flex flex-column justify-content-center align-items-center">
     {{- $avatarSize := default 100 .avatar_size }}
     {{- with .avatar }}
       {{ partial "images/image" (dict
@@ -30,7 +30,7 @@
     </p>
     {{- with .socials }}
       {{- $color := default true ._color }}
-      <div class="hb-footer-socials d-flex mb-2 mt-1 justify-content-center">
+      <div class="hb-footer-socials d-flex mb-0 mt-1 justify-content-center">
         {{- range $name, $id := . }}
           {{/* ignore options. */}}
           {{- if hasPrefix $name "_" }}

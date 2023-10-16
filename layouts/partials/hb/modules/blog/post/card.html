@@ -3,7 +3,9 @@
 {{- $readMore := default true .ReadMore }}
 {{- $readingTime := default true .ReadingTime }}
 {{- $meta := default true .Meta }}
-<div class="hb-blog-post-card hb-module card border-0 overflow-hidden h-100 mb-0">
+{{- $modularize := default true .Modularize }}
+<div
+  class="hb-blog-post-card card border-0 overflow-hidden h-100{{ cond $modularize ` hb-module` ` bg-transparent` }} mb-0">
   {{- if $meta }}
     <div class="hb-blog-post-meta d-flex align-items-center">
       {{ partialCached "hb/modules/blog/post/meta/authors" $page $page }}
@@ -44,7 +46,7 @@
       {{- if and $readMore $truncated }}
         <div class="mt-2">
           <a
-            class="btn btn-sm btn-outline-secondary" href="{{ .Page.RelPermalink }}">
+            class="btn btn-sm btn-outline-secondary" href="{{ $page.RelPermalink }}">
             {{- "read_more" | i18n -}}
           </a>
         </div>

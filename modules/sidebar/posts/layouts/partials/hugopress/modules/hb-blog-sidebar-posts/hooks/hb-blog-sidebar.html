@@ -16,7 +16,7 @@
 {{- if or $featuredPosts $recentPosts }}
   {{- $style := default "pills" $params.style }}
   {{- $fill := default true $params.fill }}
-  <div class="hb-blog-sidebar-posts hb-module mb-0">
+  <div class="hb-blog-sidebar-posts hb-module">
     <ul class="nav nav-{{ $style }}{{ cond $fill ` nav-fill` `` }}" role="tablist">
       {{- if $featuredPosts }}
         <li class="nav-item" role="presentation">
@@ -62,7 +62,7 @@
             <div class="slide-inner row row-cols-1">
               {{- range . }}
                 <div class="slide-item px-0">
-                  {{- $ctx := dict "Page" . "Meta" false "Summary" false }}
+                  {{- $ctx := dict "Page" . "Meta" false "Summary" false "Modularize" false }}
                   {{ partial "hb/modules/blog/post/card" $ctx }}
                 </div>
               {{- end }}
@@ -82,7 +82,7 @@
             <div class="slide-inner row row-cols-1">
               {{- range . }}
                 <div class="slide-item px-0">
-                  {{- $ctx := dict "Page" . "Meta" false "Summary" false }}
+                  {{- $ctx := dict "Page" . "Meta" false "Summary" false "Modularize" false }}
                   {{ partial "hb/modules/blog/post/card" $ctx }}
                 </div>
               {{- end }}

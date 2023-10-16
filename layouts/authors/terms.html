@@ -5,7 +5,7 @@
   </h1>
   <div class="row row-cols-1">
     {{- range $i, $page := sort .Data.Pages ".Data.Pages" "desc" }}
-      <div class="hb-blog-term-author col d-flex mb-3 border-top pt-3">
+      <div class="hb-blog-term-author hb-module col d-flex border-top pt-3">
         {{- $img := partial "hb/modules/blog/author/image" (dict
           "Page" .
           "Placeholder" false

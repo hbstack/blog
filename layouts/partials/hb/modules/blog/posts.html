@@ -1,9 +1,10 @@
 {{- $cols := default "row-cols-1 row-cols-lg-2 row-cols-xl-3" .Cols }}
 {{- $readMore := default true .ReadMore }}
+{{- $modularize := default true .Modularize }}
 <div class="hb-blog-posts row {{ $cols }} g-3 mb-3">
   {{ range .Pages }}
     <div class="col">
-      {{- $ctx := dict "Page" . "ReadMore" $readMore }}
+      {{- $ctx := dict "Page" . "ReadMore" $readMore "Modularize" $modularize }}
       {{ partial "hb/modules/blog/post/card" $ctx }}
     </div>
   {{ end }}

@@ -25,6 +25,12 @@
 
             @include top-offset(sticky);
         }
+
+        .hb-module {
+            &:last-child {
+                margin-bottom: 0 !important;
+            }
+        }
     }
 
     .hb-blog-main {
