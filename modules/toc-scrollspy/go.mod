@@ -4,7 +4,7 @@ go 1.18
 
 require (
 	github.com/gohugoio/hugo-mod-jslibs-dist/popperjs/v2 v2.21100.20000 // indirect
-	github.com/hbstack/blog v0.16.1 // indirect
+	github.com/hbstack/blog v0.17.0 // indirect
 	github.com/hbstack/footer v0.2.5 // indirect
 	github.com/hbstack/hb v0.7.1 // indirect
 	github.com/hbstack/header v0.12.0 // indirect
