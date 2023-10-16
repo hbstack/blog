@@ -1,7 +1,7 @@
 #!/bin/bash
 modules=(
   breadcrumb content-panel disqus featured-image giscus heading-sign post-nav related-posts 
-  sidebar/profile sidebar/posts sidebar/taxonomies toc-scrollspy twikoo utterances
+  sidebar/profile sidebar/posts sidebar/taxonomies staticman toc-scrollspy twikoo utterances
 )
 for module in ${modules[@]}; do
   echo "Updating modules for modules/$module"
