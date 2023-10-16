@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.3.10](https://github.com/hbstack/blog/compare/modules/sidebar/taxonomies/v0.3.9...modules/sidebar/taxonomies/v0.3.10) (2023-10-16)
+
+
+### Continuous Integration
+
+* **deps:** update module github.com/hbstack/blog to v0.17.0 ([31e2269](https://github.com/hbstack/blog/commit/31e2269889826b3a102fb1ac5ac1a0c09a88d652))
+
 ## [0.3.9](https://github.com/hbstack/blog/compare/modules/sidebar/taxonomies/v0.3.8...modules/sidebar/taxonomies/v0.3.9) (2023-10-16)
 
 

@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.5.1](https://github.com/hbstack/blog/compare/modules/sidebar/posts/v0.5.0...modules/sidebar/posts/v0.5.1) (2023-10-16)
+
+
+### Continuous Integration
+
+* **deps:** update module github.com/hbstack/blog to v0.17.0 ([31e2269](https://github.com/hbstack/blog/commit/31e2269889826b3a102fb1ac5ac1a0c09a88d652))
+
 ## [0.5.0](https://github.com/hbstack/blog/compare/modules/sidebar/posts/v0.4.2...modules/sidebar/posts/v0.5.0) (2023-10-16)
 
 
