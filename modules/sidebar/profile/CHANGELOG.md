@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/hbstack/blog/compare/modules/sidebar/profile/v1.0.2...modules/sidebar/profile/v1.1.0) (2023-10-16)
+
+
+### Features ✨
+
+* prepare for theming ([fd8d330](https://github.com/hbstack/blog/commit/fd8d3302218dec96344cb13466de270e6a71dc6c))
+
 ## [1.0.2](https://github.com/hbstack/blog/compare/modules/sidebar/profile/v1.0.1...modules/sidebar/profile/v1.0.2) (2023-10-14)
 
 

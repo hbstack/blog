@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.17](https://github.com/hbstack/blog/compare/modules/content-panel/v0.1.16...modules/content-panel/v0.1.17) (2023-10-16)
+
+
+### Continuous Integration
+
+* **deps:** update module github.com/hugomods/icons/vendors/simple-icons to v1.0.18 ([0e0aa64](https://github.com/hbstack/blog/commit/0e0aa64309a8afe05a0b84d56620b677423be0cc))
+
 ## [0.1.16](https://github.com/hbstack/blog/compare/modules/content-panel/v0.1.15...modules/content-panel/v0.1.16) (2023-10-14)
 
 
