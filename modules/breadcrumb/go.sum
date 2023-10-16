@@ -3,8 +3,8 @@ github.com/gohugoio/hugo-mod-bootstrap-scss/v5 v5.20300.20200/go.mod h1:kx8MBj9T
 github.com/gohugoio/hugo-mod-jslibs-dist/popperjs/v2 v2.21100.20000/go.mod h1:mFberT6ZtcchrsDtfvJM7aAH2bDKLdOnruUHl0hlapI=
 github.com/hbstack/blog v0.16.1 h1:Y+HY0DPZKj1CSBnNyU4/1Bt1yNBpVgJoquEfjQ1hNqQ=
 github.com/hbstack/blog v0.16.1/go.mod h1:8sBP+PIq/hKN6Y99DuA3jup+aFUl/bbB8okNgwERNOs=
-github.com/hbstack/breadcrumb v0.2.0 h1:MFdVkfSMHkGaLGwp8lwcYYQuorpWzB6S/WOmblSlW9o=
-github.com/hbstack/breadcrumb v0.2.0/go.mod h1:/HsyKPMkXaairW/Ws6tGlc1Zf1DEmjp/v7d2QkY/UC4=
+github.com/hbstack/breadcrumb v0.2.1 h1:dhgak/MwHojE3PSzTMytXp1p0JGhsMje65/3bCxaAL8=
+github.com/hbstack/breadcrumb v0.2.1/go.mod h1:TTqv6qJzqTeYvHSZ3gIifRB/zVD0l+I7/Sxu0cftqtE=
 github.com/hbstack/footer v0.2.5 h1:SBelvFYo8/IDPisprlZxEaR70PXcoHfjL+2mm1ir6/A=
 github.com/hbstack/footer v0.2.5/go.mod h1:L0ZYdYRROlGUGLRA9QchkYeByHIff/EU4WKRdAUW+E8=
 github.com/hbstack/header v0.12.0 h1:VMqJP3v2SMPnsiZ7VkcE1C1scyBc47FHM8AeDFbGBwI=
