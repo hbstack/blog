@@ -25,6 +25,9 @@
         class="hb-blog-post-title-link d-block"
         title="{{ $page.Title }}"
         href="{{ $page.RelPermalink }}">
+        {{- if $page.Params.pinned }}
+          {{- partialCached "hb/modules/blog/helpers/pinned-icon" . -}}
+        {{- end }}
         {{- $page.Title -}}
       </a>
     </div>

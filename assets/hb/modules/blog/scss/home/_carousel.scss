@@ -1,0 +1,10 @@
+@if $hb-blog-home-pinned-posts-pos == list {
+  @include media-breakpoint-up(lg) {
+    .hb-blog-home-carousel {
+      .carousel-img,
+      .carousel-img-placeholder {
+        height: 400px !important;
+      }
+    }
+  }
+}

@@ -2,19 +2,23 @@
 {{- with site.Params.hb.blog.home.main_sections }}
   {{- $pages = where $pages "Section" "in" . }}
 {{- end }}
+{{- $pinnedPos := default "" site.Params.hb.blog.home.pinned_posts_position }}
+{{- $featuredCount := default 10 site.Params.hb.blog.home.featured_posts }}
+{{- $featuredPages := first $featuredCount (where $pages ".Params.featured" true) }}
+{{- if $featuredPages }}
 <div class="row">
   {{- $pinnedPages := first 1 (where $pages ".Params.pinned" true) }}
-  <div class="col-12{{ cond (not $pinnedPages) `` ` col-lg-6` }}">
-    {{- $featuredCount := default 10 site.Params.hb.blog.home.featured_posts }}
-    {{- $featuredPages := first $featuredCount (where $pages ".Params.featured" true) }}
+  {{- $hasPinned := and (ne $pinnedPos "list") $pinnedPages }}
+  <div class="col-12{{ cond $hasPinned ` col-lg-6` `` }} hb-blog-home-carousel">
     {{- partial "hb/modules/carousel/carousel" (dict "Pages" $featuredPages) -}}
   </div>
-  {{- with $pinnedPages }}
+  {{- if $hasPinned }}
     <div class="col-12 col-lg-6">
-      {{ partial "hb/modules/blog/posts" (dict "Pages" . "Cols" "row-cols-1" "ReadMore" false) }}
+      {{ partial "hb/modules/blog/posts" (dict "Pages" $pinnedPages "Cols" "row-cols-1" "ReadMore" false) }}
     </div>
   {{- end }}
 </div>
+{{- end }}
 <div class="hb-blog-main-container">
   <div class="hb-blog-main">
     {{- if default true site.Params.hb.blog.home.taxonomies }}

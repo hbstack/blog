@@ -37,4 +37,5 @@ post_thumbnail_default = "images/thumbnail.png"
 paginate = 30
 
 [params.hb.blog.home]
+pinned_posts_position = ""
 # taxonomies_style = 'toggle'
