@@ -1,5 +1,28 @@
 # Changelog
 
+## [0.17.0](https://github.com/hbstack/blog/compare/v0.16.1...v0.17.0) (2023-10-16)
+
+
+### Continuous Integration
+
+* **deps:** update module github.com/hugomods/simple-icons to v9.18.0+incompatible ([2e235ed](https://github.com/hbstack/blog/commit/2e235ed73878d9a57bda2731eb876d544cddc45c))
+
+
+### Features ✨
+
+* prepare for theming ([fd8d330](https://github.com/hbstack/blog/commit/fd8d3302218dec96344cb13466de270e6a71dc6c))
+
+
+### Bug Fixes 🐞
+
+* correct broken read more links ([#401](https://github.com/hbstack/blog/issues/401)) ([16a9605](https://github.com/hbstack/blog/commit/16a9605e8a43a3ec213dafd487fd583fc060c888))
+
+
+### Styles 🎨
+
+* hide the read more button from pinned posts on homepage ([56c5945](https://github.com/hbstack/blog/commit/56c59453706ba9aba1ce377eb78bdfaac56aa8da))
+* **sidebar:** change the scrollbar width as 2px ([69bea11](https://github.com/hbstack/blog/commit/69bea111a80889e32f391525c49394a820223a86))
+
 ## [0.16.1](https://github.com/hbstack/blog/compare/v0.16.0...v0.16.1) (2023-10-09)
 
 
