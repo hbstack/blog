@@ -13,6 +13,7 @@ github.com/hbstack/staticman-comments v0.2.1 h1:wx8DvA73YTVJ20Vm3UjF++JKvHtDrw+C
 github.com/hbstack/staticman-comments v0.2.1/go.mod h1:atFiyPXyyITaL8JbaMA2Qrle2q6SKtUssG0q8nY9LRk=
 github.com/hugomods/base v0.2.0 h1:O/ZzXPA9LJvNbkfmx0nJX9LHjEnQjAPmCwd2APwhnPU=
 github.com/hugomods/base v0.2.0/go.mod h1:hnWCPbVxuhXBwdFax3mmbMlWKmIo/7OP36MCLOyHtT4=
+github.com/hugomods/base v0.3.0/go.mod h1:hnWCPbVxuhXBwdFax3mmbMlWKmIo/7OP36MCLOyHtT4=
 github.com/hugomods/hugopress v0.2.1 h1:coYEPHUNLuTxKrVWVIPgs0lbZ6yrqxdWjgSriNFuBVo=
 github.com/hugomods/hugopress v0.2.1/go.mod h1:CRYvr60xOkZOf4Atkuj+uEj2EH5pjJ39Ws3aJAkoMkA=
 github.com/hugomods/icons v0.6.0 h1:G6RU93okhPPRDh/jqcew9gwkcYpSpg0rCBv4S6yUAFw=
