@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.18.1](https://github.com/hbstack/blog/compare/v0.18.0...v0.18.1) (2023-10-19)
+
+
+### Bug Fixes 🐞
+
+* build of home layout ([42ca3ce](https://github.com/hbstack/blog/commit/42ca3ce14faa0b96e53033c78c68e619e3ca2086))
+
 ## [0.18.0](https://github.com/hbstack/blog/compare/v0.17.0...v0.18.0) (2023-10-16)
 
 
