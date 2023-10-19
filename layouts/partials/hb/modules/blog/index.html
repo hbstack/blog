@@ -8,7 +8,7 @@
 {{- if $featuredPages }}
 <div class="row">
   {{- $pinnedPages := first 1 (where $pages ".Params.pinned" true) }}
-  {{- $hasPinned := and (ne $pinnedPos "list") $pinnedPages }}
+  {{- $hasPinned := and (ne $pinnedPos "list") (gt (len $pinnedPages) 0) }}
   <div class="col-12{{ cond $hasPinned ` col-lg-6` `` }} hb-blog-home-carousel">
     {{- partial "hb/modules/carousel/carousel" (dict "Pages" $featuredPages) -}}
   </div>
