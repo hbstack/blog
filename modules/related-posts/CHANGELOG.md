@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.3](https://github.com/hbstack/blog/compare/modules/related-posts/v0.2.2...modules/related-posts/v0.2.3) (2023-10-19)
+
+
+### Continuous Integration
+
+* **deps:** update module github.com/hbstack/blog to v0.18.1 ([7424589](https://github.com/hbstack/blog/commit/7424589a7c50c90858f2df1cac342c890a5a1a0b))
+
 ## [0.2.2](https://github.com/hbstack/blog/compare/modules/related-posts/v0.2.1...modules/related-posts/v0.2.2) (2023-10-19)
 
 
