@@ -2,7 +2,7 @@
 other = "Dalam halaman ini"
 
 [read_more]
-other = "Baca selanjutnya"
+other = "Baca lebih lanjut"
 
 [reading_time]
 other = "{{ .Count }} minit bacaan"
