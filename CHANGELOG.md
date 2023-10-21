@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.19.0](https://github.com/hbstack/blog/compare/v0.18.1...v0.19.0) (2023-10-21)
+
+
+### Features ✨
+
+* **i18n:** add ms.toml ([#415](https://github.com/hbstack/blog/issues/415)) ([6edea4a](https://github.com/hbstack/blog/commit/6edea4af0ab1435682d9780766510da92e31620f))
+
 ## [0.18.1](https://github.com/hbstack/blog/compare/v0.18.0...v0.18.1) (2023-10-19)
 
 
