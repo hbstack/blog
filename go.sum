@@ -23,3 +23,4 @@ github.com/hugomods/images v0.8.0 h1:rsI+Akwbz+Vd3mI0leAlCD8R696usHw13nH972mTe4E
 github.com/hugomods/images v0.8.0/go.mod h1:U6Gwj16LKvk66rOMyGFrnF6f0aV8lT89lqOsckOAjYY=
 github.com/hugomods/simple-icons v9.18.0+incompatible h1:ODoTOwW/t+FSChRQ+ajYyR7GYZejV0TZwqfY6qrzWb0=
 github.com/hugomods/simple-icons v9.18.0+incompatible/go.mod h1:1Lvymol7AMVY7ji/o88jMoDHHZIJ5Wc+WwNe5hjmk+U=
+github.com/hugomods/simple-icons v9.19.0+incompatible/go.mod h1:1Lvymol7AMVY7ji/o88jMoDHHZIJ5Wc+WwNe5hjmk+U=
