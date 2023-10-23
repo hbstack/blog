@@ -1,6 +1,6 @@
 {{- define "title" }}
   {{- $pages := sort site.RegularPages "Date" "desc" }}
-  {{- $path := replace .RelPermalink site.Home.RelPermalink "" }}
+  {{- $path := replace .Permalink site.Home.Permalink "" }}
   {{- $paths := split $path "/" }}
   {{- $year := default "" (index $paths 1) }}
   {{- $month := default "" (index $paths 2) }}
