@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.19.2](https://github.com/hbstack/blog/compare/v0.19.1...v0.19.2) (2023-11-01)
+
+
+### Bug Fixes 🐞
+
+* **deps:** update dependency stylelint-scss to v5.3.0 ([37f1372](https://github.com/hbstack/blog/commit/37f137203f71b07b9cd8aa4dc046436a7c4213f0))
+
+
+### Styles 🎨
+
+* show more posts per row on term list pages when there is no sidebar ([#441](https://github.com/hbstack/blog/issues/441)) ([7459cee](https://github.com/hbstack/blog/commit/7459cee80323043754e11ce7b985213473c2709d))
+
 ## [0.19.1](https://github.com/hbstack/blog/compare/v0.19.0...v0.19.1) (2023-10-23)
 
 
