@@ -8,9 +8,13 @@
     <div class="hb-blog-main">
       {{ partial "hugopress/functions/render-hooks" (dict "Name" "hb-blog-main-begin" "Page" .) }}
       {{ partialCached "hb/modules/blog/term/profile" . . }}
-      <div class="hb-terms-posts row">
+      {{- $cols := "row-cols-1 row-cols-md-2" }}
+      {{- if not (partialCached "hb/modules/blog/functions/has-sidebar" .) }}
+        {{- $cols = printf "%s row-cols-lg-3" $cols }}
+      {{- end }}
+      <div class="hb-terms-posts row {{ $cols }}">
         {{- range .Paginator.Pages }}
-          <div class="col-12 col-md-6 mb-3 mb-lg-4">
+          <div class="mb-3 mb-lg-4">
             {{ partial "hb/modules/blog/post/card" (dict "Page" .) }}
           </div>
         {{- end }}
