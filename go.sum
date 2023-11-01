@@ -13,6 +13,7 @@ github.com/hbstack/pagination v0.2.0 h1:1TKy5bLrwkIxHJPLjK+k6Ws9ZO6Lg2ppP+Z1iVvD
 github.com/hbstack/pagination v0.2.0/go.mod h1:IwCFgkfkXMVjudqJ8nHcwQLlXmwx0MRtNFOCd+0I3Vw=
 github.com/hbstack/pagination v0.2.1/go.mod h1:rYUcK2N6NxzLiy67xfXzt1xSCE5QKFPYHG3+2hsecYQ=
 github.com/hbstack/pagination v0.3.0/go.mod h1:rYUcK2N6NxzLiy67xfXzt1xSCE5QKFPYHG3+2hsecYQ=
+github.com/hbstack/pagination v0.4.0/go.mod h1:xAvZzN0UZW0j/IAUipcRIIQ7P9Sq44M3k47HaHy7OuU=
 github.com/hbstack/socials v0.6.0 h1:vnDZLpQmA2tJAHQeOXuFtlzMIoE8rUKahiBRuhkeg3w=
 github.com/hbstack/socials v0.6.0/go.mod h1:vOckvjx7Tvhg+QJ4rKR7lTj3GytBMACj1Q43V459J5Q=
 github.com/hbstack/socials v0.7.0/go.mod h1:0IViwiReyAknJBIXFqhThn6m13jbib6lLFYfMIWZYzY=
