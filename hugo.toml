@@ -23,7 +23,7 @@ path = "github.com/hugomods/images"
 cacheable = true
 
 [params.hb.terms]
-paginate = 9
+paginate = 12
 
 [params.hb.blog]
 full_width = false
