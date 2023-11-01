@@ -1,0 +1,8 @@
+[on_this_page]
+other = "На этой странице"
+
+[read_more]
+other = "Читать далее"
+
+[reading_time]
+other = "Читается за {{ .Count }} мин."
