@@ -1,0 +1,8 @@
+[on_this_page]
+other = "Sommaire"
+
+[read_more]
+other = "Lire la suite"
+
+[reading_time]
+other = "{{ .Count }} minutes de lecture"
