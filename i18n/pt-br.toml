@@ -5,4 +5,5 @@ other = "Nesta página"
 other = "Leia mais"
 
 [reading_time]
+one = "{{ .Count }} minuto de leitura"
 other = "{{ .Count }} minutos de leitura"
