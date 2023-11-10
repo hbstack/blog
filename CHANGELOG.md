@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.22.1](https://github.com/hbstack/blog/compare/v0.22.0...v0.22.1) (2023-11-10)
+
+
+### Bug Fixes 🐞
+
+* **i18n:** update PT-BR translation file ([#471](https://github.com/hbstack/blog/issues/471)) ([6519c83](https://github.com/hbstack/blog/commit/6519c8316107192288d606ab9fd282952d6662aa))
+
 ## [0.22.0](https://github.com/hbstack/blog/compare/v0.21.0...v0.22.0) (2023-11-10)
 
 
