@@ -1,5 +1,5 @@
 {
-    ".": "0.22.1",
+    ".": "0.22.2",
     "modules/breadcrumb": "0.1.22",
     "modules/content-panel": "0.1.21",
     "modules/disqus": "0.1.19",
@@ -8,7 +8,7 @@
     "modules/heading-sign": "0.1.23",
     "modules/post-nav": "0.3.4",
     "modules/related-posts": "0.2.4",
-    "modules/sidebar/posts": "0.5.4",
+    "modules/sidebar/posts": "0.6.0",
     "modules/sidebar/taxonomies": "0.3.13",
     "modules/staticman": "0.1.21",
     "modules/toc-scrollspy": "0.1.20",
