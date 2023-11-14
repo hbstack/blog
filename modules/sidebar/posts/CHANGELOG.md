@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.6.0](https://github.com/hbstack/blog/compare/modules/sidebar/posts/v0.5.4...modules/sidebar/posts/v0.6.0) (2023-11-14)
+
+
+### Features ✨
+
+* **i18n:** create pt-br.toml ([#475](https://github.com/hbstack/blog/issues/475)) ([00a53bd](https://github.com/hbstack/blog/commit/00a53bdaf70f0829433240e2ae8e097eb36aefa3))
+
 ## [0.5.4](https://github.com/hbstack/blog/compare/modules/sidebar/posts/v0.5.3...modules/sidebar/posts/v0.5.4) (2023-10-23)
 
 

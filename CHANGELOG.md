@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.22.2](https://github.com/hbstack/blog/compare/v0.22.1...v0.22.2) (2023-11-14)
+
+
+### Bug Fixes 🐞
+
+* correct the default thumbnail in the case of baseURL contains subpaths ([#484](https://github.com/hbstack/blog/issues/484)) ([52e6a74](https://github.com/hbstack/blog/commit/52e6a747c1c5693b8f7ed36b343e35e17d4418bf))
+
 ## [0.22.1](https://github.com/hbstack/blog/compare/v0.22.0...v0.22.1) (2023-11-10)
 
 
