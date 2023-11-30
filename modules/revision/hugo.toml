@@ -1,0 +1,8 @@
+[params.hugopress.modules.hb-blog-revision.hooks.hb-blog-post-content-end]
+weight = 1
+
+[[module.imports]]
+path = "github.com/hbstack/blog"
+
+[[module.imports]]
+path = "github.com/hbstack/revision"
