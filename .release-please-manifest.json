@@ -8,6 +8,7 @@
     "modules/heading-sign": "0.1.23",
     "modules/post-nav": "0.3.4",
     "modules/related-posts": "0.2.4",
+    "modules/revision": "0.0.1",
     "modules/sidebar/posts": "0.6.0",
     "modules/sidebar/taxonomies": "0.3.13",
     "modules/staticman": "0.1.21",

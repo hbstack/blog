@@ -44,6 +44,9 @@
         "modules/related-posts": {
             "component": "modules/related-posts"
         },
+        "modules/revision": {
+            "component": "modules/revision"
+        },
         "modules/sidebar/posts": {
             "component": "modules/sidebar/posts"
         },
