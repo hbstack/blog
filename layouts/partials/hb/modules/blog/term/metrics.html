@@ -1,11 +1,11 @@
-{{- $metrics := slice (dict "title" "Pages" "count" (len .Data.Pages)) }}
+{{- $metrics := slice (dict "title" "Pages" "count" (len .RegularPages)) }}
 {{- $metrics = $metrics | append (dict
   "title" "Sections"
-  "count" (len (.Data.Pages.GroupBy "Section")))
+  "count" (len (.RegularPages.GroupBy "Section")))
 }}
 {{- $metrics = $metrics | append (dict
   "title" "Types"
-  "count" (len (.Data.Pages.GroupBy "Type")))
+  "count" (len (.RegularPages.GroupBy "Type")))
 }}
 <ul class="nav justify-content-center mt-3 mb-0">
   {{ range $metrics }}

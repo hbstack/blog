@@ -1,17 +1,24 @@
 {{- define "main" }}
+  {{- $pages := slice }}
+  {{- range .Data.Pages }}
+    {{- if gt (len .RegularPages) 0 }}
+      {{- $pages = $pages | append . }}
+    {{- end }}
+  {{- end }}
   <div class="row align-items-center flex-grow-1 hb-module">
     <div class="col-6 offset-3">
       <h1 class="mb-4 pb-3 text-center border-bottom">
         {{- .Title -}}
-        <small class="ms-1 text-secondary">({{- len .Data.Pages -}})</small>
+        <small class="ms-1 text-secondary">({{- len $pages -}})</small>
       </h1>
       <ul
         class="hb-terms-cloud list-unstyled ps-0 d-flex flex-wrap align-items-center justify-content-center">
-        {{- range $i, $page := .Data.Pages }}
-          {{- $totalPages := len .Pages }}
+        {{- range $i, $page := $pages }}
+          {{- $totalPages := len .RegularPages }}
           {{- $fontSize := div $totalPages 3 }}
           {{- $fontSize = math.Min $fontSize 12 }}
-          <li class="mx-1 my-2">
+          <l
+          i class="mx-1 my-2">
             <a
               data-total-pages="{{ $totalPages }}"
               href="{{ .RelPermalink }}"
