@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.22.3](https://github.com/hbstack/blog/compare/v0.22.2...v0.22.3) (2023-11-30)
+
+
+### Bug Fixes 🐞
+
+* **taxonomies:** listing and counting regular pages only ([#498](https://github.com/hbstack/blog/issues/498)) ([635dc2d](https://github.com/hbstack/blog/commit/635dc2dbf0e9831e92ca08f3c18dce8944b69e46))
+
 ## [0.22.2](https://github.com/hbstack/blog/compare/v0.22.1...v0.22.2) (2023-11-14)
 
 
