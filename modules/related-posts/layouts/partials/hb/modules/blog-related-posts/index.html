@@ -1,5 +1,5 @@
 {{- with .Site.RegularPages.Related . | first .Site.Params.hb.blog.related_posts.number }}
-  <div class="hb-blog-related-posts slide mb-3">
+  <div class="hb-blog-related-posts slide hb-module p-1">
     <div class="slide-inner row row-cols-1 row-cols-xl-2 gx-2">
       {{- $total := len . }}
       {{- range $i, $page := . }}

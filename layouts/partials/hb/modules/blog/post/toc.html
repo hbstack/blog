@@ -1,4 +1,5 @@
 {{- if partial "base/functions/has-toc" . }}
+<div class="hb-module pb-1">
   <div class="h6 d-none d-md-block">{{ i18n "on_this_page" }}</div>
   <hr class="d-none d-md-block" />
   <div class="d-grid d-block d-md-none mb-2">
@@ -16,4 +17,5 @@
   <div class="px-2 px-md-0">
     <div id="collapse-toc" class="collapse hb-blog-post-toc-collapse">{{ .TableOfContents }}</div>
   </div>
+</div>
 {{- end }}

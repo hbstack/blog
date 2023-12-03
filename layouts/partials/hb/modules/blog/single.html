@@ -1,21 +1,21 @@
 <div class="hb-blog-main-container">
   <div class="hb-blog-main">
     {{ partial "hugopress/functions/render-hooks" (dict "Name" "hb-blog-main-begin" "Page" .) }}
-    <div class="hb-blog-post hb-module position-relative">
-      <div class="hb-blog-post-intro">
-        <h1 class="hb-blog-post-title mb-2">{{ .Title }}</h1>
-        <div class="hb-blog-post-meta mb-2">
+    <div class="hb-blog-post position-relative">
+      <div class="hb-blog-post-intro hb-module mb-2">
+        <h1 class="hb-blog-post-title">{{ .Title }}</h1>
+        <div class="hb-blog-post-meta">
           {{ partialCached "hb/modules/blog/post/meta/authors" . . }}
           {{ partialCached "hb/modules/blog/post/meta/date" . . }}
           {{ partialCached "hb/modules/blog/post/meta/reading-time" . . }}
           {{ partialCached "hb/modules/blog/post/meta/taxonomies" . . }}
         </div>
         {{- with .Description }}
-          <div class="hb-blog-post-desc lead mb-2">{{ . }}</div>
+          <div class="hb-blog-post-desc lead mt-1">{{ . }}</div>
         {{- end }}
       </div>
       <div
-        class="hb-blog-post-toc mt-2 text-body-secondary position-sticky overflow-y-auto">
+        class="hb-blog-post-toc text-body-secondary position-sticky overflow-y-auto">
         {{- partial "hugopress/functions/render-hooks" (dict "Name" "hb-blog-post-toc-begin" "Page" .) }}
         {{- partialCached "hb/modules/blog/post/toc" . . }}
         {{- partial "hugopress/functions/render-hooks" (dict "Name" "hb-blog-post-toc-end" "Page" .) }}
@@ -25,7 +25,7 @@
         {{- partial "hugopress/functions/render-hooks" (dict "Name" "hb-blog-post-content-begin" "Page" .) }}
         {{- $attributes := partial "hugopress/functions/render-attributes" (dict "Page" . "Name" "hb-blog-post-content") }}
         <div
-          class="hb-blog-post-content mb-5"
+          class="hb-blog-post-content hb-module"
           {{ with $attributes }}{{ . | safeHTMLAttr }}{{ end }}>
           {{ .Content }}
         </div>

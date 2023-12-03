@@ -1,6 +1,6 @@
 {{- if default true .Params.comments }}
   {{- partial "hugopress/functions/render-hooks" (dict "Name" "hb-blog-post-comments-begin" "Page" .) }}
-  <div id="content-comments" class="hb-blog-post-comments mb-3">
+  <div id="content-comments" class="hb-blog-post-comments hb-module mb-3">
     {{- partial "hugopress/functions/render-hooks" (dict "Name" "hb-blog-post-comments" "Page" .) }}
   </div>
   {{- partial "hugopress/functions/render-hooks" (dict "Name" "hb-blog-comments-end" "Page" .) }}

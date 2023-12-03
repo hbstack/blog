@@ -7,11 +7,11 @@
   "title" "Types"
   "count" (len (.RegularPages.GroupBy "Type")))
 }}
-<ul class="nav justify-content-center mt-3 mb-0">
+<ul class="nav justify-content-center mt-auto mb-0">
   {{ range $metrics }}
     <li
       class="nav-item d-flex flex-column justify-content-center align-items-center my-2 mx-3">
-      <span class="mb-1 fw-bold">{{ .count }}</span>
+      <span class="mb-1 fw-bold btn btn-secondary rounded">{{ .count }}</span>
       <span class="text-body-secondary">{{ .title }}</span>
     </li>
   {{ end }}
