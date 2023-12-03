@@ -1,10 +1,10 @@
-{{- $metrics := slice (dict "title" "Pages" "count" (len .RegularPages)) }}
+{{- $metrics := slice (dict "title" (i18n "metrics_posts") "count" (len .RegularPages)) }}
 {{- $metrics = $metrics | append (dict
-  "title" "Sections"
+  "title" (i18n "metrics_page_sections")
   "count" (len (.RegularPages.GroupBy "Section")))
 }}
 {{- $metrics = $metrics | append (dict
-  "title" "Types"
+  "title" (i18n "metrics_page_types")
   "count" (len (.RegularPages.GroupBy "Type")))
 }}
 <ul class="nav justify-content-center mt-auto mb-0">

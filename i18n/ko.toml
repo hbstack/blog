@@ -1,3 +1,12 @@
+[metrics_page_sections]
+other = "Sections"
+
+[metrics_page_types]
+other = "Types"
+
+[metrics_posts]
+other = "Posts"
+
 [on_this_page]
 other = "목차"
 

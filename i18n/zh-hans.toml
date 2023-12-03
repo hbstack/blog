@@ -1,3 +1,12 @@
+[metrics_page_sections]
+other = "板块"
+
+[metrics_page_types]
+other = "类型"
+
+[metrics_posts]
+other = "文章"
+
 [on_this_page]
 other = "本页内容"
 
