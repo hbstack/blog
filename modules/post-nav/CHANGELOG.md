@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.3.5](https://github.com/hbstack/blog/compare/modules/post-nav/v0.3.4...modules/post-nav/v0.3.5) (2023-12-03)
+
+
+### Styles 🎨
+
+* prepare for theming ([#507](https://github.com/hbstack/blog/issues/507)) ([409fc08](https://github.com/hbstack/blog/commit/409fc08a0422d3e04e061312bbcb4bba03aae29c))
+
 ## [0.3.4](https://github.com/hbstack/blog/compare/modules/post-nav/v0.3.3...modules/post-nav/v0.3.4) (2023-10-23)
 
 

@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.5](https://github.com/hbstack/blog/compare/modules/related-posts/v0.2.4...modules/related-posts/v0.2.5) (2023-12-03)
+
+
+### Styles 🎨
+
+* prepare for theming ([#507](https://github.com/hbstack/blog/issues/507)) ([409fc08](https://github.com/hbstack/blog/commit/409fc08a0422d3e04e061312bbcb4bba03aae29c))
+
 ## [0.2.4](https://github.com/hbstack/blog/compare/modules/related-posts/v0.2.3...modules/related-posts/v0.2.4) (2023-10-23)
 
 
