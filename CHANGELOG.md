@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.22.5](https://github.com/hbstack/blog/compare/v0.22.4...v0.22.5) (2023-12-03)
+
+
+### Bug Fixes 🐞
+
+* **i18n:** translate metrics UI items ([#509](https://github.com/hbstack/blog/issues/509)) ([c5cb9a2](https://github.com/hbstack/blog/commit/c5cb9a2790ad4784eb01357ca1595cceccc933fb))
+
 ## [0.22.4](https://github.com/hbstack/blog/compare/v0.22.3...v0.22.4) (2023-12-03)
 
 

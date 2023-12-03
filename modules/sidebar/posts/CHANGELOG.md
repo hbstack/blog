@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.6.1](https://github.com/hbstack/blog/compare/modules/sidebar/posts/v0.6.0...modules/sidebar/posts/v0.6.1) (2023-12-03)
+
+
+### Bug Fixes 🐞
+
+* **i18n:** add fallback translations for other languages ([#513](https://github.com/hbstack/blog/issues/513)) ([1349d1f](https://github.com/hbstack/blog/commit/1349d1febb6cf85e6f7f620791220f86f48fed3f))
+
 ## [0.6.0](https://github.com/hbstack/blog/compare/modules/sidebar/posts/v0.5.4...modules/sidebar/posts/v0.6.0) (2023-11-14)
 
 
