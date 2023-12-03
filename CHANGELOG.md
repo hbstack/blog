@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.22.6](https://github.com/hbstack/blog/compare/v0.22.5...v0.22.6) (2023-12-03)
+
+
+### Styles 🎨
+
+* improve SEO of read more buttons ([e74aae4](https://github.com/hbstack/blog/commit/e74aae4ddd301582b1e707e31aac22a93250fa94))
+
 ## [0.22.5](https://github.com/hbstack/blog/compare/v0.22.4...v0.22.5) (2023-12-03)
 
 
