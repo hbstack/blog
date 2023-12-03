@@ -6,15 +6,15 @@
 }}
 {{- $size := "2.25em" }}
 <nav class="nav nav-fill hb-module">
-  <a
-    class="nav-link d-flex flex-column disabled"
+  <span
+    class="nav-link d-flex flex-column"
     href="{{ site.Home.RelPermalink }}"
-    title="Pages">
+    title="{{ i18n `metrics_posts` }}">
     <span class="mb-3 text-body fw-bold">{{ len site.RegularPages }}</span>
     <span class="text-body">
       {{- partial "icons/icon" (dict "vendor" "bs" "name" "file-richtext" "width" $size "height" $size "className" "text-primary") -}}
     </span>
-  </a>
+  </span>
   {{- range $kind, $taxonomy := site.Taxonomies }}
     {{- with site.GetPage $kind }}
       <a
