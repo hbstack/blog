@@ -49,8 +49,8 @@
       {{- if and $readMore $truncated }}
         <div class="mt-2">
           <a
-            class="btn btn-sm btn-outline-secondary" href="{{ $page.RelPermalink }}">
-            {{- "read_more" | i18n -}}
+            class="text-secondary" href="{{ $page.RelPermalink }}">
+            {{- i18n "read_more_about" $page.Title -}}
           </a>
         </div>
       {{- end }}

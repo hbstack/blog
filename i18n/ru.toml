@@ -10,8 +10,8 @@ other = "Posts"
 [on_this_page]
 other = "На этой странице"
 
-[read_more]
-other = "Читать далее"
+[read_more_about]
+other = "Подробнее о {{ . }}."
 
 [reading_time]
 other = "Читается за {{ .Count }} мин."

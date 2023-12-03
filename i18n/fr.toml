@@ -10,8 +10,8 @@ other = "Posts"
 [on_this_page]
 other = "Sommaire"
 
-[read_more]
-other = "Lire la suite"
+[read_more_about]
+other = "En savoir plus sur {{ . }}."
 
 [reading_time]
 other = "{{ .Count }} minutes de lecture"

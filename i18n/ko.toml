@@ -10,8 +10,8 @@ other = "Posts"
 [on_this_page]
 other = "목차"
 
-[read_more]
-other = "자세한 내용 보기"
+[read_more_about]
+other = "{{ . }}에 대한 자세한 내용 보기"
 
 [reading_time]
 other = "읽는 데에 {{ .Count }}분"

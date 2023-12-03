@@ -10,8 +10,8 @@ other = "文章"
 [on_this_page]
 other = "本页内容"
 
-[read_more]
-other = "阅读全文"
+[read_more_about]
+other = "阅读更多关于{{ . }}的内容。"
 
 [reading_time]
 other = "{{ .Count }} 分钟阅读"
