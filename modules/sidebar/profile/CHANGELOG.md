@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.5](https://github.com/hbstack/blog/compare/modules/sidebar/profile/v1.1.4...modules/sidebar/profile/v1.1.5) (2023-12-04)
+
+
+### Bug Fixes 🐞
+
+* **sidebar/profile:** preserve aspect ratio when resizing avatars ([75d788f](https://github.com/hbstack/blog/commit/75d788fc314044c2849196ad30bd2cecd3d20d1e))
+
 ## [1.1.4](https://github.com/hbstack/blog/compare/modules/sidebar/profile/v1.1.3...modules/sidebar/profile/v1.1.4) (2023-10-23)
 
 
