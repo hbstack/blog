@@ -3,8 +3,9 @@
     class="hb-blog-sidebar-profile hb-module d-flex flex-column justify-content-center align-items-center">
     {{- $avatarSize := default 100 .avatar_size }}
     {{- with .avatar }}
+      {{ $avatarURL := printf "/%s?width=%d" (strings.TrimPrefix "/" .) $avatarSize }}
       {{ partial "images/image" (dict
-        "Filename" (printf "/%s?height=%d&width=%d" (strings.TrimPrefix "/" .) $avatarSize $avatarSize)
+        "Filename" $avatarURL
         "ClassName" "hb-blog-sidebar-profile-img rounded-circle img-fluid mb-3")
       }}
     {{- end }}
