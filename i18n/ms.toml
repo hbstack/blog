@@ -1,17 +1,17 @@
 [metrics_page_sections]
-other = "Sections"
+other = "Bahagian"
 
 [metrics_page_types]
-other = "Types"
+other = "Jenis"
 
 [metrics_posts]
-other = "Posts"
+other = "Hantaran"
 
 [on_this_page]
 other = "Dalam halaman ini"
 
 [read_more_about]
-other = "baca lebih mengenai {{ . }}."
+other = "Baca selanjutnya mengenai {{ . }}."
 
 [reading_time]
 other = "{{ .Count }} minit bacaan"
