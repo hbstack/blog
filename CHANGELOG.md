@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.22.7](https://github.com/hbstack/blog/compare/v0.22.6...v0.22.7) (2023-12-05)
+
+
+### Bug Fixes 🐞
+
+* **i18n:** update ms.toml ([#524](https://github.com/hbstack/blog/issues/524)) ([e251893](https://github.com/hbstack/blog/commit/e251893aaaef02ab00fb8f02a53f246c043dd3aa))
+
 ## [0.22.6](https://github.com/hbstack/blog/compare/v0.22.5...v0.22.6) (2023-12-03)
 
 
