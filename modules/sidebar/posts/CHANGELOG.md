@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.6.2](https://github.com/hbstack/blog/compare/modules/sidebar/posts/v0.6.1...modules/sidebar/posts/v0.6.2) (2023-12-06)
+
+
+### Bug Fixes 🐞
+
+* **i18n:** update es.toml ([#530](https://github.com/hbstack/blog/issues/530)) ([8fc0b39](https://github.com/hbstack/blog/commit/8fc0b39971fac983f1bac7d7ce9493a1d11eb194))
+
 ## [0.6.1](https://github.com/hbstack/blog/compare/modules/sidebar/posts/v0.6.0...modules/sidebar/posts/v0.6.1) (2023-12-03)
 
 
