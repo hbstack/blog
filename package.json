@@ -25,6 +25,6 @@
     "stylelint": "npx stylelint \"**/*.scss\""
   },
   "dependencies": {
-    "stylelint-scss": "^5.0.0"
+    "stylelint-scss": "^6.0.0"
   }
 }
