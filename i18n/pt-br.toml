@@ -1,11 +1,11 @@
 [metrics_page_sections]
-other = "Sections"
+other = "Seções"
 
 [metrics_page_types]
-other = "Types"
+other = "Tipos"
 
 [metrics_posts]
-other = "Posts"
+other = "Postagens"
 
 [on_this_page]
 other = "Nesta página"
