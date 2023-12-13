@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.22.8](https://github.com/hbstack/blog/compare/v0.22.7...v0.22.8) (2023-12-13)
+
+
+### Bug Fixes 🐞
+
+* **deps:** update dependency stylelint-scss to v6 ([8da2a2d](https://github.com/hbstack/blog/commit/8da2a2dfd6a8e997254e82a54ae184bf6ef74eb7))
+* **i18n:** update pt-br.toml ([#543](https://github.com/hbstack/blog/issues/543)) ([64db5ff](https://github.com/hbstack/blog/commit/64db5ff6014642ca4585fd980ea45e4371a994c6))
+
 ## [0.22.7](https://github.com/hbstack/blog/compare/v0.22.6...v0.22.7) (2023-12-05)
 
 
