@@ -1,3 +1,7 @@
+@function hb-blog-sidebar-width-fr($fullWidth) {
+    @return #{$fullWidth * $hb-blog-sidebar-width}fr;
+}
+
 @if $hb-blog-sidebar {
     .hb-blog-main-container {
         @include media-breakpoint-up(lg) {
@@ -6,18 +10,18 @@
 
             @if $hb-blog-sidebar-position == end {
                 grid-template-areas: "main sidebar";
-                grid-template-columns: minmax(0, 5fr) 2fr;
+                grid-template-columns: minmax(0, 5fr) hb-blog-sidebar-width-fr(5);
             } @else {
                 grid-template-areas: "sidebar main";
-                grid-template-columns: 2fr minmax(0, 5fr);
+                grid-template-columns: hb-blog-sidebar-width-fr(5) minmax(0, 5fr);
             }
         }
 
         @include media-breakpoint-up(xl) {
             @if $hb-blog-sidebar-position == end {
-                grid-template-columns: minmax(0, 7fr) 2fr;
+                grid-template-columns: minmax(0, 7fr) hb-blog-sidebar-width-fr(7);
             } @else {
-                grid-template-columns: 2fr minmax(0, 7fr);
+                grid-template-columns: hb-blog-sidebar-width-fr(7) minmax(0, 7fr);
             }
         }
     }
