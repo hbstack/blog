@@ -8,13 +8,23 @@
     grid-template-rows: auto auto 1fr;
 
     @include media-breakpoint-up(lg) {
-        grid-template-areas:
-            "intro toc"
-            "main toc";
-        /* stylelint-disable declaration-block-no-redundant-longhand-properties */
-        grid-template-rows: auto 1fr;
-        grid-template-columns: 4fr 1fr;
-        /* stylelint-enable declaration-block-no-redundant-longhand-properties */
+        @if $hb-blog-toc-position == 'start' {
+            grid-template-areas:
+                "toc intro"
+                "toc main";
+            /* stylelint-disable declaration-block-no-redundant-longhand-properties */
+            grid-template-rows: 1fr auto;
+            grid-template-columns: 1fr 4fr;
+            /* stylelint-enable declaration-block-no-redundant-longhand-properties */
+        } @else if $hb-blog-toc-position == 'end' {
+            grid-template-areas:
+                "intro toc"
+                "main toc";
+            /* stylelint-disable declaration-block-no-redundant-longhand-properties */
+            grid-template-rows: auto 1fr;
+            grid-template-columns: 4fr 1fr;
+            /* stylelint-enable declaration-block-no-redundant-longhand-properties */
+        }
     }
 }
 
