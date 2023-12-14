@@ -1,0 +1,11 @@
+<div class="slide">
+  <div class="slide-inner row row-cols-1">
+    {{- range . }}
+      <div class="slide-item px-0">
+        {{- $ctx := dict "Page" . "Meta" false "Summary" false "Modularize" false }}
+        {{ partial "hb/modules/blog/post/card" $ctx }}
+      </div>
+    {{- end }}
+  </div>
+  {{ partialCached "hb/modules/slide/controls" . }}
+</div>

@@ -10,5 +10,6 @@ cacheable = true
 [params.hb.blog.sidebar.posts]
 style = "pills"
 fill = true
+list_style = "slide"
 recent_count = 5
 featured_count = 5

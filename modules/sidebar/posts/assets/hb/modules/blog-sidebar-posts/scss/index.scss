@@ -16,3 +16,28 @@
         height: 120px;
     }
 }
+
+.hb-blog-sidebar-posts-vertical {
+    .card-img-top {
+        margin-top: 0 !important;
+        display: block;
+        width: 100px;
+        height: 78px;
+    }
+
+    .hb-blog-post-card-img-none {
+        font-size: .8rem;
+    }
+
+    .hb-blog-post-card-img,
+    .hb-blog-post-card-img-none {
+        width: 100px;
+        height: 100%;
+    }
+
+    .hb-blog-sidebar-post-title {
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+    }
+}
