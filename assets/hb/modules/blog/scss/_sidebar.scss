@@ -3,12 +3,22 @@
         @include media-breakpoint-up(lg) {
             display: grid;
             grid-gap: 1rem;
-            grid-template-areas: "sidebar main";
-            grid-template-columns: 2fr minmax(0, 5fr);
+
+            @if $hb-blog-sidebar-position == end {
+                grid-template-areas: "main sidebar";
+                grid-template-columns: minmax(0, 5fr) 2fr;
+            } @else {
+                grid-template-areas: "sidebar main";
+                grid-template-columns: 2fr minmax(0, 5fr);
+            }
         }
 
         @include media-breakpoint-up(xl) {
-            grid-template-columns: 2fr minmax(0, 7fr);
+            @if $hb-blog-sidebar-position == end {
+                grid-template-columns: minmax(0, 7fr) 2fr;
+            } @else {
+                grid-template-columns: 2fr minmax(0, 7fr);
+            }
         }
     }
 
