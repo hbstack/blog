@@ -1,3 +1,4 @@
+{{- partial "hugopress/functions/render-hooks" (dict "Name" "hb-blog-post-toc-begin" "Page" .) }}
 {{- if partial "base/functions/has-toc" . }}
 <div class="hb-module pb-1">
   <div class="h6 d-none d-md-block">{{ i18n "on_this_page" }}</div>
@@ -19,3 +20,4 @@
   </div>
 </div>
 {{- end }}
+{{- partial "hugopress/functions/render-hooks" (dict "Name" "hb-blog-post-toc-end" "Page" .) }}

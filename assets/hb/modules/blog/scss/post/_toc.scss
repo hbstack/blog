@@ -7,14 +7,15 @@
 
         /* stylelint-disable selector-id-pattern */
         #TableOfContents {
-            border-bottom: 1px solid var(--#{$prefix}border-color);
             font-size: 1rem !important;
         }
         /* stylelint-enable selector-id-pattern */
     }
 
     @include media-breakpoint-up(lg) {
-        height: calc(100vh - var(--#{$prefix}top-offset));
+        @if $hb-blog-toc-position != 'content' {
+            height: calc(100vh - var(--#{$prefix}top-offset));
+        }
 
         @include top-offset;
     }

@@ -14,15 +14,20 @@
           <div class="hb-blog-post-desc lead mt-1">{{ . }}</div>
         {{- end }}
       </div>
-      <div
-        class="hb-blog-post-toc text-body-secondary position-sticky overflow-y-auto">
-        {{- partial "hugopress/functions/render-hooks" (dict "Name" "hb-blog-post-toc-begin" "Page" .) }}
-        {{- partialCached "hb/modules/blog/post/toc" . . }}
-        {{- partial "hugopress/functions/render-hooks" (dict "Name" "hb-blog-post-toc-end" "Page" .) }}
-      </div>
+      {{- $tocPos := default "start" site.Params.hb.blog.toc.position }}
+      {{- if ne $tocPos "content" }}
+        <div class="hb-blog-post-toc text-body-secondary position-sticky overflow-y-auto">
+          {{- partialCached "hb/modules/blog/post/toc" . . }}
+        </div>
+      {{- end }}
       <div class="hb-blog-post-main">
         {{- partial "hugopress/functions/render-hooks" (dict "Name" "hb-blog-post-begin" "Page" .) }}
         {{- partial "hugopress/functions/render-hooks" (dict "Name" "hb-blog-post-content-begin" "Page" .) }}
+        {{- if eq $tocPos "content" }}
+          <div class="hb-blog-post-toc">
+            {{- partialCached "hb/modules/blog/post/toc" . . }}
+          </div>
+        {{- end }}
         {{- $attributes := partial "hugopress/functions/render-attributes" (dict "Page" . "Name" "hb-blog-post-content") }}
         <div
           class="hb-blog-post-content hb-module"
