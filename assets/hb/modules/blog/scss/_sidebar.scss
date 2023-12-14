@@ -34,10 +34,14 @@
         }
 
         @include media-breakpoint-up(lg) {
-            height: calc(100vh - var(--#{$prefix}top-offset));
             overflow: auto;
 
-            @include top-offset(sticky);
+            @if $hb-blog-sidebar-sticky {
+                height: calc(100vh - var(--#{$prefix}top-offset));
+                overflow: auto;
+    
+                @include top-offset(sticky);
+            }
         }
 
         .hb-module {
