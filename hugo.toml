@@ -43,6 +43,7 @@ pinned_posts_position = ""
 [params.hb.blog.sidebar]
 position = "start"
 width = 0.35
+sticky = true
 
 [params.hb.blog.toc]
 position = "end" # start, end or content.
