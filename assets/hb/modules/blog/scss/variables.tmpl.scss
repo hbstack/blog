@@ -1,3 +1,4 @@
 {{- $hasSidebar := partialCached "hb/modules/blog/functions/has-sidebar" . }}
 $hb-blog-sidebar: {{ $hasSidebar }};
+$hb-blog-sidebar-position: {{ default "start" site.Params.hb.blog.sidebar.position }};
 $hb-blog-home-pinned-posts-pos: '{{ default "" site.Params.hb.blog.home.pinned_posts_position }}';

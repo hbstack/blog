@@ -39,3 +39,6 @@ paginate = 30
 [params.hb.blog.home]
 pinned_posts_position = ""
 # taxonomies_style = 'toggle'
+
+[params.hb.blog.sidebar]
+position = "start"
