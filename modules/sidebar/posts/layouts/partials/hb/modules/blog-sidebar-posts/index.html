@@ -1,0 +1,6 @@
+{{- $listStyle := default "slide" site.Params.hb.blog.sidebar.posts.list_style }}
+{{- if eq $listStyle "vertical" }}
+  {{ partial "hb/modules/blog-sidebar-posts/vertical" . }}
+{{- else }}
+  {{ partial "hb/modules/blog-sidebar-posts/slide" . }}
+{{- end }}
