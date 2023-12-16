@@ -1,0 +1,5 @@
+{{- $cols := printf "row-cols-1 row-cols-md-%d" (default 2 site.Params.hb.blog.list_cols_md) }}
+{{- if not (partialCached "hb/modules/blog/functions/has-sidebar" .) }}
+  {{- $cols = printf "%s row-cols-lg-%d" $cols (default 3 site.Params.hb.blog.list_cols_lg) }}
+{{- end }}
+{{- return $cols }}
