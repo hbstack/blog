@@ -6,3 +6,4 @@ path = "github.com/hbstack/blog"
 [params.hb.blog.sidebar.taxonomies]
 count = true
 limit = 10
+separate = false

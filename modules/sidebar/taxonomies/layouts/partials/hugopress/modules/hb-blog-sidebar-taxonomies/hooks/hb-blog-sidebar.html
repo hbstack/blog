@@ -1,4 +1,8 @@
 {{- $opts := site.Params.hb.blog.sidebar.taxonomies }}
-<div class="hb-blog-sidebar-taxonomies hb-module">
-  {{ partial "hb/modules/blog/taxonomies/toggle" $opts }}
-</div>
+{{- if default false site.Params.hb.blog.sidebar.taxonomies.separate }}
+  {{ partial "hb/modules/blog/taxonomies/default" $opts }}
+{{- else }}
+  <div class="hb-blog-sidebar-taxonomies hb-module">
+    {{ partial "hb/modules/blog/taxonomies/toggle" $opts }}
+  </div>
+{{- end }}
