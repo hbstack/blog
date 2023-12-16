@@ -2,10 +2,11 @@
 {{- range $taxonomies }}
   {{- $name := .name }}
   {{- $count := .count }}
+  {{- $title := .title }}
   <div class="taxonomy-terms hb-module">
     {{- with site.GetPage $name }}
       <div class="taxonomy-terms-title h5">
-        <a class="text-decoration-none" href="{{ .RelPermalink }}">{{- .Title -}}</a>
+        <a class="text-decoration-none" href="{{ .RelPermalink }}">{{- default .Title $title -}}</a>
       </div>
     {{- end }}
     {{- range .terms }}

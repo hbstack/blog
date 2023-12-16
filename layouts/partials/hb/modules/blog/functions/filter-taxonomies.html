@@ -6,12 +6,16 @@
   {{- $limit := $defaultLimit }}
   {{- $count := $defaultCount }}
   {{- $weight := 10 }}
+  {{- $title := "" }}
   {{- with index $opts $name }}
     {{- if default false .disable }}
       {{- continue }}
     {{- end }}
     {{- with .limit }}
       {{- $limit = . }}
+    {{- end }}
+    {{- with .title }}
+      {{- $title = . }}
     {{- end }}
     {{- if isset . "count" }}
       {{- $count = .count }}
@@ -22,6 +26,7 @@
   {{- end }}
   {{- $taxonomies = $taxonomies | append (dict
     "name" $name
+    "title" $title
     "terms" (first $limit $taxonomy.ByCount)
     "count" $count
     "weight" $weight)
