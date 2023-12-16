@@ -13,7 +13,7 @@
         {{- break }}
       {{- end }}
       <a
-        class="btn btn-sm btn-outline-secondary my-1 me-1"
+        class="taxonomy-term taxonomy-term-{{ $name }} btn btn-sm btn-outline-secondary my-1 me-1"
         href="{{ $term.Page.RelPermalink }}">
         {{- $term.Page.Title -}}
         {{- if $count }}
