@@ -1,6 +1,6 @@
+{{- $limit := default 10 .limit }}
+{{- $count := default true .count }}
 {{- range $name, $taxonomy := site.Taxonomies }}
-  {{- $limit := 10 }}
-  {{- $count := true }}
   {{- $idx := 0 }}
   <div class="taxonomy-terms hb-module">
     {{- with site.GetPage $name }}
