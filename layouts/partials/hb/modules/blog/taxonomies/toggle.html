@@ -1,13 +1,13 @@
 {{- $style := default "pills" .style }}
-{{- $limit := default 10 .limit }}
-{{- $count := default true .count }}
+{{- $taxonomies := partial "hb/modules/blog/functions/filter-taxonomies" . }}
 <ul class="nav nav-{{ $style }} nav-justified mb-2" role="tablist">
   {{- $first := true }}
-  {{- range $name, $taxonomy := site.Taxonomies }}
-    {{- if not $taxonomy }}
+  {{- range $taxonomies }}
+    {{- $name := .name }}
+    {{- if not .terms }}
       {{- continue }}
     {{- end }}
-    {{- $page := site.GetPage $name }}
+    {{- $page := site.GetPage .name }}
     <li class="nav-item" role="presentation">
       <button
         class="nav-link{{ cond $first ` active` `` }}"
@@ -26,8 +26,10 @@
 </ul>
 <div class="tab-content">
   {{- $first := true }}
-  {{- range $name, $taxonomy := site.Taxonomies }}
-    {{- if not $taxonomy }}
+  {{- range $taxonomies }}
+    {{- $name := .name }}
+    {{- $count := .count }}
+    {{- if not .terms }}
       {{- continue }}
     {{- end }}
     <div
@@ -36,20 +38,15 @@
       role="tabpanel"
       aria-labelledby="taxonomy-{{ $name }}-tab"
       tabindex="0">
-      {{- $idx := 0 }}
-      {{- range $termName, $term := $taxonomy.ByCount }}
-        {{- if eq $idx $limit }}
-          {{- break }}
-        {{- end }}
+      {{- range $termName, $term := .terms }}
         <a
           class="taxonomy-term taxonomy-term-{{ $name }} btn btn-sm btn-outline-secondary p-1 me-1 mb-1"
-          href="{{ $term.Page.RelPermalink }}">
-          {{- $term.Page.Title -}}
+          href="{{ .Page.RelPermalink }}">
+          {{- .Page.Title -}}
           {{- if $count }}
-            {{- printf " (%d)" $term.Count -}}
+            {{- printf " (%d)" .Count -}}
           {{- end }}
         </a>
-        {{- $idx = add $idx 1 }}
       {{- end }}
     </div>
     {{- $first = false }}

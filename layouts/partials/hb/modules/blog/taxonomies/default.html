@@ -1,26 +1,22 @@
-{{- $limit := default 10 .limit }}
-{{- $count := default true .count }}
-{{- range $name, $taxonomy := site.Taxonomies }}
-  {{- $idx := 0 }}
+{{- $taxonomies := partial "hb/modules/blog/functions/filter-taxonomies" . }}
+{{- range $taxonomies }}
+  {{- $name := .name }}
+  {{- $count := .count }}
   <div class="taxonomy-terms hb-module">
     {{- with site.GetPage $name }}
       <div class="taxonomy-terms-title h5">
         <a class="text-decoration-none" href="{{ .RelPermalink }}">{{- .Title -}}</a>
       </div>
     {{- end }}
-    {{- range $termName, $term := $taxonomy.ByCount }}
-      {{- if eq $idx $limit }}
-        {{- break }}
-      {{- end }}
+    {{- range .terms }}
       <a
         class="taxonomy-term taxonomy-term-{{ $name }} btn btn-sm btn-outline-secondary my-1 me-1"
-        href="{{ $term.Page.RelPermalink }}">
-        {{- $term.Page.Title -}}
+        href="{{ .Page.RelPermalink }}">
+        {{- .Page.Title -}}
         {{- if $count }}
-          {{- printf " (%d)" $term.Count -}}
+          {{- printf " (%d)" .Count -}}
         {{- end }}
       </a>
-      {{- $idx = add $idx 1 }}
     {{- end }}
   </div>
 {{- end }}
