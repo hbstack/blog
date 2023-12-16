@@ -42,9 +42,9 @@
         <a
           class="taxonomy-term taxonomy-term-{{ $name }} btn btn-sm btn-outline-secondary p-1 me-1 mb-1"
           href="{{ .Page.RelPermalink }}">
-          {{- .Page.Title -}}
+          <span class="taxonomy-term-title">{{- .Page.Title -}}</span>
           {{- if $count }}
-            {{- printf " (%d)" .Count -}}
+            <small class="taxonomy-term-count border rounded px-1">{{- .Count -}}</small>
           {{- end }}
         </a>
       {{- end }}
