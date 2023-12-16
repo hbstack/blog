@@ -1,0 +1,14 @@
+[[module.imports]]
+path = "github.com/hbstack/blog"
+
+[[module.imports]]
+path = "github.com/hbstack/search"
+
+[params.hugopress.modules.hb-blog-sidebar-search.hooks.hb-blog-sidebar]
+weight = 1
+cacheable = true
+
+[params.hb.search]
+modal = false
+
+[params.hb.blog.sidebar.search]
