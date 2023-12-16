@@ -3,7 +3,10 @@
   {{- $pages = where $pages "Section" "in" . }}
 {{- end }}
 {{- $pinnedPos := default "" site.Params.hb.blog.home.pinned_posts_position }}
-{{- $featuredCount := default 10 site.Params.hb.blog.home.featured_posts }}
+{{- $featuredCount := 10 }}
+{{- if isset site.Params.hb.blog.home "featured_posts" }}
+  {{- $featuredCount = site.Params.hb.blog.home.featured_posts }}
+{{- end }}
 {{- $featuredPages := first $featuredCount (where $pages ".Params.featured" true) }}
 {{- if $featuredPages }}
 <div class="row">
