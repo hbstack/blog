@@ -10,6 +10,7 @@
     "modules/related-posts": "0.2.5",
     "modules/revision": "0.1.0",
     "modules/sidebar/posts": "0.6.2",
+    "modules/sidebar/search": "0.0.1",
     "modules/sidebar/taxonomies": "0.3.13",
     "modules/staticman": "0.1.21",
     "modules/toc-scrollspy": "0.1.20",

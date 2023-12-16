@@ -56,6 +56,9 @@
         "modules/sidebar/taxonomies": {
             "component": "modules/sidebar/taxonomies"
         },
+        "modules/sidebar/search": {
+            "component": "modules/sidebar/search"
+        },
         "modules/staticman": {
             "component": "modules/staticman"
         },
