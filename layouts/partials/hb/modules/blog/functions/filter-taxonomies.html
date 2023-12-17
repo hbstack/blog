@@ -1,0 +1,30 @@
+{{- $opts := . }}
+{{- $defaultLimit := default 10 $opts.limit }}
+{{- $defaultCount := default true $opts.count }}
+{{- $taxonomies := slice }}
+{{- range $name, $taxonomy := site.Taxonomies }}
+  {{- $limit := $defaultLimit }}
+  {{- $count := $defaultCount }}
+  {{- $weight := 10 }}
+  {{- with index $opts $name }}
+    {{- if default false .disable }}
+      {{- continue }}
+    {{- end }}
+    {{- with .limit }}
+      {{- $limit = . }}
+    {{- end }}
+    {{- if isset . "count" }}
+      {{- $count = .count }}
+    {{- end }}
+    {{- with .weight }}
+      {{- $weight = . }}
+    {{- end }}
+  {{- end }}
+  {{- $taxonomies = $taxonomies | append (dict
+    "name" $name
+    "terms" (first $limit $taxonomy.ByCount)
+    "count" $count
+    "weight" $weight)
+  }}
+{{- end }}
+{{- return sort $taxonomies "weight" }}
