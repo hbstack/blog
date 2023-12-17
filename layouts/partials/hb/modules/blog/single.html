@@ -32,7 +32,9 @@
         <div
           class="hb-blog-post-content hb-module"
           {{ with $attributes }}{{ . | safeHTMLAttr }}{{ end }}>
+          {{- partial "hugopress/functions/render-hooks" (dict "Name" "hb-blog-post-content-afterbegin" "Page" .) }}
           {{ .Content }}
+          {{- partial "hugopress/functions/render-hooks" (dict "Name" "hb-blog-post-content-beforeend" "Page" .) }}
         </div>
         {{- partial "hugopress/functions/render-hooks" (dict "Name" "hb-blog-post-content-end" "Page" .) }}
         {{- partial "hb/modules/blog/post/comments" . }}
