@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.7.0](https://github.com/hbstack/blog/compare/modules/sidebar/posts/v0.6.2...modules/sidebar/posts/v0.7.0) (2023-12-17)
+
+
+### Features ✨
+
+* **sidebar-posts:** add the sidebar.posts.list_style parameter ([#550](https://github.com/hbstack/blog/issues/550)) ([b4161d4](https://github.com/hbstack/blog/commit/b4161d41a9be2e68f2f6230482107c5e53cc230e))
+
 ## [0.6.2](https://github.com/hbstack/blog/compare/modules/sidebar/posts/v0.6.1...modules/sidebar/posts/v0.6.2) (2023-12-06)
 
 
