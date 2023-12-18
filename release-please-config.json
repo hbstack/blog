@@ -59,6 +59,9 @@
         "modules/sidebar/search": {
             "component": "modules/sidebar/search"
         },
+        "modules/social-share-buttons": {
+            "component": "modules/social-share-buttons"
+        },
         "modules/staticman": {
             "component": "modules/staticman"
         },
