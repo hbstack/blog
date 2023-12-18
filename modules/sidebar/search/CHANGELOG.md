@@ -1,6 +1,6 @@
 # Changelog
 
-## [0.1.0](https://github.com/hbstack/blog/compare/modules/sidebar/search-v0.0.1...modules/sidebar/search/v0.1.0) (2023-12-17)
+## [0.1.0](https://github.com/hbstack/blog/compare/modules/sidebar/search-v0.0.1...modules/sidebar/search/v0.1.0) (2023-12-18)
 
 
 ### Features ✨

@@ -1,6 +1,6 @@
 # Changelog
 
-## [0.7.0](https://github.com/hbstack/blog/compare/modules/sidebar/posts/v0.6.2...modules/sidebar/posts/v0.7.0) (2023-12-17)
+## [0.7.0](https://github.com/hbstack/blog/compare/modules/sidebar/posts/v0.6.2...modules/sidebar/posts/v0.7.0) (2023-12-18)
 
 
 ### Features ✨

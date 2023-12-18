@@ -1,6 +1,6 @@
 # Changelog
 
-## [0.4.0](https://github.com/hbstack/blog/compare/modules/sidebar/taxonomies/v0.3.13...modules/sidebar/taxonomies/v0.4.0) (2023-12-17)
+## [0.4.0](https://github.com/hbstack/blog/compare/modules/sidebar/taxonomies/v0.3.13...modules/sidebar/taxonomies/v0.4.0) (2023-12-18)
 
 
 ### Features ✨

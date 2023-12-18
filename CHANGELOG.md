@@ -1,6 +1,6 @@
 # Changelog
 
-## [0.23.0](https://github.com/hbstack/blog/compare/v0.22.8...v0.23.0) (2023-12-17)
+## [0.23.0](https://github.com/hbstack/blog/compare/v0.22.8...v0.23.0) (2023-12-18)
 
 
 ### Features ✨
