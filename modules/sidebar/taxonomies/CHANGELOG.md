@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.4.0](https://github.com/hbstack/blog/compare/modules/sidebar/taxonomies/v0.3.13...modules/sidebar/taxonomies/v0.4.0) (2023-12-17)
+
+
+### Features ✨
+
+* add the hb.blog.sidebar.taxonomies.separate parameter, when true separate taxonomies into mutliple sections ([#555](https://github.com/hbstack/blog/issues/555)) ([81f9111](https://github.com/hbstack/blog/commit/81f9111bdb4b936a1ab1de706f5421d7fac929f0))
+
 ## [0.3.13](https://github.com/hbstack/blog/compare/modules/sidebar/taxonomies/v0.3.12...modules/sidebar/taxonomies/v0.3.13) (2023-10-23)
 
 
