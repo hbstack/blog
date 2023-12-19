@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.24.0](https://github.com/hbstack/blog/compare/v0.23.0...v0.24.0) (2023-12-19)
+
+
+### Features ✨
+
+* add the hb-blog-post-content-afterbegin and hb-blog-post-content-beforeend hooks ([#565](https://github.com/hbstack/blog/issues/565)) ([2413243](https://github.com/hbstack/blog/commit/2413243a55d29272613eb18726df093f42b3c684))
+
 ## [0.23.0](https://github.com/hbstack/blog/compare/v0.22.8...v0.23.0) (2023-12-17)
 
 
