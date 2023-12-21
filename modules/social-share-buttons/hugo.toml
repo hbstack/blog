@@ -6,3 +6,6 @@ path = "github.com/hbstack/social-share-buttons"
 
 [params.hugopress.modules.hb-blog-social-share-buttons.hooks.hb-blog-post-content-end]
 weight = 1
+
+[params.hb.blog.social_share_buttons]
+media = []
