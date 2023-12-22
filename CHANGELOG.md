@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.24.1](https://github.com/hbstack/blog/compare/v0.24.0...v0.24.1) (2023-12-22)
+
+
+### Bug Fixes 🐞
+
+* remove the hb-main attributes ([#574](https://github.com/hbstack/blog/issues/574)) ([eea1de9](https://github.com/hbstack/blog/commit/eea1de9a717ea57bb228336f605bc39062049a1e))
+
 ## [0.24.0](https://github.com/hbstack/blog/compare/v0.23.0...v0.24.0) (2023-12-19)
 
 
