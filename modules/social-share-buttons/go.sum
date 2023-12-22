@@ -10,6 +10,7 @@ github.com/hbstack/header v0.12.3/go.mod h1:Tr1ae4nQQ43FQM+z/GcCPwTANmuJ8NaUpzcE
 github.com/hbstack/social-share-buttons v0.1.0 h1:J5yg/3lGORd6V4fPNz2rGYYeHYxLf8ss1AOZXngkkwM=
 github.com/hbstack/social-share-buttons v0.1.0/go.mod h1:WAXsqPI+12QA67fA/IWLvxVubuvbW8kzLwTo0pZW41E=
 github.com/hbstack/social-share-buttons v0.1.1/go.mod h1:WAXsqPI+12QA67fA/IWLvxVubuvbW8kzLwTo0pZW41E=
+github.com/hbstack/social-share-buttons v0.1.2/go.mod h1:WAXsqPI+12QA67fA/IWLvxVubuvbW8kzLwTo0pZW41E=
 github.com/hugomods/base v0.4.0 h1:jzBIJpqDx8aLAlNe/zF1xbefu1XYxumZc39tOO0ZjSw=
 github.com/hugomods/base v0.4.0/go.mod h1:hnWCPbVxuhXBwdFax3mmbMlWKmIo/7OP36MCLOyHtT4=
 github.com/hugomods/hugopress v0.2.2 h1:2gBGs1RrOSYWNBu8PcqApQNN63jLsBfAViMSvh6QiX4=
