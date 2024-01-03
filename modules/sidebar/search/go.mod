@@ -28,5 +28,5 @@ require (
 	github.com/hugomods/simple-icons v10.4.0+incompatible // indirect
 	github.com/krisk/Fuse v7.0.0+incompatible // indirect
 	github.com/twbs/bootstrap v5.3.2+incompatible // indirect
-	github.com/twbs/icons v1.11.2 // indirect
+	github.com/twbs/icons v1.11.3 // indirect
 )
