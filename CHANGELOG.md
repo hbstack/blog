@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.24.2](https://github.com/hbstack/blog/compare/v0.24.1...v0.24.2) (2024-01-05)
+
+
+### Bug Fixes 🐞
+
+* correct overflow styles ([45160ce](https://github.com/hbstack/blog/commit/45160ceda3e2db3d74b4836ca09dc23ab8bbd19b))
+
 ## [0.24.1](https://github.com/hbstack/blog/compare/v0.24.0...v0.24.1) (2023-12-22)
 
 

@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.3.6](https://github.com/hbstack/blog/compare/modules/post-nav/v0.3.5...modules/post-nav/v0.3.6) (2024-01-05)
+
+
+### Bug Fixes 🐞
+
+* correct overflow styles ([45160ce](https://github.com/hbstack/blog/commit/45160ceda3e2db3d74b4836ca09dc23ab8bbd19b))
+
 ## [0.3.5](https://github.com/hbstack/blog/compare/modules/post-nav/v0.3.4...modules/post-nav/v0.3.5) (2023-12-03)
 
 
