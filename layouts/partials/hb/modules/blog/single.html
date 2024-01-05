@@ -3,7 +3,7 @@
     {{ partial "hugopress/functions/render-hooks" (dict "Name" "hb-blog-main-begin" "Page" .) }}
     <div class="hb-blog-post position-relative">
       <div class="hb-blog-post-intro hb-module mb-2">
-        <h1 class="hb-blog-post-title">{{ .Title }}</h1>
+        <h1 class="hb-blog-post-title text-break">{{ .Title }}</h1>
         <div class="hb-blog-post-meta">
           {{ partialCached "hb/modules/blog/post/meta/authors" . . }}
           {{ partialCached "hb/modules/blog/post/meta/date" . . }}

@@ -7,7 +7,7 @@
 <ul class="hb-blog-post-nav nav {{ $justify }} hb-module">
   {{ with .PrevInSection }}
     <li class="nav-item my-1">
-      <a class="nav-link p-0 d-flex align-items-center" href="{{ .RelPermalink }}">
+      <a class="nav-link p-0 d-flex align-items-center text-break" href="{{ .RelPermalink }}">
         {{- partial "icons/icon" (dict
           "vendor" "bootstrap"
           "name" "arrow-left-circle"
@@ -21,7 +21,7 @@
   {{ end }}
   {{ with .NextInSection }}
     <li class="nav-item my-1">
-      <a class="nav-link p-0 d-flex align-items-center" href="{{ .RelPermalink }}">
+      <a class="nav-link p-0 d-flex align-items-center text-break" href="{{ .RelPermalink }}">
         {{- .Title -}}
         {{- partial "icons/icon" (dict
           "vendor" "bootstrap"
