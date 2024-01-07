@@ -10,7 +10,7 @@ require (
 	github.com/hbstack/header v0.12.6 // indirect
 	github.com/hbstack/toc-scrollspy v0.1.0 // indirect
 	github.com/hugomods/icons v0.6.0 // indirect
-	github.com/hugomods/icons/vendors/simple-icons v1.0.26 // indirect
+	github.com/hugomods/icons/vendors/simple-icons v1.0.27 // indirect
 	github.com/hugomods/seo/modules/base v0.1.0 // indirect
 	github.com/twbs/icons v1.11.3 // indirect
 )
