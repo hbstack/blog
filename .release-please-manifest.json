@@ -2,6 +2,7 @@
     ".": "0.24.2",
     "modules/breadcrumb": "0.1.22",
     "modules/content-panel": "0.1.21",
+    "modules/decap-cms": "0.0.1",
     "modules/disqus": "0.1.19",
     "modules/featured-image": "0.2.21",
     "modules/giscus": "0.1.23",

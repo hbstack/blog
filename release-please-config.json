@@ -26,6 +26,9 @@
         "modules/content-panel": {
             "component": "modules/content-panel"
         },
+        "modules/decap-cms": {
+            "component": "modules/decap-cms"
+        },
         "modules/disqus": {
             "component": "modules/disqus"
         },
