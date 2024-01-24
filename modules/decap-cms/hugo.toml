@@ -1,0 +1,37 @@
+[[module.imports]]
+path = "github.com/hbstack/blog"
+
+[[module.imports]]
+path = "github.com/hugomods/decap-cms"
+
+[params.decap_cms._configs.hb_blog_posts]
+name = "blog"
+label = "Blog"
+label_singular = "Post"
+create = true
+_extends = [
+  "field_title",
+  "field_draft",
+  "field_date",
+  "field_description",
+  "field_images",
+  "field_aliases",
+  "field_series",
+  "field_categories",
+  "field_tags",
+  "field_body"
+]
+
+[params.decap_cms._configs.hb_blog_archives]
+name = "archives"
+label = "Archives"
+label_singular = "Archive"
+create = true
+summary = "{{title}} {{dirname | ternary('-','')}} {{dirname}}"
+_extends = [
+  "nested",
+  "meta_path",
+  "field_title"
+]
+[params.decap_cms._configs.hb_blog_archives.meta.path]
+index_file = "_index"

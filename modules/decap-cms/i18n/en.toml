@@ -1,0 +1,11 @@
+[cms_label_archive]
+other = "Archive"
+
+[cms_label_archives]
+other = "Archives"
+
+[cms_label_blog]
+other = "Blog"
+
+[cms_label_post]
+other = "Post"
