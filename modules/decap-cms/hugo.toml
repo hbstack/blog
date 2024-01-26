@@ -16,6 +16,7 @@ _extends = [
   "field_description",
   "field_images",
   "field_aliases",
+  "field_authors",
   "field_series",
   "field_categories",
   "field_tags",
