@@ -1,24 +1,57 @@
-function taxonomy(item, index) {
-  return h(
-    "span",
-    {
-      key: index,
-      className: "hb-blog-post-taxonomy-meta",
-    },
-    h(
+export default createClass({
+  renderTaxonomy: function (item, index) {
+    return h(
       "span",
       {
-        className:
-          "hb-blog-post-taxonomy hb-blog-post-taxonomy-category badge bg-secondary text-decoration-none fw-normal ms-1",
+        key: index,
+        className: "hb-blog-post-taxonomy-meta",
       },
-      item?.get("data") ?? "",
-    ),
-  );
-}
+      h(
+        "span",
+        {
+          className:
+            "hb-blog-post-taxonomy hb-blog-post-taxonomy-category badge bg-secondary text-decoration-none fw-normal ms-1",
+        },
+        item,
+      ),
+    );
+  },
+  renderAuthor: function (name, index) {
+    return h(
+      "span",
+      { key: index },
+      h(
+        "span",
+        {
+          className:
+            "hb-blog-author-img border rounded-circle px-1 text-bg-secondary",
+          title: name,
+        },
+        name ? name.substr(0, 1).toUpperCase() : "",
+      ),
+    );
+  },
+  renderImage: function (img, index) {
+    if (!img) {
+      return;
+    }
 
-export default createClass({
+    return h("img", {
+      key: index,
+      className: "border",
+      style: {
+        height: "200px",
+        minWidth: "60px",
+      },
+      src: this.props.getAsset(img).toString(),
+    });
+  },
   render: function () {
-    const props = this.props;
+    const authors = this.props.entry.getIn(["data", "authors"]);
+    const categories = this.props.entry.getIn(["data", "categories"]);
+    const images = this.props.entry.getIn(["data", "images"]);
+    const series = this.props.entry.getIn(["data", "series"]);
+    const tags = this.props.entry.getIn(["data", "tags"]);
 
     return h(
       "div",
@@ -37,35 +70,17 @@ export default createClass({
         {
           className: "hb-blog-post-meta",
         },
-        this.props.widgetsFor("authors").map(function (author, index) {
-          if (!author || !author.get("data")) {
-            return false;
-          }
-
-          return h(
-            "span",
-            { key: index },
-            h(
-              "span",
-              {
-                className:
-                  "hb-blog-author-img border rounded-circle px-1 text-bg-secondary",
-                title: author.get("data"),
-              },
-              author.get("data").substr(0, 1).toUpperCase(),
-            ),
-          );
-        }),
+        authors ? authors.map(this.renderAuthor) : null,
         h(
           "div",
           {
-            className: "hb-blog-post-date mx-1",
+            className: "hb-blog-post-date",
           },
           this.props.entry.getIn(["data", "date"]).toString(),
         ),
-        this.props.widgetsFor("series").map(taxonomy),
-        this.props.widgetsFor("categories").map(taxonomy),
-        this.props.widgetsFor("tags").map(taxonomy),
+        series ? series.map(this.renderTaxonomy) : null,
+        categories ? categories.map(this.renderTaxonomy) : null,
+        tags ? tags.map(this.renderTaxonomy) : null,
       ),
       h(
         "div",
@@ -74,27 +89,15 @@ export default createClass({
         },
         this.props.entry.getIn(["data", "description"]),
       ),
-      h(
-        "div",
-        {
-          className: "hb-blog-post-img d-flex gap-1",
-        },
-        this.props.widgetsFor("images").map(function (img, index) {
-          if (!img) {
-            return;
-          }
-
-          return h("img", {
-            key: index,
-            className: "border",
-            style: {
-              height: "200px",
-              minWidth: "60px",
+      images
+        ? h(
+            "div",
+            {
+              className: "hb-blog-post-img d-flex gap-1",
             },
-            src: props.getAsset(img.get("data")).toString(),
-          });
-        }),
-      ),
+            images.map(this.renderImage),
+          )
+        : null,
       h(
         "div",
         {
