@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.1](https://github.com/hbstack/blog/compare/modules/decap-cms/v0.2.0...modules/decap-cms/v0.2.1) (2024-02-02)
+
+
+### Bug Fixes 🐞
+
+* **decap-cms:** remove data widgets placeholder from preview template ([#629](https://github.com/hbstack/blog/issues/629)) ([4ba3f8a](https://github.com/hbstack/blog/commit/4ba3f8ad9d68bc0ce21f859b23f1223e9c1a1bbd))
+
 ## [0.2.0](https://github.com/hbstack/blog/compare/modules/decap-cms/v0.1.0...modules/decap-cms/v0.2.0) (2024-01-27)
 
 
