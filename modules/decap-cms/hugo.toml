@@ -14,6 +14,7 @@ _extends = [
   "field_draft",
   "hb_field_featured",
   "hb_field_pinned",
+  "hb_field_comments",
   "field_date",
   "field_description",
   "field_images",
