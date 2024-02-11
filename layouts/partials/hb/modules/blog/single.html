@@ -1,7 +1,8 @@
 <div class="hb-blog-main-container">
   <div class="hb-blog-main">
     {{ partial "hugopress/functions/render-hooks" (dict "Name" "hb-blog-main-begin" "Page" .) }}
-    <div class="hb-blog-post position-relative">
+    {{- $toc := default true .Params.toc }}
+    <div class="hb-blog-post position-relative{{ cond $toc ` toc` `` }}">
       <div class="hb-blog-post-intro hb-module mb-2">
         <h1 class="hb-blog-post-title text-break">{{ .Title }}</h1>
         <div class="hb-blog-post-meta">
@@ -15,7 +16,7 @@
         {{- end }}
       </div>
       {{- $tocPos := default "start" site.Params.hb.blog.toc.position }}
-      {{- if ne $tocPos "content" }}
+      {{- if and $toc (ne $tocPos "content") }}
         <div class="hb-blog-post-toc text-body-secondary position-sticky overflow-y-auto">
           {{- partialCached "hb/modules/blog/post/toc" . . }}
         </div>
