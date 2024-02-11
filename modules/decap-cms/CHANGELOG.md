@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.3.0](https://github.com/hbstack/blog/compare/modules/decap-cms/v0.2.1...modules/decap-cms/v0.3.0) (2024-02-11)
+
+
+### Features ✨
+
+* **decap-cms:** add the comments field ([88f126b](https://github.com/hbstack/blog/commit/88f126bce9327416c3a7e72aa9b97c348c11ca83))
+
 ## [0.2.1](https://github.com/hbstack/blog/compare/modules/decap-cms/v0.2.0...modules/decap-cms/v0.2.1) (2024-02-02)
 
 
