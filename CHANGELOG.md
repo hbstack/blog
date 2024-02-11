@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.25.0](https://github.com/hbstack/blog/compare/v0.24.3...v0.25.0) (2024-02-11)
+
+
+### Features ✨
+
+* add the toc page parameter, when false then hide the ToC ([#646](https://github.com/hbstack/blog/issues/646)) ([c791065](https://github.com/hbstack/blog/commit/c791065e50eada7e52ac533da73ea24055c22159))
+
 ## [0.24.3](https://github.com/hbstack/blog/compare/v0.24.2...v0.24.3) (2024-01-24)
 
 
