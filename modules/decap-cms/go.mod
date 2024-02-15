@@ -11,7 +11,7 @@ require (
 	github.com/hbstack/decap-cms v0.3.0 // indirect
 	github.com/hbstack/footer v0.2.10 // indirect
 	github.com/hbstack/hb v0.11.0 // indirect
-	github.com/hbstack/header v0.12.7 // indirect
+	github.com/hbstack/header v0.13.0 // indirect
 	github.com/hbstack/pagination v0.6.0 // indirect
 	github.com/hbstack/socials v0.9.0 // indirect
 	github.com/hugomods/base v0.4.1 // indirect
