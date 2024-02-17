@@ -29,10 +29,6 @@
     .hb-blog-sidebar {
         grid-area: sidebar;
 
-        &::-webkit-scrollbar {
-            width: 2px;
-        }
-
         @include media-breakpoint-up(lg) {
             overflow: auto;
 
@@ -41,6 +37,12 @@
                 overflow: auto;
     
                 @include top-offset(sticky);
+            }
+
+            scrollbar-width: thin;
+
+            &:hover {
+                scrollbar-color: var(--#{$prefix}primary) transparent;
             }
         }
 
