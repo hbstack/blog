@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.25.1](https://github.com/hbstack/blog/compare/v0.25.0...v0.25.1) (2024-02-17)
+
+
+### Styles 🎨
+
+* change sidebar and ToC scrollbar width as thin ([9bb66f9](https://github.com/hbstack/blog/commit/9bb66f9b925e45340c6f20ec876f59bdaea16268))
+* highlight sidebar and ToC scrollbar on hover ([#660](https://github.com/hbstack/blog/issues/660)) ([9bb66f9](https://github.com/hbstack/blog/commit/9bb66f9b925e45340c6f20ec876f59bdaea16268))
+
 ## [0.25.0](https://github.com/hbstack/blog/compare/v0.24.3...v0.25.0) (2024-02-11)
 
 
