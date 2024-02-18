@@ -6,7 +6,7 @@ require (
 	github.com/gohugoio/hugo-mod-bootstrap-scss/v5 v5.20300.20200 // indirect
 	github.com/hbstack/blog v0.25.1 // indirect
 	github.com/hbstack/disqus v0.1.0 // indirect
-	github.com/hbstack/footer v0.2.10 // indirect
+	github.com/hbstack/footer v0.3.0 // indirect
 	github.com/hbstack/header v0.13.0 // indirect
 	github.com/hugomods/base v0.4.1 // indirect
 	github.com/hugomods/hugopress v0.2.3 // indirect
