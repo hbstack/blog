@@ -74,6 +74,7 @@ github.com/hugomods/icons/vendors/simple-icons v1.0.26/go.mod h1:TM3sfNzBmqrckH1
 github.com/hugomods/icons/vendors/simple-icons v1.0.27/go.mod h1:1JLmxEWlmmxE67YzC/CbP19QEfFMoucbLzMWvJ5N4DQ=
 github.com/hugomods/icons/vendors/simple-icons v1.0.28/go.mod h1:p1h2vSOPRPf+wlqISlrZPNZqF6dLdg4T0l9A05KM4BM=
 github.com/hugomods/icons/vendors/simple-icons v1.0.29/go.mod h1:xarNh9bs80owlZgbN9TP894ITqsjiClD3B/JIJtfYL8=
+github.com/hugomods/icons/vendors/simple-icons v1.0.30/go.mod h1:xarNh9bs80owlZgbN9TP894ITqsjiClD3B/JIJtfYL8=
 github.com/hugomods/seo/modules/base v0.1.0 h1:ZEkWuYeRJeQakBkBThO3N3lmGzOZoPixs4pDugJXfJk=
 github.com/hugomods/seo/modules/base v0.1.0/go.mod h1:qfm1Vga0eGxL+Szgz8Jopm+NtJ5PGov2a2dikTg1qSg=
 github.com/hugomods/snackbar v0.1.2 h1:SLpfH9jlYwf81epH7DvM2XTZHo+3fXXpk6XKtxmo964=
