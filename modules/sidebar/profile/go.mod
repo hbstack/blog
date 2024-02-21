@@ -8,7 +8,7 @@ require (
 	github.com/hbstack/footer v0.3.0 // indirect
 	github.com/hbstack/header v0.14.0 // indirect
 	github.com/hbstack/socials v0.9.0 // indirect
-	github.com/hugomods/base v0.4.1 // indirect
+	github.com/hugomods/base v0.4.2 // indirect
 	github.com/hugomods/hugopress v0.2.3 // indirect
 	github.com/hugomods/icons v0.6.2 // indirect
 	github.com/hugomods/icons/vendors/bootstrap v0.5.5 // indirect
