@@ -5,7 +5,7 @@
   {{- end }}
   {{- $pinned := first 1 (where $pages ".Params.pinned" true) }}
   {{- $pages = union $pinned $pages }}
-  {{- $paginator := .Paginate $pages .Site.Params.hb.blog.paginate }}
+  {{- $paginator := .Paginate $pages (default 12 .Site.Params.hb.blog.paginate) }}
   {{ partial "hb/modules/blog/title" . }}
 {{- end -}}
 

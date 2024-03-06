@@ -1,6 +1,6 @@
 {{- define "title" }}
   {{- $pages := .RegularPagesRecursive }}
-  {{- $paginator := .Paginate $pages .Site.Params.hb.blog.paginate }}
+  {{- $paginator := .Paginate $pages (default 12 .Site.Params.hb.blog.paginate) }}
   {{ partial "base/title" . }}
 {{- end -}}
 
