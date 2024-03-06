@@ -54,6 +54,7 @@ github.com/hbstack/header v0.12.7/go.mod h1:UmRz21kEHDZjFA+TGjWSM/68WL8xHK15CmNg
 github.com/hbstack/header v0.13.0/go.mod h1:F50k0BteNpwlfSs4V+5k4jn+ozqRnjTfxugUT7esA80=
 github.com/hbstack/header v0.14.0/go.mod h1:F50k0BteNpwlfSs4V+5k4jn+ozqRnjTfxugUT7esA80=
 github.com/hbstack/header v0.14.1/go.mod h1:f0GHuDsvRYKmseNq10MAqX9yySxNQTKFNwW+z1p3YWg=
+github.com/hbstack/header v0.14.2/go.mod h1:ixl3LE1P436T4lVErrUVTyRv7fYqEs4zLc1OeBK+VqI=
 github.com/hugomods/base v0.2.0 h1:O/ZzXPA9LJvNbkfmx0nJX9LHjEnQjAPmCwd2APwhnPU=
 github.com/hugomods/base v0.2.0/go.mod h1:hnWCPbVxuhXBwdFax3mmbMlWKmIo/7OP36MCLOyHtT4=
 github.com/hugomods/base v0.3.0/go.mod h1:hnWCPbVxuhXBwdFax3mmbMlWKmIo/7OP36MCLOyHtT4=
