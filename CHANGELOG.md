@@ -1,5 +1,14 @@
 # Changelog
 
+## [0.25.2](https://github.com/hbstack/blog/compare/v0.25.1...v0.25.2) (2024-03-06)
+
+
+### Bug Fixes 🐞
+
+* **deps:** update dependency stylelint-scss to v6.2.0 ([f3b9f67](https://github.com/hbstack/blog/commit/f3b9f67e18f84a2fcd4f936ca1f36bd1d760174f))
+* **deps:** update dependency stylelint-scss to v6.2.1 ([c2ba3a4](https://github.com/hbstack/blog/commit/c2ba3a4ea6f2dba587efa1a1bee6fad2ad32737e))
+* set default paginate ([d85a2cb](https://github.com/hbstack/blog/commit/d85a2cb021c1cdd7ba0bf45b5fde8a26963a0c57))
+
 ## [0.25.1](https://github.com/hbstack/blog/compare/v0.25.0...v0.25.1) (2024-02-17)
 
 
