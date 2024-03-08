@@ -20,7 +20,7 @@ require (
 	github.com/hugomods/hugopress v0.2.3 // indirect
 	github.com/hugomods/i18n-js v0.2.1 // indirect
 	github.com/hugomods/icons v0.6.3 // indirect
-	github.com/hugomods/icons/vendors/bootstrap v0.5.5 // indirect
+	github.com/hugomods/icons/vendors/bootstrap v0.5.6 // indirect
 	github.com/hugomods/icons/vendors/simple-icons v1.0.31 // indirect
 	github.com/hugomods/images v0.9.2 // indirect
 	github.com/hugomods/search v0.13.2 // indirect
