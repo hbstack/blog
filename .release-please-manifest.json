@@ -3,7 +3,7 @@
     "modules/breadcrumb": "0.1.22",
     "modules/content-panel": "0.1.21",
     "modules/decap-cms": "0.3.0",
-    "modules/disqus": "0.1.19",
+    "modules/disqus": "0.1.20",
     "modules/featured-image": "0.2.21",
     "modules/giscus": "0.1.23",
     "modules/heading-sign": "0.1.23",
@@ -17,6 +17,6 @@
     "modules/staticman": "0.1.21",
     "modules/toc-scrollspy": "0.1.20",
     "modules/twikoo": "0.1.20",
-    "modules/utterances": "0.1.19",
+    "modules/utterances": "0.1.20",
     "modules/sidebar/profile": "1.1.5"
 }
