@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.20](https://github.com/hbstack/blog/compare/modules/disqus/v0.1.19...modules/disqus/v0.1.20) (2024-03-17)
+
+
+### Bug Fixes 🐞
+
+* allow showing comments on other sections ([988be20](https://github.com/hbstack/blog/commit/988be20ef17b7e0d2e08973e002bc7ace12f1fc5))
+
 ## [0.1.19](https://github.com/hbstack/blog/compare/modules/disqus/v0.1.18...modules/disqus/v0.1.19) (2023-10-23)
 
 
