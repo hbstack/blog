@@ -5,12 +5,23 @@
     <div class="hb-blog-post position-relative{{ cond $toc ` toc` `` }}">
       <div class="hb-blog-post-intro hb-module mb-2">
         <h1 class="hb-blog-post-title text-break">{{ .Title }}</h1>
-        <div class="hb-blog-post-meta">
-          {{ partialCached "hb/modules/blog/post/meta/authors" . . }}
-          {{ partialCached "hb/modules/blog/post/meta/date" . . }}
-          {{ partialCached "hb/modules/blog/post/meta/reading-time" . . }}
-          {{ partialCached "hb/modules/blog/post/meta/taxonomies" . . }}
-        </div>
+        {{- $meta := default dict .Params.meta }}
+        {{- if ne $meta false }}
+          <div class="hb-blog-post-meta">
+            {{- if default true $meta.authors }}
+              {{ partialCached "hb/modules/blog/post/meta/authors" . . }}
+            {{- end }}
+            {{- if default true $meta.date }}
+              {{ partialCached "hb/modules/blog/post/meta/date" . . }}
+            {{- end }}
+            {{- if default true $meta.reading_time }}
+              {{ partialCached "hb/modules/blog/post/meta/reading-time" . . }}
+            {{- end }}
+            {{- if default true $meta.taxonomies }}
+              {{ partialCached "hb/modules/blog/post/meta/taxonomies" . . }}
+            {{- end }}
+          </div>
+        {{- end }}
         {{- with .Description }}
           <div class="hb-blog-post-desc lead mt-1">{{ . }}</div>
         {{- end }}
