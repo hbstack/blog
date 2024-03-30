@@ -17,6 +17,7 @@ github.com/hbstack/blog v0.25.2/go.mod h1:RHtaIph9jKCXLIMVzdc9voX7pSu6fpk2IPzVwG
 github.com/hbstack/blog v0.26.0/go.mod h1:y3guhi3enHGM4+RKekB8NaewEw8EczmCU+HvmgIsjSU=
 github.com/hbstack/carousel v0.2.4 h1:OkMRqyhklJBMbOXo8p/dsS+iQVQTrMUI7Jfm13Js3L4=
 github.com/hbstack/carousel v0.2.4/go.mod h1:AchKlXiqYNZouE3Ee/VSSQle2FUZV5CJgTnPBFI7Gj0=
+github.com/hbstack/carousel v0.2.5/go.mod h1:37ffr9r5ilAS4b7KrplyCeOcTPmFd2PMygLo+VPe3oY=
 github.com/hbstack/decap-cms v0.1.0 h1:QPP9F+ZdHzCMdG1SHr+WIl5baJs0cQdmZExeKfHsfZ0=
 github.com/hbstack/decap-cms v0.1.0/go.mod h1:X332p7HOiGBgvHF3018iJxmXkrIX3FPUKd0LRvCHXtU=
 github.com/hbstack/decap-cms v0.2.0/go.mod h1:X332p7HOiGBgvHF3018iJxmXkrIX3FPUKd0LRvCHXtU=
