@@ -1,0 +1,7 @@
+.hb-blog-main,
+.hb-blog-post-main,
+.hb-blog-post-toc {
+  .hb-module:last-of-type {
+    margin-bottom: 0 !important;
+  }
+}
