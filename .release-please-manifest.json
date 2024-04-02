@@ -15,6 +15,7 @@
     "modules/sidebar/taxonomies": "0.4.0",
     "modules/social-share-buttons": "0.1.1",
     "modules/staticman": "0.1.21",
+    "modules/sticky-till-the-end": "0.0.1",
     "modules/toc-scrollspy": "0.1.20",
     "modules/twikoo": "0.1.20",
     "modules/utterances": "0.1.20",

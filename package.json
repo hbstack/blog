@@ -20,7 +20,7 @@
     "typescript": "^5.0.0"
   },
   "scripts": {
-    "lint": "npm run stylelint",
+    "lint": "npm run stylelint && npm run eslint",
     "eslint": "npx eslint .",
     "stylelint": "npx stylelint \"**/*.scss\""
   },

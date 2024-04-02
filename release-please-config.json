@@ -68,6 +68,9 @@
         "modules/staticman": {
             "component": "modules/staticman"
         },
+        "modules/sticky-till-the-end": {
+            "component": "modules/sticky-till-the-end"
+        },
         "modules/toc-scrollspy": {
             "component": "modules/toc-scrollspy"
         },
