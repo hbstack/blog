@@ -28,7 +28,7 @@
       </div>
       {{- $tocPos := default "start" site.Params.hb.blog.toc.position }}
       {{- if and $toc (ne $tocPos "content") }}
-        <div class="hb-blog-post-toc text-body-secondary position-sticky overflow-y-auto">
+        <div class="hb-blog-post-toc pe-lg-2 text-body-secondary position-sticky overflow-y-auto">
           {{- partialCached "hb/modules/blog/post/toc" . . }}
         </div>
       {{- end }}
