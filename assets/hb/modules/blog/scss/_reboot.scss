@@ -2,6 +2,8 @@
 .hb-blog-post-main,
 .hb-blog-post-toc {
   .hb-module:last-of-type {
-    margin-bottom: 0 !important;
+    @include media-breakpoint-up($hb-header-breakpoint) {
+      margin-bottom: 0 !important;
+    }
   }
 }
