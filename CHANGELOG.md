@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.26.3](https://github.com/hbstack/blog/compare/v0.26.2...v0.26.3) (2024-04-09)
+
+
+### Styles 🎨
+
+* minor changes ([09161b4](https://github.com/hbstack/blog/commit/09161b476c4116987d04907cf7e7532f503120fa))
+
 ## [0.26.2](https://github.com/hbstack/blog/compare/v0.26.1...v0.26.2) (2024-04-03)
 
 

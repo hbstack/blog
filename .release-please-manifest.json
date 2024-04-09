@@ -1,5 +1,5 @@
 {
-    ".": "0.26.2",
+    ".": "0.26.3",
     "modules/breadcrumb": "0.1.22",
     "modules/content-panel": "0.1.21",
     "modules/decap-cms": "0.3.0",
@@ -7,7 +7,7 @@
     "modules/featured-image": "0.2.21",
     "modules/giscus": "0.1.23",
     "modules/heading-sign": "0.1.23",
-    "modules/post-nav": "0.3.6",
+    "modules/post-nav": "0.3.7",
     "modules/related-posts": "0.2.5",
     "modules/revision": "0.1.0",
     "modules/sidebar/posts": "0.7.0",
