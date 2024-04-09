@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.3.7](https://github.com/hbstack/blog/compare/modules/post-nav/v0.3.6...modules/post-nav/v0.3.7) (2024-04-09)
+
+
+### Styles 🎨
+
+* **post-nav:** minor changes ([da80ec5](https://github.com/hbstack/blog/commit/da80ec5e0ba5a4adc7972451667a658b6dcf9114))
+
 ## [0.3.6](https://github.com/hbstack/blog/compare/modules/post-nav/v0.3.5...modules/post-nav/v0.3.6) (2024-01-05)
 
 
