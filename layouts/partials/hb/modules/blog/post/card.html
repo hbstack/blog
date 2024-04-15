@@ -9,14 +9,19 @@
 {{- $readMore := default true .ReadMore }}
 {{- $readingTime := default true .ReadingTime }}
 {{- $meta := default true .Meta }}
+{{- $pageMeta := default dict $page.Params.meta }}
 {{- $modularize := default true .Modularize }}
 <div
   class="hb-blog-post-card card border-0 overflow-hidden h-100{{ cond $modularize ` hb-module` ` bg-transparent` }} mb-0">
   {{- if $meta }}
     <div class="hb-blog-post-meta d-flex align-items-center">
-      {{ partialCached "hb/modules/blog/post/meta/authors" $page $page }}
-      {{ partialCached "hb/modules/blog/post/meta/date" $page $page }}
-      {{- if $readingTime }}
+      {{- if default true $pageMeta.authors }}
+        {{ partialCached "hb/modules/blog/post/meta/authors" $page $page }}
+      {{- end }}
+      {{- if default true $pageMeta.date }}
+        {{ partialCached "hb/modules/blog/post/meta/date" $page $page }}
+      {{- end }}
+      {{- if and $readingTime (default true $pageMeta.reading_time) }}
         {{ partialCached "hb/modules/blog/post/meta/reading-time" $page $page }}
       {{- end }}
       {{ partialCached "hb/modules/blog/post/meta/first-section" $page $page }}
@@ -41,7 +46,7 @@
         {{- end }}
       </a>
     </div>
-    {{- if $meta }}
+    {{- if and $meta (default true $pageMeta.taxonomies) }}
       <div class="hb-blog-post-meta d-block text-nowrap text-truncate mb-2">
         {{ partialCached "hb/modules/blog/post/meta/taxonomies" $page $page }}
       </div>
