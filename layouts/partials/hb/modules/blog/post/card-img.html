@@ -1,7 +1,14 @@
 {{- $page := . }}
+{{- $url := .RelPermalink }}
+{{- $external := false }}
+{{- with .Params.external_url }}
+  {{- $url = . }}
+  {{- $external = true }}
+{{- end }}
 <a
   class="card-img-top overflow-hidden border border-secondary-subtle text-body text-decoration-none mt-2"
-  href="{{ .RelPermalink }}">
+  {{ if $external }}target="_blank" rel="external"{{ end }}
+  href="{{ $url }}">
   {{- $img := "" }}
   {{- with .Params.images }}
     {{- $img = index . 0 }}
