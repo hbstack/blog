@@ -13,7 +13,7 @@
 {{- $modularize := default true .Modularize }}
 <div
   class="hb-blog-post-card card border-0 overflow-hidden h-100{{ cond $modularize ` hb-module` ` bg-transparent` }} mb-0">
-  {{- if $meta }}
+  {{- if and $meta (ne $pageMeta false) }}
     <div class="hb-blog-post-meta d-flex align-items-center">
       {{- if default true $pageMeta.authors }}
         {{ partialCached "hb/modules/blog/post/meta/authors" $page $page }}
@@ -46,7 +46,7 @@
         {{- end }}
       </a>
     </div>
-    {{- if and $meta (default true $pageMeta.taxonomies) }}
+    {{- if and $meta (ne $pageMeta false) (default true $pageMeta.taxonomies) }}
       <div class="hb-blog-post-meta d-block text-nowrap text-truncate mb-2">
         {{ partialCached "hb/modules/blog/post/meta/taxonomies" $page $page }}
       </div>
