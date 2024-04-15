@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.27.2](https://github.com/hbstack/blog/compare/v0.27.1...v0.27.2) (2024-04-15)
+
+
+### Bug Fixes 🐞
+
+* safe check if the meta parameter is boolean ([#767](https://github.com/hbstack/blog/issues/767)) ([4472db8](https://github.com/hbstack/blog/commit/4472db8be8497f3d0cfe400e4f84dcfbe0d1a729))
+
 ## [0.27.1](https://github.com/hbstack/blog/compare/v0.27.0...v0.27.1) (2024-04-15)
 
 
