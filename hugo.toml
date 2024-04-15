@@ -46,3 +46,6 @@ sticky = true
 
 [params.hb.blog.toc]
 position = "end" # start, end or content.
+
+[params.hugopress.modules.hb-blog.hooks.head-begin]
+cacheable = false
