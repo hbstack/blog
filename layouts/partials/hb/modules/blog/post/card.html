@@ -1,4 +1,10 @@
 {{- $page := .Page }}
+{{- $url := $page.RelPermalink }}
+{{- $external := false }}
+{{- with $page.Params.external_url }}
+  {{- $url = . }}
+  {{- $external = true }}
+{{- end }}
 {{- $showSummary := default true .Summary }}
 {{- $readMore := default true .ReadMore }}
 {{- $readingTime := default true .ReadingTime }}
@@ -24,11 +30,15 @@
       <a
         class="hb-blog-post-title-link d-block"
         title="{{ $page.Title }}"
-        href="{{ $page.RelPermalink }}">
+        {{ if $external }}target="_blank" rel="external"{{ end }}
+        href="{{ $url }}">
         {{- if $page.Params.pinned }}
           {{- partialCached "hb/modules/blog/helpers/pinned-icon" . -}}
         {{- end }}
         {{- $page.Title -}}
+        {{- if $external }}
+          {{- partial "icons/icon" (dict "vendor" "bootstrap" "name" "box-arrow-up-right" "className" "ms-1") }}
+        {{- end }}
       </a>
     </div>
     {{- if $meta }}
@@ -49,7 +59,7 @@
       {{- if and $readMore $truncated }}
         <div class="mt-2">
           <a
-            class="text-secondary" href="{{ $page.RelPermalink }}">
+            class="text-secondary" href="{{ $url }}"{{ if $external }}target="_blank" rel="external"{{ end }}>
             {{- i18n "read_more_about" $page.Title -}}
           </a>
         </div>
