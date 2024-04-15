@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.27.0](https://github.com/hbstack/blog/compare/v0.26.3...v0.27.0) (2024-04-15)
+
+
+### Features ✨
+
+* add the external_url page parameter ([#761](https://github.com/hbstack/blog/issues/761)) ([7234642](https://github.com/hbstack/blog/commit/723464298322a070851bfdf1668a3d57b9067b10))
+
 ## [0.26.3](https://github.com/hbstack/blog/compare/v0.26.2...v0.26.3) (2024-04-09)
 
 
