@@ -32,6 +32,9 @@
         "modules/disqus": {
             "component": "modules/disqus"
         },
+        "modules/emote": {
+            "component": "modules/emote"
+        },
         "modules/featured-image": {
             "component": "modules/featured-image"
         },

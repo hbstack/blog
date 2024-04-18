@@ -4,6 +4,7 @@
     "modules/content-panel": "0.1.21",
     "modules/decap-cms": "0.3.0",
     "modules/disqus": "0.1.20",
+    "modules/emote": "0.0.1",
     "modules/featured-image": "0.2.21",
     "modules/giscus": "0.1.23",
     "modules/heading-sign": "0.1.23",
