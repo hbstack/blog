@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.28.0](https://github.com/hbstack/blog/compare/v0.27.2...v0.28.0) (2024-04-23)
+
+
+### Features ✨
+
+* add the post_thumbnail_position parameter ([#778](https://github.com/hbstack/blog/issues/778)) ([2bef119](https://github.com/hbstack/blog/commit/2bef1191aa2ad574de76c9deeb537ed0cb64dee4))
+
+
+### Bug Fixes 🐞
+
+* broken styles on homepage ([6ee1fd8](https://github.com/hbstack/blog/commit/6ee1fd8d40cf11d59301a0fc95553a3e20b42ff0))
+
 ## [0.27.2](https://github.com/hbstack/blog/compare/v0.27.1...v0.27.2) (2024-04-15)
 
 
