@@ -9,7 +9,7 @@
 {{- end }}
 {{- $featuredPages := first $featuredCount (where $pages ".Params.featured" true) }}
 {{- if $featuredPages }}
-<div class="row">
+<div class="row mb-3">
   {{- $pinnedPages := first 1 (where $pages ".Params.pinned" true) }}
   {{- $hasPinned := and (ne $pinnedPos "list") (gt (len $pinnedPages) 0) }}
   <div class="col-12{{ cond $hasPinned ` col-lg-6` `` }} hb-blog-home-carousel">
@@ -26,7 +26,9 @@
 <div class="hb-blog-main-container">
   <div class="hb-blog-main">
     {{- if default true site.Params.hb.blog.home.taxonomies }}
-      {{ partialCached "hb/modules/blog/home/taxonomies" . }}
+      <div>
+        {{ partialCached "hb/modules/blog/home/taxonomies" . }}
+      </div>
     {{- end }}
     {{- with .Paginator }}
       {{- $cols := partialCached "hb/modules/blog/functions/list-cols" . }}
