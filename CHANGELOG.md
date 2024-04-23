@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.29.0](https://github.com/hbstack/blog/compare/v0.28.0...v0.29.0) (2024-04-23)
+
+
+### Features ✨
+
+* **i18n:** add German translations ([#780](https://github.com/hbstack/blog/issues/780)) ([2daf645](https://github.com/hbstack/blog/commit/2daf6453f5a8f4f88f1a9a4aa261b25a53b01737))
+
 ## [0.28.0](https://github.com/hbstack/blog/compare/v0.27.2...v0.28.0) (2024-04-23)
 
 
