@@ -17,7 +17,8 @@
   </div>
   {{- if $hasPinned }}
     <div class="col-12 col-lg-6">
-      {{ partial "hb/modules/blog/posts" (dict "Pages" $pinnedPages "Cols" "row-cols-1" "ReadMore" false) }}
+      {{- $ctx := dict "Page" (index $pinnedPages 0) "ReadMore" false }}
+      {{ partial "hb/modules/blog/post/card" $ctx }}
     </div>
   {{- end }}
 </div>

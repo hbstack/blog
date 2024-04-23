@@ -4,7 +4,7 @@
 <div class="hb-blog-posts row {{ $cols }} g-3 mb-3">
   {{ range .Pages }}
     <div class="col">
-      {{- $ctx := dict "Page" . "ReadMore" $readMore "Modularize" $modularize }}
+      {{- $ctx := dict "Page" . "ReadMore" $readMore "Modularize" $modularize "Caller" "list" }}
       {{ partial "hb/modules/blog/post/card" $ctx }}
     </div>
   {{ end }}

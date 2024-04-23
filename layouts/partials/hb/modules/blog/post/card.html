@@ -11,8 +11,20 @@
 {{- $meta := default true .Meta }}
 {{- $pageMeta := default dict $page.Params.meta }}
 {{- $modularize := default true .Modularize }}
+{{- $thumbnail := default true site.Params.hb.blog.post_thumbnail }}
+{{- $thumbnailPos := "top" }}
+{{- if eq .Caller "list" }}
+  {{- $thumbnailPos = site.Params.hb.blog.post_thumbnail_position }}
+{{- end }}
 <div
   class="hb-blog-post-card card border-0 overflow-hidden h-100{{ cond $modularize ` hb-module` ` bg-transparent` }} mb-0">
+  {{- if and $thumbnail (ne $thumbnailPos "top") }}
+    {{ printf `<div class="d-flex flex-column flex-md-row">` | safeHTML }}
+    <div class="hb-blog-post-card-wrapper me-md-2 mt-2 mt-md-0">
+      {{ partial "hb/modules/blog/post/card-img" $page }}
+    </div>
+    {{ printf `<div class="hb-blog-post-card-body overflow-hidden">` | safeHTML }}
+  {{- end }}
   {{- if and $meta (ne $pageMeta false) }}
     <div class="hb-blog-post-meta d-flex align-items-center">
       {{- if default true $pageMeta.authors }}
@@ -27,7 +39,7 @@
       {{ partialCached "hb/modules/blog/post/meta/first-section" $page $page }}
     </div>
   {{- end }}
-  {{- if default true site.Params.hb.blog.post_thumbnail }}
+  {{- if and $thumbnail (eq $thumbnailPos "top") }}
     {{ partial "hb/modules/blog/post/card-img" $page }}
   {{- end }}
   <div class="card-body px-0 py-2 d-flex flex-column">
@@ -71,4 +83,7 @@
       {{- end }}
     {{- end }}
   </div>
+  {{- if and $thumbnail (ne $thumbnailPos "top") }}
+    {{ printf `</div></div>` | safeHTML }}
+  {{- end }}
 </div>
