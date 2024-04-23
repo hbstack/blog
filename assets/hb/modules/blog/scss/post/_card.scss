@@ -17,3 +17,39 @@
     text-transform: uppercase;
     width: 100%;
 }
+
+.hb-blog-post-card-wrapper {
+    .card-img-top {
+        border: 0 !important;
+        display: block;
+        height: 100%;
+        margin-top: 0 !important;
+    }
+
+    .hb-blog-post-card-img {
+        @extend .rounded-0;
+    }
+
+    @include media-breakpoint-down(sm) {
+        .card-img-top {
+            margin-bottom: .25rem;
+        }
+    }
+
+    @include media-breakpoint-up(md) {
+        .card-img-top {
+            border-radius: 0 !important;
+        }
+
+        .hb-blog-post-card-img {
+            height: 100%;
+            width: 180px;
+        }
+    }
+
+    @include media-breakpoint-up(lg) {
+        .hb-blog-post-card-img {
+            width: 240px;
+        }
+    }
+}
