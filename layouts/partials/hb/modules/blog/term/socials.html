@@ -1,5 +1,5 @@
-{{- $color := default true ._color }}
-<ul class="nav justify-content-center">
+{{- $color := default "" ._color }}
+<ul class="nav justify-content-center hb-term-socials">
   {{ range $name, $id := . }}
     {{/* ignore options. */}}
     {{- if hasPrefix $name "_" }}
