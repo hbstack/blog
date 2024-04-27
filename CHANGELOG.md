@@ -1,5 +1,18 @@
 # Changelog
 
+## [0.29.1](https://github.com/hbstack/blog/compare/v0.29.0...v0.29.1) (2024-04-27)
+
+
+### Bug Fixes 🐞
+
+* add unique class name for term socials and metrics ([fc7293e](https://github.com/hbstack/blog/commit/fc7293eeed437b8a30bd57c8740b6a13aa3ba626))
+* wrong type (boolean) of social icon color for authors ([fc7293e](https://github.com/hbstack/blog/commit/fc7293eeed437b8a30bd57c8740b6a13aa3ba626))
+
+
+### Styles 🎨
+
+* change margin of author's metrics ([aa2a65f](https://github.com/hbstack/blog/commit/aa2a65f89c8e5fd0134cc4f1969dbe80827af038))
+
 ## [0.29.0](https://github.com/hbstack/blog/compare/v0.28.0...v0.29.0) (2024-04-23)
 
 
