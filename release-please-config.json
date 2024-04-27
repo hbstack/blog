@@ -44,6 +44,9 @@
         "modules/heading-sign": {
             "component": "modules/heading-sign"
         },
+        "modules/post-authors": {
+            "component": "modules/post-authors"
+        },
         "modules/post-nav": {
             "component": "modules/post-nav"
         },
