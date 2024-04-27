@@ -17,7 +17,7 @@
                   {{- .Title -}}
                 </a>
               </h2>
-              {{- with  .Description }}
+              {{- with .Description }}
                 <p class="text-body-secondary mb-2 text-center">{{ . }}</p>
               {{- end }}
               {{ partialCached "hb/modules/blog/term/metrics" . . }}
