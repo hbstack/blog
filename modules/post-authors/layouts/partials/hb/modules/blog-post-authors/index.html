@@ -1,0 +1,39 @@
+{{- with .GetTerms "authors" }}
+  <div class="hb-blog-post-authors hb-module">
+    {{- $title := "Authors" }}
+    {{- with site.GetPage "/authors" }}
+      {{- $title = .Title }}
+    {{- end }}
+    <div class="h5 mb-3">
+      {{- partial "icons/icon" (dict "vendor" "bs" "name" "pencil-square" "className" "me-1") -}}
+      {{- $title -}}
+    </div>
+    {{- $terms := . }}
+    {{- range $i, $term := $terms }}
+      {{- $last := eq (len $terms) (add $i 1) }}
+      <div
+        class="hb-blog-post-author my-3 border-top pt-3"
+        href="{{ .RelPermalink }}">
+        <div class="d-flex">
+          {{ partial "hb/modules/blog/author/image" (dict
+            "Page" .
+            "ClassName" "hb-blog-author-img rounded-circle me-3")
+          }}
+          <div class="d-flex flex-column justify-content-center">
+            <p class="h6 mb-0 d-flex">
+              <a class="text-decoration-none" href="{{ .RelPermalink }}">
+                {{- .Title -}}
+              </a>
+            </p>
+            {{ with .Description }}
+              <small class="text-body-secondary mt-2">{{ . }}</small>
+            {{ end }}
+            {{- with .Params.socials }}
+              {{ partial "hb/modules/blog/term/socials" . }}
+            {{- end }}
+          </div>
+        </div>
+      </div>
+    {{- end }}
+  </div>
+{{- end }}

@@ -1,0 +1,18 @@
+.hb-blog-post-author {
+  .hb-blog-author-img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .hb-term-socials {
+    justify-content: start !important;
+    left: -.25rem;
+    display: flex;
+    position: relative;
+    margin-top: .25rem;
+
+    .nav-item {
+      margin: .25rem !important;
+    }
+  }
+}

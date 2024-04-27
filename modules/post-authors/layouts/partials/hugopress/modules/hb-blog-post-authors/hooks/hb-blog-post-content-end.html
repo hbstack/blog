@@ -1,0 +1,3 @@
+{{- if eq (default "top" site.Params.hb.blog.post_authors.position) "bottom" }}
+  {{ partial "hb/modules/blog-post-authors/index" .Page }}
+{{- end }}
