@@ -30,23 +30,22 @@
       {{- end }}
     </p>
     {{- with .socials }}
-      {{- $color := default true ._color }}
-      <div class="hb-footer-socials d-flex mb-0 mt-1 justify-content-center">
-        {{- range $name, $id := . }}
-          {{/* ignore options. */}}
-          {{- if hasPrefix $name "_" }}
-            {{- continue }}
-          {{- end }}
-          {{- $ctx := dict
-            "id" $id
-            "name" $name
-            "class" "p-2"
-            "width" "1.75em"
-            "height" "1.75em"
-            "color" $color
-          }}
-          {{ partial "hb/modules/socials/link" $ctx }}
+      {{- $color := "" }}
+      {{- if reflect.IsMap . }}
+        {{- if isset . "_color" }}
+          {{- $color = ._color }}
         {{- end }}
+      {{- end }}
+      <div class="hb-footer-socials d-flex mb-0 mt-1 justify-content-center">
+        {{- partial "hb/modules/socials/links" (dict
+          "Media" .
+          "Options" (dict
+            "color" $color
+            "class" "p-2"
+            "height" "1.75em"
+            "width" "1.75em"
+          )
+        ) }}
       </div>
     {{- end }}
   </div>

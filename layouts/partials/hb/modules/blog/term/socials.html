@@ -1,20 +1,19 @@
-{{- $color := default "" ._color }}
+{{- $color := "" }}
+{{- if reflect.IsMap . }}
+  {{- if isset . "_color" }}
+    {{- $color = ._color }}
+  {{- end }}
+{{- end }}
 <ul class="nav justify-content-center hb-term-socials">
-  {{ range $name, $id := . }}
-    {{/* ignore options. */}}
-    {{- if hasPrefix $name "_" }}
-      {{- continue }}
-    {{- end }}
-    {{- $ctx := dict
-      "name" $name
-      "id" $id
+  {{- partial "hb/modules/socials/links" (dict
+    "Media" .
+    "Options" (dict
+      "color" $color
       "class" "d-flex justify-content-center align-items-center mb-2"
       "height" "1.75em"
       "width" "1.75em"
-      "color" $color
-    }}
-    <li class="nav-item d-flex align-items-center mx-3 mt-3 mb-0">
-      {{- partial "hb/modules/socials/link" $ctx }}
-    </li>
-  {{ end }}
+    )
+    "WrapperTag" "li"
+    "WrapperClass" "nav-item d-flex align-items-center mx-3 mt-3 mb-0"
+  ) }}
 </ul>
