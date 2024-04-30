@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://github.com/hbstack/blog/compare/modules/sidebar/profile/v1.1.5...modules/sidebar/profile/v1.2.0) (2024-04-30)
+
+
+### Features ✨
+
+* accepts `socials` params in type `array` ([#803](https://github.com/hbstack/blog/issues/803)) ([cfdaf1d](https://github.com/hbstack/blog/commit/cfdaf1de9f22b7ddf602332ea1e15a6533599320)), closes [#801](https://github.com/hbstack/blog/issues/801)
+
 ## [1.1.5](https://github.com/hbstack/blog/compare/modules/sidebar/profile/v1.1.4...modules/sidebar/profile/v1.1.5) (2023-12-04)
 
 

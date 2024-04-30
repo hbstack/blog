@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.30.0](https://github.com/hbstack/blog/compare/v0.29.1...v0.30.0) (2024-04-30)
+
+
+### Features ✨
+
+* accepts `socials` params in type `array` ([#803](https://github.com/hbstack/blog/issues/803)) ([cfdaf1d](https://github.com/hbstack/blog/commit/cfdaf1de9f22b7ddf602332ea1e15a6533599320)), closes [#801](https://github.com/hbstack/blog/issues/801)
+
 ## [0.29.1](https://github.com/hbstack/blog/compare/v0.29.0...v0.29.1) (2024-04-27)
 
 
