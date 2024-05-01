@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.31.0](https://github.com/hbstack/blog/compare/v0.30.0...v0.31.0) (2024-05-01)
+
+
+### Features ✨
+
+* add the `hb.blog.post_thumbnail_height` parameter, which represents the height of thumbnail, default to `160px` ([#809](https://github.com/hbstack/blog/issues/809)) ([6f49989](https://github.com/hbstack/blog/commit/6f499894b9487944efafae0eac4c464677987444))
+* add the `hb.blog.post_thumbnail_resize_height` parameter for changing the height for resizing thumbnails, default to `360`. ([6f49989](https://github.com/hbstack/blog/commit/6f499894b9487944efafae0eac4c464677987444))
+
 ## [0.30.0](https://github.com/hbstack/blog/compare/v0.29.1...v0.30.0) (2024-04-30)
 
 
