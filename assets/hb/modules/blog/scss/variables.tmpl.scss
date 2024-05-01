@@ -7,3 +7,6 @@ $hb-blog-home-pinned-posts-pos: '{{ default "" site.Params.hb.blog.home.pinned_p
 
 // ToC
 $hb-blog-toc-position: {{ default "end" site.Params.hb.blog.toc.position }};
+
+// Thumbnail
+$hb-blog-post-thumbnail-height: {{ default "160px" site.Params.hb.blog.post_thumbnail_height }};

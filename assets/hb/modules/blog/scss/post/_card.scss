@@ -1,5 +1,5 @@
 .hb-blog-post-card-img {
-    height: 160px;
+    height: $hb-blog-post-thumbnail-height;
     object-fit: cover;
     width: 100%;
     transition: 0.3s;
@@ -11,7 +11,7 @@
 
 .hb-blog-post-card-img-none {
     background: rgba(var(--#{$prefix}body-color-rgb), 0.1);
-    height: 160px;
+    height: $hb-blog-post-thumbnail-height;
     filter: blur(1px);
     font-size: 1.5rem;
     text-transform: uppercase;
