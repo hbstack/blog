@@ -1,39 +1,33 @@
 {{- $size := "1.5em" }}
-{{- $justify := "justify-content-between" }}
-{{- if not .PrevInSection }}
-  {{- $justify = "justify-content-end" }}
-{{- end }}
 {{- if or .PrevInSection .NextInSection }}
-<div class="hb-module">
-<ul class="hb-blog-post-nav nav {{ $justify }}">
+<div class="hb-blog-post-nav mb-3 row row-cols-1 g-3{{ cond (and (ne .PrevInSection nil) (ne .NextInSection nil)) ` row-cols-md-2` `` }}">
   {{ with .PrevInSection }}
-    <li class="nav-item my-1">
-      <a class="nav-link p-0 d-flex align-items-center text-break" href="{{ .RelPermalink }}">
+    <div class="col">
+      <a class="hb-module h-100 py-1 d-flex align-items-center justify-content-center text-break text-decoration-none" href="{{ .RelPermalink }}">
         {{- partial "icons/icon" (dict
           "vendor" "bootstrap"
           "name" "arrow-left-circle"
-          "className" "me-2"
+          "className" "me-2 flex-shrink-0"
           "width" $size
           "height" $size)
         -}}
         {{- .Title -}}
       </a>
-    </li>
+    </div>
   {{ end }}
   {{ with .NextInSection }}
-    <li class="nav-item my-1">
-      <a class="nav-link p-0 d-flex align-items-center text-break" href="{{ .RelPermalink }}">
+    <div class="col">
+      <a class="hb-module h-100 py-1 d-flex align-items-center justify-content-center text-break text-decoration-none" href="{{ .RelPermalink }}">
         {{- .Title -}}
         {{- partial "icons/icon" (dict
           "vendor" "bootstrap"
           "name" "arrow-right-circle"
-          "className" "ms-2"
+          "className" "ms-2 flex-shrink-0"
           "width" $size
           "height" $size)
         -}}
       </a>
-    </li>
+    </div>
   {{ end }}
-</ul>
 </div>
 {{- end }}
