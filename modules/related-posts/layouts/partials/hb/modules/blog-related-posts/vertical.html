@@ -1,0 +1,18 @@
+<div class="hb-blog-related-posts hb-module">
+  {{- range $i, $page := . }}
+  <div class="d-flex hb-blog-related-post mb-2{{ cond (ne 0 $i) ` border-top pt-2` `` }}">
+    {{- if default true site.Params.hb.blog.post_thumbnail }}
+      <div class="hb-blog-related-post-img flex-shrink-0 me-3 rounded overflow-hidden">
+        {{ partialCached "hb/modules/blog/post/card-img" . . }}
+      </div>
+    {{- end }}
+    <a
+      class="flex-grow-1 text-decoration-none d-flex flex-column"
+      title="{{ .Title }}"
+      href="{{ .RelPermalink }}">
+      <span class="hb-blog-post-meta mb-1">{{ .Date | time.Format site.Params.hb.blog.post_date_format }}</span>
+      <span class="hb-blog-related-post-title text-truncate text-wrap">{{ .Title }}</span>
+    </a>
+  </div>
+  {{- end }}
+</div>

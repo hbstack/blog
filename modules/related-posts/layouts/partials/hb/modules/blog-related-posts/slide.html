@@ -1,0 +1,11 @@
+<div class="hb-blog-related-posts slide hb-module p-1">
+  <div class="slide-inner row row-cols-1 row-cols-xl-2 gx-2">
+    {{- $total := len . }}
+    {{- range $i, $page := . }}
+      <div class="slide-item">
+        {{ partial "hb/modules/blog/post/card" (dict "Page" . "Summary" false "Meta" false "Modularize" false) }}
+      </div>
+    {{- end -}}
+  </div>
+  {{ partialCached "hb/modules/slide/controls" . }}
+</div>
