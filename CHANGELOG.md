@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.31.1](https://github.com/hbstack/blog/compare/v0.31.0...v0.31.1) (2024-05-02)
+
+
+### Bug Fixes 🐞
+
+* show the thumbnails all the time ([b23a00e](https://github.com/hbstack/blog/commit/b23a00e0822b5236d3e613daf173f9f7880c0243))
+
 ## [0.31.0](https://github.com/hbstack/blog/compare/v0.30.0...v0.31.0) (2024-05-01)
 
 
