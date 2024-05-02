@@ -11,9 +11,10 @@
 {{- $meta := default true .Meta }}
 {{- $pageMeta := default dict $page.Params.meta }}
 {{- $modularize := default true .Modularize }}
-{{- $thumbnail := default true site.Params.hb.blog.post_thumbnail }}
+{{- $thumbnail := true }}
 {{- $thumbnailPos := "top" }}
 {{- if eq .Caller "list" }}
+  {{- $thumbnail = default true site.Params.hb.blog.post_thumbnail }}
   {{- $thumbnailPos = site.Params.hb.blog.post_thumbnail_position }}
 {{- end }}
 <div
