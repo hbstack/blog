@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.7.1](https://github.com/hbstack/blog/compare/modules/sidebar/posts/v0.7.0...modules/sidebar/posts/v0.7.1) (2024-05-02)
+
+
+### Styles 🎨
+
+* **sidebar/posts:** hide the thumbnails on vertical list style when post_thumbnails is false ([472ad89](https://github.com/hbstack/blog/commit/472ad8939d8b9c0b7634e0ca81af7d7064030079))
+
 ## [0.7.0](https://github.com/hbstack/blog/compare/modules/sidebar/posts/v0.6.2...modules/sidebar/posts/v0.7.0) (2023-12-17)
 
 

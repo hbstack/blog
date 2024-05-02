@@ -1,5 +1,5 @@
 {
-    ".": "0.31.0",
+    ".": "0.31.1",
     "modules/breadcrumb": "0.1.22",
     "modules/content-panel": "0.1.21",
     "modules/decap-cms": "0.3.0",
@@ -10,9 +10,9 @@
     "modules/heading-sign": "0.1.23",
     "modules/post-authors": "0.1.0",
     "modules/post-nav": "0.3.8",
-    "modules/related-posts": "0.2.5",
+    "modules/related-posts": "0.3.0",
     "modules/revision": "0.1.0",
-    "modules/sidebar/posts": "0.7.0",
+    "modules/sidebar/posts": "0.7.1",
     "modules/sidebar/search": "0.1.0",
     "modules/sidebar/taxonomies": "0.4.0",
     "modules/social-share-buttons": "0.1.1",
