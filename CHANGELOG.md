@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.32.0](https://github.com/hbstack/blog/compare/v0.31.1...v0.32.0) (2024-05-10)
+
+
+### Features ✨
+
+* add the hb.blog.post_read_more parameter ([#820](https://github.com/hbstack/blog/issues/820)) ([6019c64](https://github.com/hbstack/blog/commit/6019c6449cf0240a3eeb5f523912a48d99b37be5))
+
+
+### Styles 🎨
+
+* **archives:** minor tweak ([69f47c2](https://github.com/hbstack/blog/commit/69f47c2b65f2a6415f2706c2388cd85fa52b641b))
+
 ## [0.31.1](https://github.com/hbstack/blog/compare/v0.31.0...v0.31.1) (2024-05-02)
 
 
