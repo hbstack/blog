@@ -1,5 +1,5 @@
 {{- $cols := default "row-cols-1 row-cols-lg-2 row-cols-xl-3" .Cols }}
-{{- $readMore := default true .ReadMore }}
+{{- $readMore := default (default true site.Params.hb.blog.post_read_more) .ReadMore }}
 {{- $modularize := default true .Modularize }}
 <div class="hb-blog-posts row {{ $cols }} g-3 mb-3">
   {{ range .Pages }}
