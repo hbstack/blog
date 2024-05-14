@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.4.1](https://github.com/hbstack/blog/compare/modules/sidebar/taxonomies/v0.4.0...modules/sidebar/taxonomies/v0.4.1) (2024-05-14)
+
+
+### Bug Fixes 🐞
+
+* **i18n:** German translation ([94e0906](https://github.com/hbstack/blog/commit/94e090671d60efa621a405608f63ee16bd21c267))
+
 ## [0.4.0](https://github.com/hbstack/blog/compare/modules/sidebar/taxonomies/v0.3.13...modules/sidebar/taxonomies/v0.4.0) (2023-12-17)
 
 
