@@ -1,5 +1,5 @@
 {
-    ".": "0.32.0",
+    ".": "0.32.1",
     "modules/breadcrumb": "0.1.22",
     "modules/content-panel": "0.1.21",
     "modules/decap-cms": "0.3.0",
@@ -14,7 +14,7 @@
     "modules/revision": "0.1.0",
     "modules/sidebar/posts": "0.7.1",
     "modules/sidebar/search": "0.1.0",
-    "modules/sidebar/taxonomies": "0.4.0",
+    "modules/sidebar/taxonomies": "0.4.1",
     "modules/social-share-buttons": "0.1.1",
     "modules/staticman": "0.1.21",
     "modules/sticky-till-the-end": "0.1.0",
