@@ -1,8 +1,8 @@
 [metrics_page_sections]
-other = "Sections"
+other = "Rubriken"
 
 [metrics_page_types]
-other = "Types"
+other = "Typen"
 
 [metrics_posts]
 other = "Posts"
@@ -11,7 +11,7 @@ other = "Posts"
 other = "Auf dieser Seite"
 
 [read_more_about]
-other = "Lese mehr über {{ . }}."
+other = "Lies mehr über {{ . }}."
 
 [reading_time]
 other = "Lesedauer: {{ .Count }} Min."
