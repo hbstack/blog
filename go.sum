@@ -29,12 +29,14 @@ github.com/hugomods/icons/vendors/bootstrap v0.5.6 h1:4Vj7u52gFUnO+Jj/CqmGfsLroi
 github.com/hugomods/icons/vendors/bootstrap v0.5.6/go.mod h1:Sw1RhQvFcsQlJ5a4SKpp7A0XHDYQ0DK0pQwnnx+l+Ao=
 github.com/hugomods/icons/vendors/simple-icons v1.0.38 h1:Kb0oqnHy00GLPllVsMQkc1fWcVv+meiyqki49zP/XyU=
 github.com/hugomods/icons/vendors/simple-icons v1.0.38/go.mod h1:XhswsNEfVeOhYACVe9+IIN7Z2AN0keT1ddnWv/vHp9A=
+github.com/hugomods/icons/vendors/simple-icons v1.0.39/go.mod h1:Y+C3h6tOJ938GK7dqUxC7nYPtcIcmKOFLlWaikRv+8c=
 github.com/hugomods/images v0.10.1 h1:ok3ZUZ63MAcmFuTx2kC5JJ3Sffd420RRW9yO57SFeQA=
 github.com/hugomods/images v0.10.1/go.mod h1:U6Gwj16LKvk66rOMyGFrnF6f0aV8lT89lqOsckOAjYY=
 github.com/hugomods/seo/modules/base v0.1.1 h1:63exSBQ+CuyN+GEpbCQgTWgHcuiHia2Ox7nwbhsWSDU=
 github.com/hugomods/seo/modules/base v0.1.1/go.mod h1:qfm1Vga0eGxL+Szgz8Jopm+NtJ5PGov2a2dikTg1qSg=
 github.com/hugomods/simple-icons v11.14.0+incompatible h1:p9H77q11aNJE5oN5qWNiXeeIWXr1Y5Dbti6o/7qf1Dg=
 github.com/hugomods/simple-icons v11.14.0+incompatible/go.mod h1:1Lvymol7AMVY7ji/o88jMoDHHZIJ5Wc+WwNe5hjmk+U=
+github.com/hugomods/simple-icons v11.15.0+incompatible/go.mod h1:1Lvymol7AMVY7ji/o88jMoDHHZIJ5Wc+WwNe5hjmk+U=
 github.com/twbs/bootstrap v5.3.2+incompatible/go.mod h1:fZTSrkpSf0/HkL0IIJzvVspTt1r9zuf7XlZau8kpcY0=
 github.com/twbs/bootstrap v5.3.3+incompatible h1:goFoqinzdHfkeegpFP7pvhbd0g+A3O2hbU3XCjuNrEQ=
 github.com/twbs/bootstrap v5.3.3+incompatible/go.mod h1:fZTSrkpSf0/HkL0IIJzvVspTt1r9zuf7XlZau8kpcY0=
