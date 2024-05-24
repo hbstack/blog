@@ -6,7 +6,9 @@
   <div class="taxonomy-terms hb-module">
     {{- with site.GetPage $name }}
       <div class="taxonomy-terms-title h5">
-        <a class="text-decoration-none" href="{{ .RelPermalink }}">{{- default .Title $title -}}</a>
+        <a class="text-decoration-none" href="{{ .RelPermalink }}">
+          {{- default .Title $title -}}
+        </a>
       </div>
     {{- end }}
     {{- range .terms }}
@@ -15,7 +17,9 @@
         href="{{ .Page.RelPermalink }}">
         <span class="taxonomy-term-title">{{- .Page.Title -}}</span>
         {{- if $count }}
-          <small class="taxonomy-term-count border rounded px-1">{{- .Count -}}</small>
+          <small class="taxonomy-term-count border rounded px-1">
+            {{- .Count -}}
+          </small>
         {{- end }}
       </a>
     {{- end }}

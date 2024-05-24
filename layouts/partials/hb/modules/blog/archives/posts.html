@@ -2,7 +2,8 @@
 {{- range .GroupByDate "2006" }}
   {{- $year := .Key }}
   <div class="archive border-1">
-    <div class="archive-heading h4 my-4 border-primary border-bottom pb-3 border-1">
+    <div
+      class="archive-heading h4 my-4 border-primary border-bottom pb-3 border-1">
       {{- $yearSection := printf "archives/%s" $year }}
       {{- with site.GetPage $yearSection }}
         <a class="text-decoration-none" href="{{ .RelPermalink }}">

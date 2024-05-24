@@ -37,15 +37,17 @@
         {{- end }}
       {{- end }}
       <div class="hb-footer-socials d-flex mb-0 mt-1 justify-content-center">
+        {{- $opts := dict
+          "color" $color
+          "class" "p-2"
+          "height" "1.75em"
+          "width" "1.75em"
+        }}
         {{- partial "hb/modules/socials/links" (dict
           "Media" .
-          "Options" (dict
-            "color" $color
-            "class" "p-2"
-            "height" "1.75em"
-            "width" "1.75em"
+          "Options" $opts
           )
-        ) }}
+        }}
       </div>
     {{- end }}
   </div>

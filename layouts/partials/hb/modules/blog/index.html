@@ -9,19 +9,20 @@
 {{- end }}
 {{- $featuredPages := first $featuredCount (where $pages ".Params.featured" true) }}
 {{- if $featuredPages }}
-<div class="row mb-3">
-  {{- $pinnedPages := first 1 (where $pages ".Params.pinned" true) }}
-  {{- $hasPinned := and (ne $pinnedPos "list") (gt (len $pinnedPages) 0) }}
-  <div class="col-12{{ cond $hasPinned ` col-lg-6` `` }} hb-blog-home-carousel">
-    {{- partial "hb/modules/carousel/carousel" (dict "Pages" $featuredPages) -}}
-  </div>
-  {{- if $hasPinned }}
-    <div class="col-12 col-lg-6">
-      {{- $ctx := dict "Page" (index $pinnedPages 0) "ReadMore" false }}
-      {{ partial "hb/modules/blog/post/card" $ctx }}
+  <div class="row mb-3">
+    {{- $pinnedPages := first 1 (where $pages ".Params.pinned" true) }}
+    {{- $hasPinned := and (ne $pinnedPos "list") (gt (len $pinnedPages) 0) }}
+    <div
+      class="col-12{{ cond $hasPinned ` col-lg-6` `` }} hb-blog-home-carousel">
+      {{- partial "hb/modules/carousel/carousel" (dict "Pages" $featuredPages) -}}
     </div>
-  {{- end }}
-</div>
+    {{- if $hasPinned }}
+      <div class="col-12 col-lg-6">
+        {{- $ctx := dict "Page" (index $pinnedPages 0) "ReadMore" false }}
+        {{ partial "hb/modules/blog/post/card" $ctx }}
+      </div>
+    {{- end }}
+  </div>
 {{- end }}
 <div class="hb-blog-main-container">
   <div class="hb-blog-main">

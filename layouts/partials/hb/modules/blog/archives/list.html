@@ -1,6 +1,5 @@
 {{ partial "hugopress/functions/render-hooks" (dict "Name" "hb-blog-main-begin" "Page" .) }}
-<div
-  class="archives border-start border-5 ps-4 position-relative mb-3">
+<div class="archives border-start border-5 ps-4 position-relative mb-3">
   {{ partial "hb/modules/blog/archives/posts" .Paginator.Pages }}
 </div>
 {{ partial "hb/modules/pagination/index" .Paginator }}

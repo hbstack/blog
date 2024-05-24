@@ -1,33 +1,38 @@
 {{- $size := "1.5em" }}
 {{- if or .PrevInSection .NextInSection }}
-<div class="hb-blog-post-nav mb-3 row row-cols-1 g-3{{ cond (and (ne .PrevInSection nil) (ne .NextInSection nil)) ` row-cols-md-2` `` }}">
-  {{ with .PrevInSection }}
-    <div class="col">
-      <a class="hb-module h-100 py-1 d-flex align-items-center justify-content-center text-break text-decoration-none" href="{{ .RelPermalink }}">
-        {{- partial "icons/icon" (dict
-          "vendor" "bootstrap"
-          "name" "arrow-left-circle"
-          "className" "me-2 flex-shrink-0"
-          "width" $size
-          "height" $size)
-        -}}
-        {{- .Title -}}
-      </a>
-    </div>
-  {{ end }}
-  {{ with .NextInSection }}
-    <div class="col">
-      <a class="hb-module h-100 py-1 d-flex align-items-center justify-content-center text-break text-decoration-none" href="{{ .RelPermalink }}">
-        {{- .Title -}}
-        {{- partial "icons/icon" (dict
-          "vendor" "bootstrap"
-          "name" "arrow-right-circle"
-          "className" "ms-2 flex-shrink-0"
-          "width" $size
-          "height" $size)
-        -}}
-      </a>
-    </div>
-  {{ end }}
-</div>
+  <div
+    class="hb-blog-post-nav mb-3 row row-cols-1 g-3{{ cond (and (ne .PrevInSection nil) (ne .NextInSection nil)) ` row-cols-md-2` `` }}">
+    {{ with .PrevInSection }}
+      <div class="col">
+        <a
+          class="hb-module h-100 py-1 d-flex align-items-center justify-content-center text-break text-decoration-none"
+          href="{{ .RelPermalink }}">
+          {{- partial "icons/icon" (dict
+            "vendor" "bootstrap"
+            "name" "arrow-left-circle"
+            "className" "me-2 flex-shrink-0"
+            "width" $size
+            "height" $size)
+          -}}
+          {{- .Title -}}
+        </a>
+      </div>
+    {{ end }}
+    {{ with .NextInSection }}
+      <div class="col">
+        <a
+          class="hb-module h-100 py-1 d-flex align-items-center justify-content-center text-break text-decoration-none"
+          href="{{ .RelPermalink }}">
+          {{- .Title -}}
+          {{- partial "icons/icon" (dict
+            "vendor" "bootstrap"
+            "name" "arrow-right-circle"
+            "className" "ms-2 flex-shrink-0"
+            "width" $size
+            "height" $size)
+          -}}
+        </a>
+      </div>
+    {{ end }}
+  </div>
 {{- end }}
