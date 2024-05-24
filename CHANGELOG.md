@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.32.2](https://github.com/hbstack/blog/compare/v0.32.1...v0.32.2) (2024-05-24)
+
+
+### Bug Fixes 🐞
+
+* invalid tag on terms layout ([f95e156](https://github.com/hbstack/blog/commit/f95e156601d95c420d055ba6748e832c4863ff71))
+
 ## [0.32.1](https://github.com/hbstack/blog/compare/v0.32.0...v0.32.1) (2024-05-14)
 
 
