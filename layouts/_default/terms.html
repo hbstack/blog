@@ -17,8 +17,7 @@
           {{- $totalPages := len .RegularPages }}
           {{- $fontSize := div $totalPages 3 }}
           {{- $fontSize = math.Min $fontSize 12 }}
-          <l
-          i class="mx-1 my-2">
+          <li class="mx-1 my-2">
             <a
               data-total-pages="{{ $totalPages }}"
               href="{{ .RelPermalink }}"
