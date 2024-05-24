@@ -45,7 +45,9 @@
           href="{{ .Page.RelPermalink }}">
           <span class="taxonomy-term-title">{{- .Page.Title -}}</span>
           {{- if $count }}
-            <small class="taxonomy-term-count border rounded px-1">{{- .Count -}}</small>
+            <small class="taxonomy-term-count border rounded px-1">
+              {{- .Count -}}
+            </small>
           {{- end }}
         </a>
       {{- end }}
