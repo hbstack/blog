@@ -43,6 +43,7 @@ github.com/hbstack/decap-cms v0.1.0/go.mod h1:X332p7HOiGBgvHF3018iJxmXkrIX3FPUKd
 github.com/hbstack/decap-cms v0.2.0/go.mod h1:X332p7HOiGBgvHF3018iJxmXkrIX3FPUKd0LRvCHXtU=
 github.com/hbstack/decap-cms v0.2.1/go.mod h1:X332p7HOiGBgvHF3018iJxmXkrIX3FPUKd0LRvCHXtU=
 github.com/hbstack/decap-cms v0.3.0/go.mod h1:X332p7HOiGBgvHF3018iJxmXkrIX3FPUKd0LRvCHXtU=
+github.com/hbstack/decap-cms v0.4.0/go.mod h1:X332p7HOiGBgvHF3018iJxmXkrIX3FPUKd0LRvCHXtU=
 github.com/hbstack/footer v0.2.10 h1:1w8fUXLajGSvEsu7UeWgnrDZumTqnC3pfl4vmmi+feU=
 github.com/hbstack/footer v0.2.10/go.mod h1:z779/sE1prEcABuz4RjhSwA8QkFLkmf+xv/5yM3BtPc=
 github.com/hbstack/footer v0.3.0/go.mod h1:mYITqQNk4PJWxPciS4/r0bRuB3cDDOXZ3dGwIHuYTME=
