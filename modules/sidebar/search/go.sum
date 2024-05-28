@@ -77,6 +77,7 @@ github.com/hbstack/header v0.14.3/go.mod h1:W7eolpYJctsTD8GVFEj09Ogbqqy8OAqcxBEb
 github.com/hbstack/pagination v0.6.0 h1:sUirQEsW9ZmRU0GxlsE2pN7ZYghI4aqJYgfWAgd+iys=
 github.com/hbstack/pagination v0.6.0/go.mod h1:xAvZzN0UZW0j/IAUipcRIIQ7P9Sq44M3k47HaHy7OuU=
 github.com/hbstack/pagination v0.7.0/go.mod h1:XaYSS/iReEFQo+fbVAx2YfjP4muWEraVNGeaTcVA35o=
+github.com/hbstack/pagination v0.8.0/go.mod h1:XaYSS/iReEFQo+fbVAx2YfjP4muWEraVNGeaTcVA35o=
 github.com/hbstack/search v0.2.0 h1:eGo7tzC5X5IjGvgEGgOkxSIRmIxsWK3GwluKkHgkmCc=
 github.com/hbstack/search v0.2.0/go.mod h1:vi7s2EhB+X9DnRhO4QqpSiCpYovzGAiZ8iUmmJEc+o0=
 github.com/hbstack/search v0.2.1/go.mod h1:w9dTxAjAhIaV7P6zdeFd1XDo4LOpMhfpm6it7NWZtD8=
