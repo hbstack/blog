@@ -1,0 +1,17 @@
+[metrics_page_sections]
+other = "Sections"
+
+[metrics_page_types]
+other = "Types"
+
+[metrics_posts]
+other = "Posts"
+
+[on_this_page]
+other = "On this page"
+
+[read_more_about]
+other = "Read more about {{ . }}."
+
+[reading_time]
+other = "{{ .Count }} min read"
