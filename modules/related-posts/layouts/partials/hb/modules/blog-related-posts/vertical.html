@@ -9,14 +9,14 @@
         </div>
       {{- end }}
       <a
-        class="flex-grow-1 text-decoration-none d-flex flex-column"
+        class="flex-grow-1 text-decoration-none d-flex"
         title="{{ .Title }}"
         href="{{ .RelPermalink }}">
-        <span class="hb-blog-post-meta mb-1">
-          {{ .Date | time.Format site.Params.hb.blog.post_date_format }}
-        </span>
-        <span class="hb-blog-related-post-title text-truncate text-wrap">
+        <span class="hb-blog-related-post-title text-truncate text-wrap me-md-2">
           {{ .Title }}
+        </span>
+        <span class="hb-blog-post-meta ms-auto text-nowrap d-none d-md-block">
+          {{ .Date | time.Format site.Params.hb.blog.post_date_format }}
         </span>
       </a>
     </div>

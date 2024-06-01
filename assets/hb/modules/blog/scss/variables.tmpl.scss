@@ -2,6 +2,7 @@
 $hb-blog-sidebar: {{ $hasSidebar }};
 $hb-blog-sidebar-position: {{ default "start" site.Params.hb.blog.sidebar.position }};
 $hb-blog-sidebar-width: {{ default 0.35 site.Params.hb.blog.sidebar.width }};
+$hb-blog-sidebar-max-width: {{ default "320px" site.Params.hb.blog.sidebar.max_width }} !default;
 $hb-blog-sidebar-sticky: {{ default true site.Params.hb.blog.sidebar.sticky }};
 $hb-blog-home-pinned-posts-pos: '{{ default "" site.Params.hb.blog.home.pinned_posts_position }}';
 

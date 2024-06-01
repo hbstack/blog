@@ -1,4 +1,5 @@
 [params.hugopress.modules.hb-blog-toc-scrollspy.attributes.hb-blog-post-content]
+cacheable = true
 
 [[module.imports]]
 path = "github.com/hbstack/toc-scrollspy"
