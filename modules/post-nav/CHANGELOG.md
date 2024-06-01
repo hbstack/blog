@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.3.9](https://github.com/hbstack/blog/compare/modules/post-nav/v0.3.8...modules/post-nav/v0.3.9) (2024-06-01)
+
+
+### Bug Fixes 🐞
+
+* invalid tag on terms layout ([f95e156](https://github.com/hbstack/blog/commit/f95e156601d95c420d055ba6748e832c4863ff71))
+
 ## [0.3.8](https://github.com/hbstack/blog/compare/modules/post-nav/v0.3.7...modules/post-nav/v0.3.8) (2024-05-01)
 
 
