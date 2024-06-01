@@ -81,6 +81,7 @@ github.com/hbstack/pagination v0.8.0/go.mod h1:XaYSS/iReEFQo+fbVAx2YfjP4muWEraVN
 github.com/hbstack/search v0.2.0 h1:eGo7tzC5X5IjGvgEGgOkxSIRmIxsWK3GwluKkHgkmCc=
 github.com/hbstack/search v0.2.0/go.mod h1:vi7s2EhB+X9DnRhO4QqpSiCpYovzGAiZ8iUmmJEc+o0=
 github.com/hbstack/search v0.2.1/go.mod h1:w9dTxAjAhIaV7P6zdeFd1XDo4LOpMhfpm6it7NWZtD8=
+github.com/hbstack/search v0.2.2/go.mod h1:sVNCCvokrCfydqCNF/q7kcAd+U73a7Y/0P+v8vJaC0I=
 github.com/hbstack/socials v0.9.0 h1:Lru22qqydHTcBJkkYlsk0Dl91IuZPLWBpr+BQB6d87U=
 github.com/hbstack/socials v0.9.0/go.mod h1:8H+ztN27J59oWcQyQTFj95HsauF2a22GXqQlNMGTQw4=
 github.com/hbstack/socials v0.10.0/go.mod h1:VeK9k0+f+HsKuPbVAqRwwz5KqWm+2+NlYlJsMdja4c8=
@@ -105,6 +106,7 @@ github.com/hugomods/hugopress v0.2.2 h1:2gBGs1RrOSYWNBu8PcqApQNN63jLsBfAViMSvh6Q
 github.com/hugomods/hugopress v0.2.2/go.mod h1:CRYvr60xOkZOf4Atkuj+uEj2EH5pjJ39Ws3aJAkoMkA=
 github.com/hugomods/hugopress v0.2.3/go.mod h1:CRYvr60xOkZOf4Atkuj+uEj2EH5pjJ39Ws3aJAkoMkA=
 github.com/hugomods/hugopress v0.3.0/go.mod h1:CRYvr60xOkZOf4Atkuj+uEj2EH5pjJ39Ws3aJAkoMkA=
+github.com/hugomods/hugopress v0.4.0/go.mod h1:CRYvr60xOkZOf4Atkuj+uEj2EH5pjJ39Ws3aJAkoMkA=
 github.com/hugomods/i18n-js v0.2.1 h1:uIUl4LiYdwo8IK08oq7OmluYLedL21Wc9Rig1taDTSI=
 github.com/hugomods/i18n-js v0.2.1/go.mod h1:eJfxjgI2CQsNA1/ReIVvr5127DftUKcbHd2A2SQmDvU=
 github.com/hugomods/icons v0.6.0 h1:G6RU93okhPPRDh/jqcew9gwkcYpSpg0rCBv4S6yUAFw=
