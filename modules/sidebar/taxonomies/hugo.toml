@@ -2,6 +2,7 @@
 path = "github.com/hbstack/blog"
 
 [params.hugopress.modules.hb-blog-sidebar-taxonomies.hooks.hb-blog-sidebar]
+cacheable = true
 
 [params.hb.blog.sidebar.taxonomies]
 count = true
