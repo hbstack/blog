@@ -22,7 +22,7 @@
   {{- if and $thumbnail (ne $thumbnailPos "top") }}
     {{ printf `<div class="d-flex flex-column flex-md-row">` | safeHTML }}
     <div class="hb-blog-post-card-wrapper me-md-2 mt-2 mt-md-0">
-      {{ partial "hb/modules/blog/post/card-img" $page }}
+      {{ partialCached "hb/modules/blog/post/card-img" $page $page }}
     </div>
     {{ printf `<div class="hb-blog-post-card-body overflow-hidden">` | safeHTML }}
   {{- end }}
@@ -41,7 +41,7 @@
     </div>
   {{- end }}
   {{- if and $thumbnail (eq $thumbnailPos "top") }}
-    {{ partial "hb/modules/blog/post/card-img" $page }}
+    {{ partialCached "hb/modules/blog/post/card-img" $page $page }}
   {{- end }}
   <div class="card-body px-0 py-2 d-flex flex-column">
     <div class="hb-blog-post-title card-title h5 py-1">

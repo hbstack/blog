@@ -21,6 +21,8 @@ path = "github.com/hugomods/images"
 
 [params.hb.terms]
 paginate = 12
+profile = true
+profile_metrics = true
 
 [params.hb.blog]
 full_width = false
@@ -45,6 +47,7 @@ pinned_posts_position = ""
 [params.hb.blog.sidebar]
 position = "start"
 width = 0.35
+max_width = "320px"
 sticky = true
 
 [params.hb.blog.toc]
