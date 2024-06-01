@@ -21,6 +21,7 @@ path = "github.com/hugomods/images"
 
 [params.hb.terms]
 paginate = 12
+profile = true
 
 [params.hb.blog]
 full_width = false
