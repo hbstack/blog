@@ -24,6 +24,7 @@ github.com/hugomods/base v0.7.0/go.mod h1:hnWCPbVxuhXBwdFax3mmbMlWKmIo/7OP36MCLO
 github.com/hugomods/hugopress v0.2.3 h1:tbQlJkGcou1KQJOeCN7E3oK8ZREFZoP3kSHcM/Kz718=
 github.com/hugomods/hugopress v0.2.3/go.mod h1:CRYvr60xOkZOf4Atkuj+uEj2EH5pjJ39Ws3aJAkoMkA=
 github.com/hugomods/hugopress v0.3.0/go.mod h1:CRYvr60xOkZOf4Atkuj+uEj2EH5pjJ39Ws3aJAkoMkA=
+github.com/hugomods/hugopress v0.4.0/go.mod h1:CRYvr60xOkZOf4Atkuj+uEj2EH5pjJ39Ws3aJAkoMkA=
 github.com/hugomods/icons v0.6.3 h1:2Ra6NU2GOeVvz8vowLq/OZCTzxqhq84MA0TICRBVxeY=
 github.com/hugomods/icons v0.6.3/go.mod h1:cIkSvK6W0q6N4U6n9KGz+QfRWQXAW0INd+1P31gPNGg=
 github.com/hugomods/icons/vendors/bootstrap v0.5.6 h1:4Vj7u52gFUnO+Jj/CqmGfsLroify2aysRpIvgHRNjjI=
