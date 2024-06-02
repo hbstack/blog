@@ -5,7 +5,8 @@
         <span class="me-md-1">
           {{ .Title }}
         </span>
-        <span class="hb-blog-post-meta ms-auto d-none d-md-block text-body-secondary text-nowrap">
+        <span
+          class="hb-blog-post-meta ms-auto d-none d-md-block text-body-secondary text-nowrap">
           {{ .Date | time.Format site.Params.hb.blog.post_date_format }}
         </span>
       </a>

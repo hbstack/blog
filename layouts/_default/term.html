@@ -14,11 +14,14 @@
         <div class="hb-blog-posts hb-terms-posts hb-module">
           {{- range .Paginator.Pages }}
             <div class="hb-blog-post hb-terms-post">
-              <a class="hb-blog-post-title-link d-flex" href="{{ .RelPermalink }}">
+              <a
+                class="hb-blog-post-title-link d-flex"
+                href="{{ .RelPermalink }}">
                 <span class="me-md-1">
                   {{ .Title }}
                 </span>
-                <span class="hb-blog-post-meta ms-auto d-none d-md-block text-body-secondary text-nowrap">
+                <span
+                  class="hb-blog-post-meta ms-auto d-none d-md-block text-body-secondary text-nowrap">
                   {{ .Date | time.Format site.Params.hb.blog.post_date_format }}
                 </span>
               </a>
