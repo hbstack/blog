@@ -23,8 +23,10 @@ path = "github.com/hugomods/images"
 paginate = 12
 profile = true
 profile_metrics = true
+list_style = "" # available options: minimalist.
 
 [params.hb.blog]
+list_style = "" # available options: minimalist.
 full_width = false
 paginate = 12
 post_date_format = ':date_long'

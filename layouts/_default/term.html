@@ -10,17 +10,34 @@
       {{- if default true site.Params.hb.terms.profile }}
         {{ partialCached "hb/modules/blog/term/profile" . . }}
       {{- end }}
-      {{- $cols := "row-cols-1 row-cols-md-2" }}
-      {{- if not (partialCached "hb/modules/blog/functions/has-sidebar" .) }}
-        {{- $cols = printf "%s row-cols-lg-3" $cols }}
-      {{- end }}
-      <div class="hb-terms-posts row {{ $cols }}">
-        {{- range .Paginator.Pages }}
-          <div class="mb-3 mb-lg-4">
-            {{ partial "hb/modules/blog/post/card" (dict "Page" .) }}
-          </div>
+      {{- if eq site.Params.hb.terms.list_style "minimalist" }}
+        <div class="hb-blog-posts hb-terms-posts hb-module">
+          {{- range .Paginator.Pages }}
+            <div class="hb-blog-post hb-terms-post">
+              <a class="hb-blog-post-title-link d-flex" href="{{ .RelPermalink }}">
+                <span class="me-md-1">
+                  {{ .Title }}
+                </span>
+                <span class="hb-blog-post-meta ms-auto d-none d-md-block text-body-secondary text-nowrap">
+                  {{ .Date | time.Format site.Params.hb.blog.post_date_format }}
+                </span>
+              </a>
+            </div>
+          {{- end }}
+        </div>
+      {{- else }}
+        {{- $cols := "row-cols-1 row-cols-md-2" }}
+        {{- if not (partialCached "hb/modules/blog/functions/has-sidebar" .) }}
+          {{- $cols = printf "%s row-cols-lg-3" $cols }}
         {{- end }}
-      </div>
+        <div class="hb-terms-posts row {{ $cols }}">
+          {{- range .Paginator.Pages }}
+            <div class="mb-3 mb-lg-4">
+              {{ partial "hb/modules/blog/post/card" (dict "Page" .) }}
+            </div>
+          {{- end }}
+        </div>
+      {{- end }}
       {{ partial "hb/modules/pagination/index" .Paginator }}
       {{ partial "hugopress/functions/render-hooks" (dict "Name" "hb-blog-main-end" "Page" .) }}
     </div>
