@@ -1,5 +1,18 @@
 # Changelog
 
+## [0.35.0](https://github.com/hbstack/blog/compare/v0.34.0...v0.35.0) (2024-06-02)
+
+
+### Features ✨
+
+* add the hb.blog.list_style parameter, available option: `minimalist` ([#866](https://github.com/hbstack/blog/issues/866)) ([7c1912b](https://github.com/hbstack/blog/commit/7c1912b440024d411276c48a5117dc9dbf92c060))
+* add the hb.terms.list_style parameter, available option: `minimalist` ([7c1912b](https://github.com/hbstack/blog/commit/7c1912b440024d411276c48a5117dc9dbf92c060))
+
+
+### Performance Improvements ⚡️
+
+* **terms:** avoid generating custom pages collection ([eee6fe9](https://github.com/hbstack/blog/commit/eee6fe9a41749294ea13b6fd53c10809bbf96ede))
+
 ## [0.34.0](https://github.com/hbstack/blog/compare/v0.33.0...v0.34.0) (2024-06-01)
 
 
