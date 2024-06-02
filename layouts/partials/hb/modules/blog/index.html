@@ -32,8 +32,12 @@
       </div>
     {{- end }}
     {{- with .Paginator }}
-      {{- $cols := partialCached "hb/modules/blog/functions/list-cols" . }}
-      {{ partial "hb/modules/blog/posts" (dict "Pages" .Pages "Cols" $cols) }}
+      {{- if eq site.Params.hb.blog.list_style "minimalist" }}
+        {{ partial "hb/modules/blog/posts-minimalist" (dict "Pages" .Pages) }}
+      {{- else }}
+        {{- $cols := partialCached "hb/modules/blog/functions/list-cols" . }}
+        {{ partial "hb/modules/blog/posts" (dict "Pages" .Pages "Cols" $cols) }}
+      {{- end }}
       {{ partial "hb/modules/pagination/index" . }}
     {{- end }}
   </div>
