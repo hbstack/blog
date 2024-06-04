@@ -65,25 +65,8 @@
       </div>
     {{- end }}
     {{- if $showSummary }}
-      {{- $summary := $page.Summary }}
-      {{- $truncated := $page.Truncated }}
-      {{- with $page.Description }}
-        {{- $summary = . }}
-        {{- $truncated := true }}
-      {{- end }}
-      <div class="hb-blog-post-summary card-text text-secondary mb-auto">
-        {{- $summary -}}
-      </div>
-      {{- if and $readMore $truncated }}
-        <div class="mt-2">
-          <a
-            class="text-secondary"
-            href="{{ $url }}"
-            {{ if $external }}target="_blank" rel="external"{{ end }}>
-            {{- i18n "read_more_about" $page.Title -}}
-          </a>
-        </div>
-      {{- end }}
+      {{- $summaryCtx := dict "Page" $page "ReadMore" $readMore "External" $external "URL" $url }}
+      {{ partialCached "hb/modules/blog/post/summary" $summaryCtx $summaryCtx }}
     {{- end }}
   </div>
   {{- if and $thumbnail (ne $thumbnailPos "top") }}
