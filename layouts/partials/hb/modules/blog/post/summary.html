@@ -1,0 +1,19 @@
+{{- $summary := .Page.Summary }}
+{{- $truncated := .Page.Truncated }}
+{{- with .Page.Description }}
+  {{- $summary = . }}
+  {{- $truncated := true }}
+{{- end }}
+<div class="hb-blog-post-summary card-text text-secondary mb-auto">
+  {{- $summary -}}
+</div>
+{{- if and .ReadMore $truncated }}
+  <div class="mt-2">
+    <a
+      class="text-secondary"
+      href="{{ .URL }}"
+      {{ if $.External }}target="_blank" rel="external"{{ end }}>
+      {{- i18n "read_more_about" .Page.Title -}}
+    </a>
+  </div>
+{{- end }}
