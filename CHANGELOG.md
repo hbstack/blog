@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.35.1](https://github.com/hbstack/blog/compare/v0.35.0...v0.35.1) (2024-06-04)
+
+
+### Performance Improvements ⚡️
+
+* cache page summaries ([#873](https://github.com/hbstack/blog/issues/873)) ([eb6c629](https://github.com/hbstack/blog/commit/eb6c6292f75ff276d925aa94a98a564b3ce483e5))
+
 ## [0.35.0](https://github.com/hbstack/blog/compare/v0.34.0...v0.35.0) (2024-06-02)
 
 
