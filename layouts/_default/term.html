@@ -1,5 +1,6 @@
 {{- define "title" }}
   {{- $paginator := .Paginate .RegularPages .Site.Params.hb.terms.paginate }}
+  {{- .Store.Set "paginated" true }}
   {{ partial "base/title" . }}
 {{- end -}}
 
