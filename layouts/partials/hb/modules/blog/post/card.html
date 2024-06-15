@@ -37,7 +37,7 @@
       {{- if and $readingTime (default true $pageMeta.reading_time) }}
         {{ partialCached "hb/modules/blog/post/meta/reading-time" $page $page }}
       {{- end }}
-      {{ partialCached "hb/modules/blog/post/meta/first-section" $page $page }}
+      {{ partialCached "hb/modules/blog/post/meta/first-section" $page $page.FirstSection }}
     </div>
   {{- end }}
   {{- if and $thumbnail (eq $thumbnailPos "top") }}
