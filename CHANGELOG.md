@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.35.3](https://github.com/hbstack/blog/compare/v0.35.2...v0.35.3) (2024-06-15)
+
+
+### Bug Fixes 🐞
+
+* pagination title ([#895](https://github.com/hbstack/blog/issues/895)) ([40d13bf](https://github.com/hbstack/blog/commit/40d13bfabdfb25378641136b0f0e1d4133e33bab))
+
 ## [0.35.2](https://github.com/hbstack/blog/compare/v0.35.1...v0.35.2) (2024-06-15)
 
 
