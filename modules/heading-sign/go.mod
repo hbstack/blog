@@ -9,7 +9,7 @@ require (
 	github.com/hbstack/header v0.14.5 // indirect
 	github.com/hbstack/heading-sign v0.2.0 // indirect
 	github.com/hugomods/base v0.7.0 // indirect
-	github.com/hugomods/hugopress v0.4.0 // indirect
+	github.com/hugomods/hugopress v0.4.1 // indirect
 	github.com/hugomods/icons v0.6.4 // indirect
 	github.com/hugomods/icons/vendors/simple-icons v1.0.42 // indirect
 	github.com/hugomods/seo/modules/base v0.1.2 // indirect
