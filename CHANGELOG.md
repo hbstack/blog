@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.35.2](https://github.com/hbstack/blog/compare/v0.35.1...v0.35.2) (2024-06-15)
+
+
+### Performance Improvements ⚡️
+
+* cache first section for pages ([#889](https://github.com/hbstack/blog/issues/889)) ([c943604](https://github.com/hbstack/blog/commit/c9436046d3bf0c81fa5729cd36a006712a9ccee6))
+
 ## [0.35.1](https://github.com/hbstack/blog/compare/v0.35.0...v0.35.1) (2024-06-04)
 
 
