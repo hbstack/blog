@@ -3,4 +3,5 @@
   {{- $pages = where $pages "Section" "in" . }}
 {{- end }}
 {{- $paginator := .Paginate $pages site.Params.hb.blog.paginate }}
+{{- .Store.Set "paginated" true }}
 {{- partial "base/title" . -}}

@@ -14,6 +14,7 @@
   {{- end }}
   {{- $paginate := default 30 .Site.Params.hb.blog.archives.paginate }}
   {{- $paginator := .Paginate $pages $paginate }}
+  {{- .Store.Set "paginated" true }}
   {{ partial "base/title" . }}
 {{- end -}}
 
