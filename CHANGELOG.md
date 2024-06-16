@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.35.4](https://github.com/hbstack/blog/compare/v0.35.3...v0.35.4) (2024-06-16)
+
+
+### Performance Improvements ⚡️
+
+* cache carousel partial ([6c4a217](https://github.com/hbstack/blog/commit/6c4a217c98936a59c1d75f9eabac3ac996f7d69e))
+* cache head-begin hook ([165eb48](https://github.com/hbstack/blog/commit/165eb48f62cb1838706a6a5ec36466090ee6caa3))
+
 ## [0.35.3](https://github.com/hbstack/blog/compare/v0.35.2...v0.35.3) (2024-06-15)
 
 
