@@ -56,4 +56,5 @@ sticky = true
 position = "end" # start, end or content.
 
 [params.hugopress.modules.hb-blog.hooks.head-begin]
-cacheable = false
+cacheable = true
+cache_param_key = "external_url"
