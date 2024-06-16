@@ -40,7 +40,7 @@
       {{- if default true $pageMeta.first_section }}
         {{ partialCached "hb/modules/blog/post/meta/first-section" $page $page.FirstSection }}
       {{- end }}
-      {{ partial "hugopress/functions/render-hooks" (dict "Name" "hb-blog-post-meta" "Page" .) }}
+      {{ partial "hugopress/functions/render-hooks" (dict "Name" "hb-blog-post-meta" "Page" $page) }}
     </div>
   {{- end }}
   {{- if and $thumbnail (eq $thumbnailPos "top") }}
