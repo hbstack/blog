@@ -96,6 +96,7 @@ github.com/hugomods/base v0.5.0/go.mod h1:hnWCPbVxuhXBwdFax3mmbMlWKmIo/7OP36MCLO
 github.com/hugomods/base v0.6.0/go.mod h1:hnWCPbVxuhXBwdFax3mmbMlWKmIo/7OP36MCLOyHtT4=
 github.com/hugomods/base v0.7.0/go.mod h1:hnWCPbVxuhXBwdFax3mmbMlWKmIo/7OP36MCLOyHtT4=
 github.com/hugomods/base v0.7.1/go.mod h1:hnWCPbVxuhXBwdFax3mmbMlWKmIo/7OP36MCLOyHtT4=
+github.com/hugomods/base v0.7.2/go.mod h1:hnWCPbVxuhXBwdFax3mmbMlWKmIo/7OP36MCLOyHtT4=
 github.com/hugomods/decap-cms v0.11.0 h1:dkA8G9IRpdQvJuZjZOYUX9ncBxCuTILg3JrlzzZhKgk=
 github.com/hugomods/decap-cms v0.11.0/go.mod h1:P9gUtk59PZYBCNVIqiovRPqI13WiKkutMtJl2YQLkMA=
 github.com/hugomods/decap-cms v0.11.1/go.mod h1:P9gUtk59PZYBCNVIqiovRPqI13WiKkutMtJl2YQLkMA=
