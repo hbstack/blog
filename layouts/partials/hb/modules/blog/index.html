@@ -14,7 +14,7 @@
     {{- $hasPinned := and (ne $pinnedPos "list") (gt (len $pinnedPages) 0) }}
     <div
       class="col-12{{ cond $hasPinned ` col-lg-6` `` }} hb-blog-home-carousel">
-      {{- partial "hb/modules/carousel/carousel" (dict "Pages" $featuredPages) -}}
+      {{- partialCached "hb/modules/carousel/carousel" (dict "Pages" $featuredPages) $featuredPages -}}
     </div>
     {{- if $hasPinned }}
       <div class="col-12 col-lg-6">
