@@ -1,3 +1,3 @@
-{{- if .Page.Scratch.Get "hb_blog_comments_giscus" }}
+{{- if .Page.Store.Get "hb_blog_comments_giscus" }}
   {{ partial "giscus/script-with-options" .Page.Site.Params.hb.blog.giscus }}
 {{- end }}

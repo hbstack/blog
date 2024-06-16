@@ -7,3 +7,5 @@ path = "github.com/hbstack/blog"
 [params.hugopress.modules.hb-blog-comments-giscus.hooks.hb-blog-post-comments]
 
 [params.hugopress.modules.hb-blog-comments-giscus.hooks.body-end]
+cacheable = true
+cache_store_key = "hb_blog_comments_giscus"
