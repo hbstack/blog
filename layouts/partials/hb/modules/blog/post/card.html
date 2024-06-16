@@ -37,7 +37,9 @@
       {{- if and $readingTime (default true $pageMeta.reading_time) }}
         {{ partialCached "hb/modules/blog/post/meta/reading-time" $page $page }}
       {{- end }}
-      {{ partialCached "hb/modules/blog/post/meta/first-section" $page $page.FirstSection }}
+      {{- if default true $pageMeta.first_section }}
+        {{ partialCached "hb/modules/blog/post/meta/first-section" $page $page.FirstSection }}
+      {{- end }}
       {{ partial "hugopress/functions/render-hooks" (dict "Name" "hb-blog-post-meta" "Page" .) }}
     </div>
   {{- end }}
