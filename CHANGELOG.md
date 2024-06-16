@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.36.0](https://github.com/hbstack/blog/compare/v0.35.4...v0.36.0) (2024-06-16)
+
+
+### Features ✨
+
+* add the `meta.first_section` page parameter ([4e1d572](https://github.com/hbstack/blog/commit/4e1d572f8648b1e3dbef69b345e32671980fe0f4))
+* add the hb-blog-post-meta hook ([#906](https://github.com/hbstack/blog/issues/906)) ([bc81c24](https://github.com/hbstack/blog/commit/bc81c242ce7f84c4286ef75b053e9896beee3099))
+
 ## [0.35.4](https://github.com/hbstack/blog/compare/v0.35.3...v0.35.4) (2024-06-16)
 
 
