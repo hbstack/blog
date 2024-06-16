@@ -20,6 +20,7 @@
             {{- if default true $meta.taxonomies }}
               {{ partialCached "hb/modules/blog/post/meta/taxonomies" . . }}
             {{- end }}
+            {{ partial "hugopress/functions/render-hooks" (dict "Name" "hb-blog-post-meta" "Page" .) }}
           </div>
         {{- end }}
         {{- with .Description }}

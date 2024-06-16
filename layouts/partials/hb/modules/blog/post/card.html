@@ -38,6 +38,7 @@
         {{ partialCached "hb/modules/blog/post/meta/reading-time" $page $page }}
       {{- end }}
       {{ partialCached "hb/modules/blog/post/meta/first-section" $page $page.FirstSection }}
+      {{ partial "hugopress/functions/render-hooks" (dict "Name" "hb-blog-post-meta" "Page" .) }}
     </div>
   {{- end }}
   {{- if and $thumbnail (eq $thumbnailPos "top") }}
