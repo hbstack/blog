@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.36.1](https://github.com/hbstack/blog/compare/v0.36.0...v0.36.1) (2024-06-16)
+
+
+### Bug Fixes 🐞
+
+* hb-blog-post-meta context ([8e05210](https://github.com/hbstack/blog/commit/8e05210d2b2faeb89a096fd43c72fe0bc9d67fc0))
+
 ## [0.36.0](https://github.com/hbstack/blog/compare/v0.35.4...v0.36.0) (2024-06-16)
 
 
