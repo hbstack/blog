@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.37.0](https://github.com/hbstack/blog/compare/v0.36.1...v0.37.0) (2024-06-21)
+
+
+### Features ✨
+
+* add cascade list style for posts list and terms list ([#915](https://github.com/hbstack/blog/issues/915)) ([993bae7](https://github.com/hbstack/blog/commit/993bae79375b235b339f04ad77ff9f585dda6e29)), closes [#914](https://github.com/hbstack/blog/issues/914)
+
 ## [0.36.1](https://github.com/hbstack/blog/compare/v0.36.0...v0.36.1) (2024-06-16)
 
 
