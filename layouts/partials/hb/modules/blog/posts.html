@@ -1,10 +1,18 @@
 {{- $cols := default "row-cols-1 row-cols-lg-2 row-cols-xl-3" .Cols }}
-{{- $readMore := default (default true site.Params.hb.blog.post_read_more) .ReadMore }}
+{{- $readMore := default site.Params.hb.blog.post_read_more .ReadMore }}
 {{- $modularize := default true .Modularize }}
-<div class="hb-blog-posts row {{ $cols }} g-3 mb-3">
+{{- $listStyle := site.Params.hb.blog.list_style }}
+{{- if eq $listStyle "cascade" }}
+  {{ partialCached "hugomods/masonry-js/assets/js" . }}
+{{- end }}
+<div
+  {{ if eq $listStyle "cascade" }}
+    data-masonry="{&quot;percentPosition&quot;: true }"
+  {{ end }}
+  class="hb-blog-posts row {{ $cols }} g-3 mb-3">
   {{ range .Pages }}
     <div class="col">
-      {{- $ctx := dict "Page" . "ReadMore" $readMore "Modularize" $modularize "Caller" "list" }}
+      {{- $ctx := dict "Page" . "ReadMore" $readMore "Modularize" $modularize "Caller" "list" "ListStyle" $listStyle }}
       {{ partial "hb/modules/blog/post/card" $ctx }}
     </div>
   {{ end }}

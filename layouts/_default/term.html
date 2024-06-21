@@ -11,7 +11,8 @@
       {{- if default true site.Params.hb.terms.profile }}
         {{ partialCached "hb/modules/blog/term/profile" . . }}
       {{- end }}
-      {{- if eq site.Params.hb.terms.list_style "minimalist" }}
+      {{- $listStyle := site.Params.hb.terms.list_style }}
+      {{- if eq $listStyle "minimalist" }}
         <div class="hb-blog-posts hb-terms-posts hb-module">
           {{- range .Paginator.Pages }}
             <div class="hb-blog-post hb-terms-post">
@@ -34,10 +35,17 @@
         {{- if not (partialCached "hb/modules/blog/functions/has-sidebar" .) }}
           {{- $cols = printf "%s row-cols-lg-3" $cols }}
         {{- end }}
-        <div class="hb-terms-posts row {{ $cols }}">
+        {{- if eq $listStyle "cascade" }}
+          {{ partialCached "hugomods/masonry-js/assets/js" . }}
+        {{- end }}
+        <div
+          {{ if eq $listStyle "cascade" }}
+            data-masonry="{&quot;percentPosition&quot;: true }"
+          {{ end }}
+          class="hb-terms-posts row {{ $cols }}">
           {{- range .Paginator.Pages }}
             <div class="mb-3 mb-lg-4">
-              {{ partial "hb/modules/blog/post/card" (dict "Page" .) }}
+              {{ partial "hb/modules/blog/post/card" (dict "Page" . "ListStyle" $listStyle "Caller" "list") }}
             </div>
           {{- end }}
         </div>
