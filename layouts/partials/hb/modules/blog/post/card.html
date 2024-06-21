@@ -11,10 +11,15 @@
 {{- $meta := default true .Meta }}
 {{- $pageMeta := default dict $page.Params.meta }}
 {{- $modularize := default true .Modularize }}
+{{- $listStyle := default "" .ListStyle }}
 {{- $thumbnail := true }}
 {{- $thumbnailPos := "top" }}
 {{- if eq .Caller "list" }}
   {{- $thumbnail = default true site.Params.hb.blog.post_thumbnail }}
+  {{- $imgs := partialCached "_funcs/get-page-images" $page $page }}
+  {{- if eq $listStyle "cascade" }}
+    {{- $thumbnail = (gt (len $imgs) 0) }}
+  {{- end }}
   {{- $thumbnailPos = site.Params.hb.blog.post_thumbnail_position }}
 {{- end }}
 <div
