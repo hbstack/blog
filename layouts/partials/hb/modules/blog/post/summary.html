@@ -2,7 +2,7 @@
 {{- $truncated := .Page.Truncated }}
 {{- with .Page.Description }}
   {{- $summary = . }}
-  {{- $truncated := true }}
+  {{- $truncated = true }}
 {{- end }}
 <div class="hb-blog-post-summary card-text text-secondary mb-auto">
   {{- $summary -}}
