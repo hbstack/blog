@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.37.1](https://github.com/hbstack/blog/compare/v0.37.0...v0.37.1) (2024-07-07)
+
+
+### Bug Fixes 🐞
+
+* show the read more button when specifying description ([5b23c75](https://github.com/hbstack/blog/commit/5b23c750b67f6f37a370b65a3867a4b65304e70a))
+
 ## [0.37.0](https://github.com/hbstack/blog/compare/v0.36.1...v0.37.0) (2024-06-21)
 
 
