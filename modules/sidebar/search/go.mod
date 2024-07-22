@@ -21,7 +21,7 @@ require (
 	github.com/hugomods/i18n-js v0.2.1 // indirect
 	github.com/hugomods/icons v0.6.4 // indirect
 	github.com/hugomods/icons/vendors/bootstrap v0.5.7 // indirect
-	github.com/hugomods/icons/vendors/simple-icons v1.0.45 // indirect
+	github.com/hugomods/icons/vendors/simple-icons v1.0.46 // indirect
 	github.com/hugomods/images v0.11.0 // indirect
 	github.com/hugomods/search v0.14.0 // indirect
 	github.com/hugomods/seo/modules/base v0.1.3 // indirect
