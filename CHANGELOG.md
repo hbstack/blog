@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.37.2](https://github.com/hbstack/blog/compare/v0.37.1...v0.37.2) (2024-08-17)
+
+
+### Bug Fixes 🐞
+
+* **rss:** correct copyright `{year}` placeholder parsing ([#947](https://github.com/hbstack/blog/issues/947)) ([7954fbc](https://github.com/hbstack/blog/commit/7954fbc04248524100ad061bfbc9cb8bfe268ec5))
+
 ## [0.37.1](https://github.com/hbstack/blog/compare/v0.37.0...v0.37.1) (2024-07-07)
 
 
