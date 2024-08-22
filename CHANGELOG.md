@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.37.3](https://github.com/hbstack/blog/compare/v0.37.2...v0.37.3) (2024-08-22)
+
+
+### Bug Fixes 🐞
+
+* compatibled with Dart Sass ([a11f60c](https://github.com/hbstack/blog/commit/a11f60c8f5e5bbfee4ca391ec335cd236cbf8343))
+
 ## [0.37.2](https://github.com/hbstack/blog/compare/v0.37.1...v0.37.2) (2024-08-17)
 
 
