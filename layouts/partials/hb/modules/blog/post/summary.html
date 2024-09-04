@@ -5,7 +5,7 @@
   {{- $truncated = true }}
 {{- end }}
 <div class="hb-blog-post-summary card-text text-secondary mb-auto">
-  {{- $summary -}}
+  {{- $summary | plainify -}}
 </div>
 {{- if and .ReadMore $truncated }}
   <div class="mt-2">
