@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.37.4](https://github.com/hbstack/blog/compare/v0.37.3...v0.37.4) (2024-09-04)
+
+
+### Bug Fixes 🐞
+
+* adapt to Hugo v0.134.0 Summary changes ([760840c](https://github.com/hbstack/blog/commit/760840c60de77835654cf00d95184e5a762503ff))
+
 ## [0.37.3](https://github.com/hbstack/blog/compare/v0.37.2...v0.37.3) (2024-08-22)
 
 
