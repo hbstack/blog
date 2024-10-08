@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.38.0](https://github.com/hbstack/blog/compare/v0.37.4...v0.38.0) (2024-10-08)
+
+
+### Features ✨
+
+* add the `sidebar` page parameter ([#993](https://github.com/hbstack/blog/issues/993)) ([ca2a7bf](https://github.com/hbstack/blog/commit/ca2a7bf8da3212e82dfc14edcfa05a2efc761767)), closes [#992](https://github.com/hbstack/blog/issues/992)
+
 ## [0.37.4](https://github.com/hbstack/blog/compare/v0.37.3...v0.37.4) (2024-09-04)
 
 
