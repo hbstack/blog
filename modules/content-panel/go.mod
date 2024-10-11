@@ -7,7 +7,7 @@ require (
 	github.com/hbstack/blog v0.38.0 // indirect
 	github.com/hbstack/content-panel v0.10.2 // indirect
 	github.com/hbstack/footer v0.4.1 // indirect
-	github.com/hbstack/header v0.16.1 // indirect
+	github.com/hbstack/header v0.16.2 // indirect
 	github.com/hugomods/base v0.7.2 // indirect
 	github.com/hugomods/hugopress v0.5.0 // indirect
 	github.com/hugomods/icons v0.6.4 // indirect
