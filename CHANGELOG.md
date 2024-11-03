@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.38.1](https://github.com/hbstack/blog/compare/v0.38.0...v0.38.1) (2024-11-03)
+
+
+### Styles 🎨
+
+* fixed height for broken thumbnails ([7d2558f](https://github.com/hbstack/blog/commit/7d2558fcfda56ae0f7fb4526740c14a1d13d6bd9))
+
 ## [0.38.0](https://github.com/hbstack/blog/compare/v0.37.4...v0.38.0) (2024-10-08)
 
 
