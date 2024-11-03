@@ -1,5 +1,6 @@
 .hb-blog-post-card-img {
     height: $hb-blog-post-thumbnail-height;
+    min-height: $hb-blog-post-thumbnail-height; // fixed height for broken images.
     object-fit: cover;
     width: 100%;
     transition: 0.3s;
