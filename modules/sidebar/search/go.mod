@@ -23,7 +23,7 @@ require (
 	github.com/hugomods/icons/vendors/bootstrap v0.5.8 // indirect
 	github.com/hugomods/icons/vendors/simple-icons v1.0.59 // indirect
 	github.com/hugomods/images v0.11.2 // indirect
-	github.com/hugomods/search v0.18.2 // indirect
+	github.com/hugomods/search v0.18.3 // indirect
 	github.com/hugomods/seo/modules/base v0.1.3 // indirect
 	github.com/hugomods/simple-icons v13.15.0+incompatible // indirect
 	github.com/krisk/Fuse v7.0.0+incompatible // indirect
