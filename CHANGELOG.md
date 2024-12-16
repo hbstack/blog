@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.39.0](https://github.com/hbstack/blog/compare/v0.38.1...v0.39.0) (2024-12-16)
+
+
+### Features ✨
+
+* append the `hb-content` into the content class list ([79b555e](https://github.com/hbstack/blog/commit/79b555e2368e3cda2e68612927aec966f63db2c0))
+
 ## [0.38.1](https://github.com/hbstack/blog/compare/v0.38.0...v0.38.1) (2024-11-03)
 
 
