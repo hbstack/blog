@@ -44,7 +44,7 @@
         {{- end }}
         {{- $attributes := partial "hugopress/functions/render-attributes" (dict "Page" . "Name" "hb-blog-post-content") }}
         <div
-          class="hb-blog-post-content hb-module"
+          class="hb-blog-post-content hb-content hb-module"
           {{ with $attributes }}{{ . | safeHTMLAttr }}{{ end }}>
           {{- partial "hugopress/functions/render-hooks" (dict "Name" "hb-blog-post-content-afterbegin" "Page" .) }}
           {{ .Content }}
