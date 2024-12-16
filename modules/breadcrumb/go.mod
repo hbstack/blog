@@ -4,7 +4,7 @@ go 1.18
 
 require (
 	github.com/gohugoio/hugo-mod-bootstrap-scss/v5 v5.20300.20200 // indirect
-	github.com/hbstack/blog v0.38.1 // indirect
+	github.com/hbstack/blog v0.39.0 // indirect
 	github.com/hbstack/breadcrumb v0.8.0 // indirect
 	github.com/hbstack/footer v0.4.1 // indirect
 	github.com/hbstack/header v0.16.4 // indirect
