@@ -102,6 +102,7 @@ github.com/hbstack/slide v0.3.0/go.mod h1:iKDyeU/HJpjXiwsAScBH626Z0oTCsfiK6Tt1O1
 github.com/hbstack/slide v0.3.1/go.mod h1:DXC2z0RZvREHl2+gcN6n90xD5c+l+edSkC1q/VUi8yI=
 github.com/hbstack/slide v0.3.2/go.mod h1:5LOWGyawNzSWFlW+3kuUBSrK15kottNvolEc7FVcYVg=
 github.com/hbstack/slide v0.4.0/go.mod h1:5LOWGyawNzSWFlW+3kuUBSrK15kottNvolEc7FVcYVg=
+github.com/hbstack/slide v0.4.1/go.mod h1:/K79cb1nsgmh+FhvvpdqmDje9AhROgDp+/uzWPdR764=
 github.com/hugomods/base v0.2.0 h1:O/ZzXPA9LJvNbkfmx0nJX9LHjEnQjAPmCwd2APwhnPU=
 github.com/hugomods/base v0.2.0/go.mod h1:hnWCPbVxuhXBwdFax3mmbMlWKmIo/7OP36MCLOyHtT4=
 github.com/hugomods/base v0.3.0/go.mod h1:hnWCPbVxuhXBwdFax3mmbMlWKmIo/7OP36MCLOyHtT4=
