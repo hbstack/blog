@@ -1,0 +1,18 @@
+[metrics_page_sections]
+other = "Secções"
+
+[metrics_page_types]
+other = "Tipos"
+
+[metrics_posts]
+other = "Artigos"
+
+[on_this_page]
+other = "Nesta página"
+
+[read_more_about]
+other = "Leia mais sobre {{ . }}."
+
+[reading_time]
+one = "{{ .Count }} minuto de leitura"
+other = "{{ .Count }} minutos de leitura"
