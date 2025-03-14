@@ -62,6 +62,7 @@ github.com/hbstack/blog v0.37.4/go.mod h1:kPLAw+tLZGjcnaNevNjo86KS2zQNkblFLiG01q
 github.com/hbstack/blog v0.38.0/go.mod h1:mSWZq1M68aJSjGPv+yfbduABOSNbpBJ9HAM/EIKWxfQ=
 github.com/hbstack/blog v0.38.1/go.mod h1:BGktOnBav5+EUdCmwaTfJCKS/mfA4guz2s4RVbDCTQI=
 github.com/hbstack/blog v0.39.0/go.mod h1:w5k8+HF1YmuU+A5SCEkMpz5CwHhcO1mx/h3rhj0Tilc=
+github.com/hbstack/blog v0.40.0/go.mod h1:xFBVf4/UOvkqPoRYeUoJqwxx8/0SrWlijQwgVLCK5cs=
 github.com/hbstack/footer v0.2.5 h1:SBelvFYo8/IDPisprlZxEaR70PXcoHfjL+2mm1ir6/A=
 github.com/hbstack/footer v0.2.5/go.mod h1:L0ZYdYRROlGUGLRA9QchkYeByHIff/EU4WKRdAUW+E8=
 github.com/hbstack/footer v0.2.6/go.mod h1:MqglUBsBvlatiE5utMwLlnwHxLLOPe89zFmuD4HM37M=
