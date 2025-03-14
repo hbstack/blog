@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.40.0](https://github.com/hbstack/blog/compare/v0.39.0...v0.40.0) (2025-03-14)
+
+
+### Features ✨
+
+* **i18n:** create pt.toml ([#1070](https://github.com/hbstack/blog/issues/1070)) ([0ad2c50](https://github.com/hbstack/blog/commit/0ad2c5031ec663d5c4d2e76cf2117dae5e00ec16))
+
 ## [0.39.0](https://github.com/hbstack/blog/compare/v0.38.1...v0.39.0) (2024-12-16)
 
 
