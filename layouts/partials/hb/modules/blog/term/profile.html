@@ -14,7 +14,7 @@
   {{- with .Params.socials }}
     {{ partial "hb/modules/blog/term/socials" . }}
   {{- end }}
-  {{- if default true site.Params.terms.profile_metrics }}
+  {{- if default true site.Params.hb.terms.profile_metrics }}
     {{ partialCached "hb/modules/blog/term/metrics" . . }}
   {{- end }}
 </div>
