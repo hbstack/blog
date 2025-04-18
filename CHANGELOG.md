@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.40.1](https://github.com/hbstack/blog/compare/v0.40.0...v0.40.1) (2025-04-18)
+
+
+### Bug Fixes 🐞
+
+* param path for terms.profile_metrics ([#1082](https://github.com/hbstack/blog/issues/1082)) ([a6441e6](https://github.com/hbstack/blog/commit/a6441e62a701ca11da9c9ae33f7176f65bf754b2))
+
 ## [0.40.0](https://github.com/hbstack/blog/compare/v0.39.0...v0.40.0) (2025-03-14)
 
 
