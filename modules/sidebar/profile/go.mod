@@ -14,5 +14,5 @@ require (
 	github.com/hugomods/icons/vendors/bootstrap v0.5.9 // indirect
 	github.com/hugomods/icons/vendors/simple-icons v1.1.1 // indirect
 	github.com/hugomods/seo/modules/base v0.1.3 // indirect
-	github.com/twbs/icons v1.11.3 // indirect
+	github.com/twbs/icons v1.11.4 // indirect
 )
