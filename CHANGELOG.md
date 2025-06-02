@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.40.2](https://github.com/hbstack/blog/compare/v0.40.1...v0.40.2) (2025-06-02)
+
+
+### Bug Fixes 🐞
+
+* adjust margins for nested lists ([28811cf](https://github.com/hbstack/blog/commit/28811cf841245f884dc81bfd5bca7352343344a4))
+
 ## [0.40.1](https://github.com/hbstack/blog/compare/v0.40.0...v0.40.1) (2025-04-18)
 
 
