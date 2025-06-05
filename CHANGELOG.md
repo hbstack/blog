@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.40.3](https://github.com/hbstack/blog/compare/v0.40.2...v0.40.3) (2025-06-05)
+
+
+### Bug Fixes 🐞
+
+* correct the margin of list ([24790af](https://github.com/hbstack/blog/commit/24790afe2132d5a70626ab529323734548897713))
+
 ## [0.40.2](https://github.com/hbstack/blog/compare/v0.40.1...v0.40.2) (2025-06-02)
 
 
