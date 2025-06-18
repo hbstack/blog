@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.41.0](https://github.com/hbstack/blog/compare/v0.40.3...v0.41.0) (2025-06-18)
+
+
+### Features ✨
+
+* add the main_section page parameter for home and list page, which has higher priority than blog.home.main_sections ([#1108](https://github.com/hbstack/blog/issues/1108)) ([4e0925a](https://github.com/hbstack/blog/commit/4e0925a2285edda86773623f65ba8cb275664627))
+
 ## [0.40.3](https://github.com/hbstack/blog/compare/v0.40.2...v0.40.3) (2025-06-05)
 
 
