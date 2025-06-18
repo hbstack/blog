@@ -1,5 +1,5 @@
 {{- $pages := site.RegularPages }}
-{{- with site.Params.hb.blog.home.main_sections }}
+{{- with (default site.Params.hb.blog.home.main_sections .Params.main_sections) }}
   {{- $pages = where $pages "Section" "in" . }}
 {{- end }}
 {{- $pinnedPos := default "" site.Params.hb.blog.home.pinned_posts_position }}
