@@ -30,6 +30,7 @@ list_style = "" # available options: minimalist, cascade.
 
 [params.hb.blog]
 list_style = "" # available options: minimalist, cascade.
+list_pinned_posts = 1
 full_width = false
 paginate = 12
 post_date_format = ':date_long'

@@ -1,5 +1,7 @@
 {{- define "title" }}
   {{- $pages := .RegularPagesRecursive }}
+  {{- $pinned := first (default 1 .Site.Params.hb.blog.list_pinned_posts) (where $pages ".Params.pinned" true) }}
+  {{- $pages = union $pinned $pages }}
   {{- $paginator := .Paginate $pages (default 12 .Site.Params.hb.blog.paginate) }}
   {{- .Store.Set "paginated" true }}
   {{ partial "base/title" . }}
