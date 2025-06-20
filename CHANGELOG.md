@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.42.0](https://github.com/hbstack/blog/compare/v0.41.0...v0.42.0) (2025-06-20)
+
+
+### Features ✨
+
+* add the `hb.blog.list_pinned_posts` parameter, which is the number of posts pinned to the list, default to 1 ([#1114](https://github.com/hbstack/blog/issues/1114)) ([9d40d1e](https://github.com/hbstack/blog/commit/9d40d1e7f819cd9b4a9b9e5b8304de5300f3a996))
+
 ## [0.41.0](https://github.com/hbstack/blog/compare/v0.40.3...v0.41.0) (2025-06-18)
 
 
