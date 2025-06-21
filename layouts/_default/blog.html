@@ -1,4 +1,11 @@
 {{- define "title" }}
+  {{- $pages := site.RegularPages }}
+  {{- with (default site.Params.hb.blog.home.main_sections .Params.main_sections) }}
+    {{- $pages = where $pages "Section" "in" . }}
+  {{- end }}
+  {{- $pinned := first (default 1 .Site.Params.hb.blog.list_pinned_posts) (where $pages ".Params.pinned" true) }}
+  {{- $pages = union $pinned $pages }}
+  {{- $paginator := .Paginate $pages (default 12 .Site.Params.hb.blog.paginate) }}
   {{ partial "hb/modules/blog/title" . }}
 {{- end -}}
 
