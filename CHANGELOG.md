@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.42.1](https://github.com/hbstack/blog/compare/v0.42.0...v0.42.1) (2025-06-21)
+
+
+### Bug Fixes 🐞
+
+* pinned posts on blog section ([3c9c6e8](https://github.com/hbstack/blog/commit/3c9c6e87799d02901b13c88c8d1d414963ed6443))
+
 ## [0.42.0](https://github.com/hbstack/blog/compare/v0.41.0...v0.42.0) (2025-06-20)
 
 
