@@ -13,7 +13,7 @@ require (
 	github.com/hbstack/hb v0.16.2 // indirect
 	github.com/hbstack/header v0.16.6 // indirect
 	github.com/hbstack/pagination v0.8.0 // indirect
-	github.com/hbstack/socials v0.18.0 // indirect
+	github.com/hbstack/socials v0.19.0 // indirect
 	github.com/hugomods/base v0.7.3 // indirect
 	github.com/hugomods/decap-cms v0.16.7 // indirect
 	github.com/hugomods/gravatar v0.2.1 // indirect
