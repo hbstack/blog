@@ -7,7 +7,7 @@
 <div class="hb-blog-post-summary card-text text-secondary mb-auto">
   {{- $summary | plainify -}}
 </div>
-{{- if and .ReadMore $truncated }}
+{{- if and .ReadMore $truncated .Page.Title }}
   <div class="mt-2">
     <a
       class="text-secondary"
