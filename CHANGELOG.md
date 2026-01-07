@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.42.2](https://github.com/hbstack/blog/compare/v0.42.1...v0.42.2) (2026-01-07)
+
+
+### Bug Fixes 🐞
+
+* check if there is page title before processing it ([37d283a](https://github.com/hbstack/blog/commit/37d283ae75b792fdaa49fe48f5e027b7e0892469))
+
 ## [0.42.1](https://github.com/hbstack/blog/compare/v0.42.0...v0.42.1) (2025-06-21)
 
 
