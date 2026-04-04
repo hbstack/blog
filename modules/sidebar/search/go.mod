@@ -26,7 +26,7 @@ require (
 	github.com/hugomods/search v0.20.0 // indirect
 	github.com/hugomods/seo/modules/base v0.1.3 // indirect
 	github.com/hugomods/simple-icons v13.21.0+incompatible // indirect
-	github.com/krisk/Fuse v7.2.0+incompatible // indirect
+	github.com/krisk/Fuse v7.3.0+incompatible // indirect
 	github.com/twbs/bootstrap v5.3.8+incompatible // indirect
 	github.com/twbs/icons v1.13.1 // indirect
 )
