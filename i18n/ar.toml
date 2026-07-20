@@ -1,0 +1,22 @@
+[metrics_page_sections]
+other = "الأقسام"
+
+[metrics_page_types]
+other = "الأنواع"
+
+[metrics_posts]
+other = "التدوينات"
+
+[on_this_page]
+other = "في هذه الصفحة"
+
+[read_more_about]
+other = "اقرأ المزيد عن {{ . }}."
+
+[reading_time]
+zero = "أقل من دقيقة للقراءة"
+one = "دقيقة واحدة للقراءة"
+two = "دقيقتان للقراءة"
+few = "{{ .Count }} دقائق للقراءة"
+many = "{{ .Count }} دقيقة للقراءة"
+other = "{{ .Count }} دقيقة للقراءة"
